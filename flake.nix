@@ -23,44 +23,30 @@
           owner,
           repo,
           version,
-          mainHash,
-          manifestHash,
-          stylesHash ? null,
+          tag ? version,
+          hash,
           meta ? { },
         }:
         let
-          baseUrl = "https://github.com/${owner}/${repo}/releases/download/${version}";
+          baseUrl = "https://github.com/${owner}/${repo}/releases/download/${tag}";
         in
-        pkgs.stdenv.mkDerivation {
+        pkgs.stdenvNoCC.mkDerivation {
           pname = repo;
           inherit version;
 
-          srcs =
-            [
-              (pkgs.fetchurl {
-                url = "${baseUrl}/main.js";
-                hash = mainHash;
-              })
-              (pkgs.fetchurl {
-                url = "${baseUrl}/manifest.json";
-                hash = manifestHash;
-              })
-            ]
-            ++ pkgs.lib.optional (stylesHash != null) (pkgs.fetchurl {
-              url = "${baseUrl}/styles.css";
-              hash = stylesHash;
-            });
+          outputHash = hash;
+          outputHashMode = "recursive";
+          outputHashAlgo = "sha256";
 
-          dontUnpack = true;
+          nativeBuildInputs = [ pkgs.curl ];
+          SSL_CERT_FILE = "${pkgs.cacert}/etc/ssl/certs/ca-bundle.crt";
 
+          phases = [ "installPhase" ];
           installPhase = ''
-            runHook preInstall
             mkdir -p $out
-            for src in $srcs; do
-              filename=$(stripHash "$src")
-              cp "$src" "$out/$filename"
-            done
-            runHook postInstall
+            curl -sfL -o $out/main.js "${baseUrl}/main.js"
+            curl -sfL -o $out/manifest.json "${baseUrl}/manifest.json"
+            curl -sfL -o $out/styles.css "${baseUrl}/styles.css" 2>/dev/null || true
           '';
 
           inherit meta;

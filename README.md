@@ -1,7 +1,11 @@
 # nixpille-obsidian-community-plugins
 
-Obsidian community plugins packaged as Nix derivations for use with the
-home-manager `programs.obsidian` module.
+All 2700+ [Obsidian community plugins](https://obsidian.md/plugins) packaged as
+Nix derivations, auto-updated daily from the official plugin registry.
+
+Plugin names use the canonical IDs from the
+[community-plugins.json](https://github.com/obsidianmd/obsidian-releases/blob/master/community-plugins.json)
+registry (e.g. `obsidian-git`, `obsidian-excalidraw-plugin`).
 
 ## Usage
 
@@ -25,36 +29,46 @@ Then use plugins via `pkgs.obsidianPlugins`:
 ```nix
 programs.obsidian.vaults."Documents/notes".settings.communityPlugins =
   with pkgs.obsidianPlugins; [
-    excalidraw
+    obsidian-excalidraw-plugin
+    obsidian-git
+    nldates-obsidian
   ];
 ```
 
-## Adding a plugin
-
-Edit `plugins.nix` and add an entry. Hashes come from GitHub release assets:
+Or build directly:
 
 ```sh
-nix-prefetch-url https://github.com/<owner>/<repo>/releases/download/<version>/main.js
-nix-prefetch-url https://github.com/<owner>/<repo>/releases/download/<version>/manifest.json
-nix-prefetch-url https://github.com/<owner>/<repo>/releases/download/<version>/styles.css
-nix hash convert --hash-algo sha256 --to sri <hash>
+nix build github:cjavad/nixpille-obsidian-community-plugins#obsidian-git
 ```
+
+## How it works
+
+Each plugin is a fixed-output derivation that fetches `main.js`,
+`manifest.json`, and optionally `styles.css` from the GitHub release.
+One SRI hash covers the entire output directory.
 
 ```nix
-{
-  my-plugin = {
-    owner = "github-user";
-    repo = "obsidian-my-plugin";
-    version = "1.0.0";
-    mainHash = "sha256-...";
-    manifestHash = "sha256-...";
-    stylesHash = "sha256-..."; # omit if the plugin has no styles.css
-  };
-}
+# plugins.nix entry
+obsidian-git = {
+  owner = "Vinzent03";
+  repo = "obsidian-git";
+  version = "2.36.1";
+  hash = "sha256-8dzlfkMG1xBJbpZDTlVYxXrtsCm8Sa9I+nvsXyT1K3Q=";
+};
 ```
 
-## Available plugins
+## Auto-update
 
-| Name | Plugin | Version |
-|------|--------|---------|
-| `excalidraw` | [obsidian-excalidraw-plugin](https://github.com/zsviczian/obsidian-excalidraw-plugin) | 2.20.3 |
+A daily GitHub Action (`scripts/update-plugins.sh`) fetches the full community
+plugin list, checks each for new releases, and updates `plugins.nix`
+automatically. No manual hash wrangling needed.
+
+Run locally:
+
+```sh
+# Update all plugins
+bash scripts/update-plugins.sh
+
+# Process a batch (for initial population or rate-limit-friendly runs)
+MAX_PLUGINS=500 bash scripts/update-plugins.sh
+```
