@@ -19,7 +19,7 @@ jobs:
       - name: Update plugins
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: bash scripts/update-plugins.sh
+        run: bash update-plugins.sh
 
       - name: Check for changes
         id: diff

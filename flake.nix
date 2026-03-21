@@ -2,7 +2,7 @@
   description = "Obsidian community plugins packaged for NixOS/home-manager";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   };
 
   outputs =
@@ -15,7 +15,9 @@
         "aarch64-darwin"
       ];
 
-      forAllSystems = nixpkgs.lib.genAttrs supportedSystems;
+      inherit (nixpkgs) lib;
+
+      forAllSystems = lib.genAttrs supportedSystems;
 
       mkPlugin =
         pkgs:
@@ -52,24 +54,64 @@
           inherit meta;
         };
 
-      pluginDefs = import ./plugins.nix;
+      mkTheme =
+        pkgs:
+        {
+          src,
 
-      mkPlugins =
-        pkgs: builtins.mapAttrs (_name: def: mkPlugin pkgs def) pluginDefs;
+          subDir ? ".",
+          extraFiles ? [ ],
+
+          meta,
+        }:
+        pkgs.runCommand
+          (lib.concatStringsSep "-" [
+            src.name
+            src.rev
+          ])
+          { inherit meta; }
+          ''
+            mkdir -p $out
+            cp ${
+              lib.concatStringsSep " " (
+                map (file: "${src}/${subDir}/${file}") (
+                  [
+                    "manifest.json"
+                    "theme.css"
+                  ]
+                  ++ extraFiles
+                )
+              )
+            } $out/
+          '';
+
+      mkPlugins = pkgs: lib.mapAttrs (_name: def: mkPlugin pkgs def) (import ./plugins.nix);
     in
-    {
-      lib.mkPlugin = mkPlugin;
-
-      overlays.default = _final: prev: {
-        obsidianPlugins = mkPlugins prev;
-      };
+    rec {
+      lib = { inherit mkPlugin mkTheme; };
 
       packages = forAllSystems (
         system:
         let
           pkgs = nixpkgs.legacyPackages.${system};
         in
-        mkPlugins pkgs
+        (mkPlugins pkgs)
+        // {
+          minimal = mkTheme pkgs {
+            src = pkgs.fetchFromGitHub {
+              owner = "kepano";
+              repo = "obsidian-minimal";
+              rev = "8.0.4";
+              sha256 = "sha256-TGToK2k9zpd5LappqlkGgxJliXqE4HzsBq07c4IN+T4=";
+            };
+
+            meta = {
+              description = "A distraction-free and highly customizable theme for Obsidian.";
+              homepage = "https://github.com/kepano/obsidian-minimal";
+              license = lib.licenses.mit;
+            };
+          };
+        }
       );
     };
 }
