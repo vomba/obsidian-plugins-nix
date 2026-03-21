@@ -154,8 +154,7 @@ while IFS=$'\t' read -r plugin_id owner repo tag_name clean_version; do
     --arg version "$clean_version" \
     --arg tag "$tag_name" \
     --arg hash "$hash" \
-    '{($id): {owner: $owner, repo: $repo, version: $version, hash: $hash}
-       + (if $tag != $version then {tag: $tag} else {} end)}' >> "$UPDATES_FILE"
+    '{($id): ({owner: $owner, repo: $repo, version: $version, hash: $hash} + (if $tag != $version then {tag: $tag} else {} end))}' >> "$UPDATES_FILE"
   ((added++)) || true
 done < "$WORK_DIR/to_hash.tsv"
 
