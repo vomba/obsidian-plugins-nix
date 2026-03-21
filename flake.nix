@@ -90,6 +90,10 @@
     rec {
       lib = { inherit mkPlugin mkTheme; };
 
+      overlays.default = _: pkgs: {
+        obsidian-plugins = packages.${pkgs.stdenv.hostPlatform.system};
+      };
+
       packages = forAllSystems (
         system:
         let
@@ -108,7 +112,7 @@
             meta = {
               description = "A distraction-free and highly customizable theme for Obsidian.";
               homepage = "https://github.com/kepano/obsidian-minimal";
-              license = lib.licenses.mit;
+              license = pkgs.lib.licenses.mit;
             };
           };
         }
