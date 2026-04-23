@@ -3293,8 +3293,8 @@
   day-planner-og = {
     owner = "ebullient";
     repo = "obsidian-day-planner-og";
-    version = "0.8.0";
-    hash = "sha256-Eh4ClfOUy7rwxl6uhow30JuNJ9hxRZm20Lb2DSKf6UI=";
+    version = "1.0.0";
+    hash = "sha256-6RrrVdl94AyHSz1ku22FcyG9buci4DSB5eIPcK6icQY=";
   };
   days-since = {
     owner = "gndclouds";
