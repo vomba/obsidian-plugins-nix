@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+REPO_ROOT="$(cd "$(dirname "$0")" && pwd)"
 PLUGINS_FILE="$REPO_ROOT/plugins.nix"
 
 for cmd in gh jq nix curl; do
@@ -24,9 +24,18 @@ touch "$TAGS_FILE" "$UPDATES_FILE"
 compute_hash() {
   local base_url="$1" tmpdir
   tmpdir=$(mktemp -d)
-  curl -sfL -o "$tmpdir/main.js" "$base_url/main.js" 2>/dev/null || { rm -rf "$tmpdir"; return 1; }
-  curl -sfL -o "$tmpdir/manifest.json" "$base_url/manifest.json" 2>/dev/null || { rm -rf "$tmpdir"; return 1; }
-  curl -sfL -o "$tmpdir/styles.css" "$base_url/styles.css" 2>/dev/null || true
+
+  # Download assets in parallel
+  curl -sfL -o "$tmpdir/main.js" "$base_url/main.js" 2>/dev/null &
+  p1=$!
+  curl -sfL -o "$tmpdir/manifest.json" "$base_url/manifest.json" 2>/dev/null &
+  p2=$!
+  curl -sfL -o "$tmpdir/styles.css" "$base_url/styles.css" 2>/dev/null &
+  p3=$!
+
+  wait $p1 $p2 || { rm -rf "$tmpdir"; return 1; }
+  wait $p3 || true # styles.css is optional
+
   nix hash path "$tmpdir" 2>/dev/null
   rm -rf "$tmpdir"
 }
@@ -66,32 +75,36 @@ for (( batch_start=0; batch_start < plugin_count; batch_start += 100 )); do
   (( batch_end >= plugin_count )) && batch_end=$(( plugin_count - 1 ))
   batch_num=$(( batch_start / 100 + 1 ))
 
-  log "  [$batch_num/$total_batches] plugins $((batch_start+1))-$((batch_end+1))"
+  # Run tag fetching in background batches to improve performance
+  {
+    query=$(jq -r --argjson s "$batch_start" --argjson e "$batch_end" '
+      . as $list |
+      [range($s; $e + 1)] |
+      map(
+        . as $i | $list[$i].repo | split("/") as $p |
+        "r\($i): repository(owner: \"\($p[0])\", name: \"\($p[1])\") { latestRelease { tagName } }"
+      ) | "{ " + join(" ") + " }"
+    ' "$COMMUNITY_FILE")
 
-  query=$(jq -r --argjson s "$batch_start" --argjson e "$batch_end" '
-    . as $list |
-    [range($s; $e + 1)] |
-    map(
-      . as $i | $list[$i].repo | split("/") as $p |
-      "r\($i): repository(owner: \"\($p[0])\", name: \"\($p[1])\") { latestRelease { tagName } }"
-    ) | "{ " + join(" ") + " }"
-  ' "$COMMUNITY_FILE")
-
-  if ! gh_graphql -f query="$query" > "$WORK_DIR/batch.json"; then
-    log "    batch failed, skipping"
-    for (( i=batch_start; i <= batch_end; i++ )); do
-      jq -n -c --arg id "$(jq -r ".[$i].id" "$COMMUNITY_FILE")" '{($id): null}' >> "$TAGS_FILE"
-    done
-    continue
-  fi
-
-  jq -c --slurpfile community "$COMMUNITY_FILE" --argjson s "$batch_start" --argjson e "$batch_end" '
-    .data as $d |
-    [range($s; $e + 1)] | map(
-      . as $i | { ($community[0][$i].id): ($d["r\($i)"].latestRelease.tagName // null) }
-    )[]
-  ' "$WORK_DIR/batch.json" >> "$TAGS_FILE"
+    if gh_graphql -f query="$query" > "$WORK_DIR/batch_$batch_num.json"; then
+      jq -c --slurpfile community "$COMMUNITY_FILE" --argjson s "$batch_start" --argjson e "$batch_end" '
+        .data as $d |
+        [range($s; $e + 1)] | map(
+          . as $i | { ($community[0][$i].id): ($d["r\($i)"].latestRelease.tagName // null) }
+        )[]
+      ' "$WORK_DIR/batch_$batch_num.json" >> "$TAGS_FILE"
+    else
+      log "    batch $batch_num failed, skipping"
+      for (( i=batch_start; i <= batch_end; i++ )); do
+        jq -n -c --arg id "$(jq -r ".[$i].id" "$COMMUNITY_FILE")" '{($id): null}' >> "$TAGS_FILE"
+      done
+    fi
+  } &
+  
+  # Limit to 5 concurrent GraphQL batches
+  if (( batch_num % 5 == 0 )); then wait; fi
 done
+wait
 
 log "  Merging tags..."
 jq -s 'reduce .[] as $x ({}; . * $x)' "$TAGS_FILE" > "$WORK_DIR/tags.json"
@@ -129,39 +142,44 @@ log "  $skipped up to date, $to_hash to hash"
 # ========== Phase 4: Hash changed plugins ==========
 if (( to_hash > 0 )); then
   log ""
-  log "==> Hashing $to_hash plugins"
+  log "==> Hashing $to_hash plugins (parallel)"
 fi
 
-added=0
-failed=0
+max_jobs=${MAX_JOBS:-16}
 n=0
+touch "$WORK_DIR/failed.log"
 
 while IFS=$'\t' read -r plugin_id owner repo tag_name clean_version; do
-  ((n++)) || true
-  log "  [$n/$to_hash] $plugin_id"
+  ((n++))
+  {
+    base_url="https://github.com/$owner/$repo/releases/download/$tag_name"
+    if hash=$(compute_hash "$base_url"); then
+      jq -n -c \
+        --arg id "$plugin_id" \
+        --arg owner "$owner" \
+        --arg repo "$repo" \
+        --arg version "$clean_version" \
+        --arg tag "$tag_name" \
+        --arg hash "$hash" \
+        '{($id): ({owner: $owner, repo: $repo, version: $version, hash: $hash} + (if $tag != $version then {tag: $tag} else {} end))}' >> "$UPDATES_FILE"
+    else
+      log "    [$n/$to_hash] FAILED: $plugin_id"
+      echo "$plugin_id" >> "$WORK_DIR/failed.log"
+    fi
+  } &
 
-  base_url="https://github.com/$owner/$repo/releases/download/$tag_name"
-  if ! hash=$(compute_hash "$base_url"); then
-    log "    FAILED (missing assets)"
-    ((failed++)) || true
-    continue
+  if (( n % max_jobs == 0 )); then
+    wait -n
   fi
-
-  jq -n -c \
-    --arg id "$plugin_id" \
-    --arg owner "$owner" \
-    --arg repo "$repo" \
-    --arg version "$clean_version" \
-    --arg tag "$tag_name" \
-    --arg hash "$hash" \
-    '{($id): ({owner: $owner, repo: $repo, version: $version, hash: $hash} + (if $tag != $version then {tag: $tag} else {} end))}' >> "$UPDATES_FILE"
-  ((added++)) || true
 done < "$WORK_DIR/to_hash.tsv"
+wait
 
 # ========== Phase 5: Render ==========
 log ""
 log "==> Rendering plugins.nix"
 
+added=$(( $(wc -l < "$UPDATES_FILE") - skipped ))
+failed=$(wc -l < "$WORK_DIR/failed.log")
 jq -s 'reduce .[] as $x ({}; . * $x)' "$UPDATES_FILE" > "$RESULT_FILE"
 
 jq -r '

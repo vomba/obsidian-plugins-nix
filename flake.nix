@@ -91,7 +91,7 @@
       lib = { inherit mkPlugin mkTheme; };
 
       overlays.default = _: pkgs: {
-        obsidian-plugins = packages.${pkgs.stdenv.hostPlatform.system};
+        obsidianPlugins = packages.${pkgs.stdenv.hostPlatform.system};
       };
 
       packages = forAllSystems (
@@ -114,6 +114,24 @@
               homepage = "https://github.com/kepano/obsidian-minimal";
               license = pkgs.lib.licenses.mit;
             };
+          };
+        }
+      );
+
+      formatter = forAllSystems (system: nixpkgs.legacyPackages.${system}.nixfmt);
+
+      devShells = forAllSystems (
+        system:
+        let
+          pkgs = nixpkgs.legacyPackages.${system};
+        in
+        {
+          default = pkgs.mkShell {
+            nativeBuildInputs = with pkgs; [
+              gh
+              jq
+              nix
+            ];
           };
         }
       );
