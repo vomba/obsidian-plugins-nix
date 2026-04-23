@@ -54,41 +54,10 @@
           inherit meta;
         };
 
-      mkTheme =
-        pkgs:
-        {
-          src,
-
-          subDir ? ".",
-          extraFiles ? [ ],
-
-          meta,
-        }:
-        pkgs.runCommand
-          (lib.concatStringsSep "-" [
-            src.name
-            src.rev
-          ])
-          { inherit meta; }
-          ''
-            mkdir -p $out
-            cp ${
-              lib.concatStringsSep " " (
-                map (file: "${src}/${subDir}/${file}") (
-                  [
-                    "manifest.json"
-                    "theme.css"
-                  ]
-                  ++ extraFiles
-                )
-              )
-            } $out/
-          '';
-
       mkPlugins = pkgs: lib.mapAttrs (_name: def: mkPlugin pkgs def) (import ./plugins.nix);
     in
     rec {
-      lib = { inherit mkPlugin mkTheme; };
+      lib = { inherit mkPlugin; };
 
       overlays.default = _: pkgs: {
         obsidianPlugins = packages.${pkgs.stdenv.hostPlatform.system};
@@ -99,23 +68,7 @@
         let
           pkgs = nixpkgs.legacyPackages.${system};
         in
-        (mkPlugins pkgs)
-        // {
-          minimal = mkTheme pkgs {
-            src = pkgs.fetchFromGitHub {
-              owner = "kepano";
-              repo = "obsidian-minimal";
-              rev = "8.0.4";
-              sha256 = "sha256-TGToK2k9zpd5LappqlkGgxJliXqE4HzsBq07c4IN+T4=";
-            };
-
-            meta = {
-              description = "A distraction-free and highly customizable theme for Obsidian.";
-              homepage = "https://github.com/kepano/obsidian-minimal";
-              license = pkgs.lib.licenses.mit;
-            };
-          };
-        }
+        mkPlugins pkgs
       );
 
       formatter = forAllSystems (system: nixpkgs.legacyPackages.${system}.nixfmt);
@@ -128,9 +81,11 @@
         {
           default = pkgs.mkShell {
             nativeBuildInputs = with pkgs; [
+              go
               gh
               jq
               nix
+              nixfmt
             ];
           };
         }

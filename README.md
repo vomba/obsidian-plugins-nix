@@ -59,16 +59,13 @@ obsidian-git = {
 
 ## Auto-update
 
-A daily GitHub Action (`scripts/update-plugins.sh`) fetches the full community
+A daily GitHub Action (`update-plugins.sh`) fetches the full community
 plugin list, checks each for new releases, and updates `plugins.nix`
-automatically. No manual hash wrangling needed.
+automatically using a high-performance Go-based updater.
 
 Run locally:
 
 ```sh
 # Update all plugins
-bash scripts/update-plugins.sh
-
-# Process a batch (for initial population or rate-limit-friendly runs)
-MAX_PLUGINS=500 bash scripts/update-plugins.sh
+./update-plugins.sh
 ```
