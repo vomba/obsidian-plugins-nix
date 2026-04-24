@@ -6036,8 +6036,8 @@
   inkporter = {
     owner = "AmadeussSystem";
     repo = "Inkporter";
-    version = "2.0.0";
-    hash = "sha256-dE+tV+EG1OitbuBcJexvkMGLA3Ln4qG4wkXAPKDQ/Vg=";
+    version = "3.0.0";
+    hash = "sha256-Hy5K7wfqb7KffucMCazZoHb/QBbzlW7enOHhYTvO+/o=";
   };
   inline-admonitions = {
     owner = "scottTomaszewski";
@@ -9275,16 +9275,16 @@
     hash = "sha256-6vEfjmmn2h3ZkN2ItwEhIGPZf9klkNKQY+LTg5QNSqo=";
   };
   obsidian-divide-and-conquer = {
-    owner = "chrisgrieser";
+    owner = "mikedidomizio";
     repo = "obsidian-divide-and-conquer";
-    version = "1.0.2";
-    hash = "sha256-NF2ec9kTbyIvQDgyZOfKJjOjO8yExcoEeSiEnS3/wf4=";
+    version = "2.0.0";
+    hash = "sha256-fJMqEINILSP760Yad43kwR5l53MMqGN1qktWXcQig5k=";
   };
   obsidian-douban-plugin = {
     owner = "Wanxp";
     repo = "obsidian-douban";
-    version = "2.3.2";
-    hash = "sha256-iAHq9W77fbgFvwMf0OpKQvK1Osh6sbTJyFMQRCggIAc=";
+    version = "2.3.3";
+    hash = "sha256-E3UJGmxvQD9BeETvHJfrI7WBEj87iH82cz5/X/ZapHY=";
   };
   obsidian-doubleshift = {
     owner = "Qwyntex";
@@ -11998,8 +11998,8 @@
   pkvs = {
     owner = "iamrecursion";
     repo = "obsidian-pkvs";
-    version = "1.1.1";
-    hash = "sha256-raLjtw7D66TmyjNGuUdFJa4c4gysHrWCl0m5TJs6nn8=";
+    version = "1.1.2";
+    hash = "sha256-sUvqUT337dURsX+DZQt3D+UaxF5/WT4ZN2raeKybAkk=";
   };
   plot-vectors-graphs = {
     owner = "nicoletanyt";
@@ -13690,8 +13690,8 @@
   smart-export = {
     owner = "LittleHaku";
     repo = "obsidian-smart-export";
-    version = "1.10.0";
-    hash = "sha256-WcA4zZ1LsrqROEI2RQZvOUgCdMm4+MWiHA2jYq4XCPE=";
+    version = "1.10.3";
+    hash = "sha256-sXDK8l6hjGVGbv38bzNoIOFkE/iYmUwfLmeoL/UxBjE=";
   };
   smart-html-select = {
     owner = "IsaiaScope";
