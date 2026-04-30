@@ -1457,8 +1457,8 @@
   breadcrumbs = {
     owner = "SkepticMystic";
     repo = "breadcrumbs";
-    version = "4.6.0";
-    hash = "sha256-dGcULpM2O5zsTUHM/lBOpscC4N1TN0SZZ3Iz0wwUqSI=";
+    version = "4.6.3";
+    hash = "sha256-fo1MnIjBV6ONNNTYWP7tojx8gcxDa2N/XaZ0wWZNyoQ=";
   };
   break-page = {
     owner = "corentin-godefroy";
@@ -2597,8 +2597,8 @@
   copilot = {
     owner = "logancyang";
     repo = "obsidian-copilot";
-    version = "3.2.7";
-    hash = "sha256-4yEVv/tOpcrzwlLXty0Tl14bKNFWf1KLig0J2I1cO08=";
+    version = "3.2.8";
+    hash = "sha256-3Fws/iaS84JjcRs5Zey/htLPwH7CRVqu9ORDgowQmBs=";
   };
   copilot-auto-completion = {
     owner = "j0rd1smit";
@@ -3305,8 +3305,8 @@
   decks = {
     owner = "dscherdi";
     repo = "decks";
-    version = "1.7.2";
-    hash = "sha256-i0ckXj4uSTQyM7NtmJZbYOkVcoE+wd2I3oXS1/V6Ub4=";
+    version = "1.7.4";
+    hash = "sha256-qRlWtwcg6pTR9rF1dorIXPMi7EzexytbWO9yojYUUIY=";
   };
   deepl = {
     owner = "friebetill";
@@ -6264,8 +6264,8 @@
   jira-sync = {
     owner = "Alamion";
     repo = "obsidian-jira-sync";
-    version = "1.4.4";
-    hash = "sha256-SavAimi1kzipHJUfuxMaVXdmhyeYjzSs219C2Wnp1cU=";
+    version = "1.5.1";
+    hash = "sha256-y7I2kcHGav+9CY4ysvXDd02o825miQu1DE9Y8QYp9qE=";
   };
   jisage-japanese-indentation = {
     owner = "Telehakke";
@@ -7537,8 +7537,8 @@
   mediaviewer = {
     owner = "Devon22";
     repo = "obsidian-mediaviewer";
-    version = "2.0.11";
-    hash = "sha256-uoiXu82ihERBu9Q2CLG1jV6KLCK0+QmF7+OCLZOiVzY=";
+    version = "2.0.12";
+    hash = "sha256-SeL7Ulz5N80n3quH1z6o6ZTnuAsipXEqayQuP2pNVLk=";
   };
   medium-importer = {
     owner = "arumie";
@@ -7849,8 +7849,8 @@
   modalforms = {
     owner = "danielo515";
     repo = "obsidian-modal-form";
-    version = "1.64.4";
-    hash = "sha256-MRwcIsbfLe8tnvANMWMMDU1/7LW9sqd2U6e6uH2zLJA=";
+    version = "1.65.0";
+    hash = "sha256-WRyXYjpAd1tUiVY6TOsXRKtU8Hhxzm1UQ/v0h3YtE9M=";
   };
   mode-manager = {
     owner = "dk949";
@@ -8551,8 +8551,8 @@
   notes-to-strapi-export-article-ai = {
     owner = "CinquinAndy";
     repo = "notes-to-strapi-export-article-ai";
-    version = "3.0.272";
-    hash = "sha256-dLgIdDF++OT/jyKWilaABJ2H6d7oLqMiD5hyDeVj57Q=";
+    version = "3.0.273";
+    hash = "sha256-jqhtsVN1JAeeVrIVQqwp5cFCArs3TPJXCeki0SJyZ4A=";
   };
   notes2tweets = {
     owner = "Tej-Sharma";
@@ -8629,8 +8629,8 @@
   nutstore-sync = {
     owner = "nutstore";
     repo = "obsidian-nutstore-sync";
-    version = "1.2.0";
-    hash = "sha256-J6/m3eG2RGleri3KKu6oSQev1FAgMs4vT8ReGKQeMnc=";
+    version = "1.2.1";
+    hash = "sha256-m+CMRRHmyj+zAuzElE/HtOtZ/CBXtMk0pxhTNm5DmTI=";
   };
   nyanbar = {
     owner = "xhyabunny";
@@ -9992,8 +9992,8 @@
   obsidian-livesync = {
     owner = "vrtmrz";
     repo = "obsidian-livesync";
-    version = "0.25.59";
-    hash = "sha256-E7UZXkLT3HE4o9p6VcHhaQn/rxye9h897ehRp9KpP1k=";
+    version = "0.25.60";
+    hash = "sha256-ksE/EbJECmaTYwVSnmAdzAso3oRaDljukgSDBK54AiQ=";
   };
   obsidian-living-graph = {
     owner = "geoffreysflaminglasersword";
@@ -12268,8 +12268,8 @@
   publish-note-to-mowen = {
     owner = "zhuSilence";
     repo = "obsidian-mowen-plugin";
-    version = "0.0.29";
-    hash = "sha256-Whg440z6dHm5XnHrY9gQGc2zud5Utmk29FTHLgvVnUs=";
+    version = "0.0.30";
+    hash = "sha256-Eab0pb0GclqC7/UDV2C5MDC3i9nVi3pfPB5u3xjKMQk=";
   };
   publish-to-dev = {
     owner = "stroiman";
@@ -13696,8 +13696,8 @@
   smart-export = {
     owner = "LittleHaku";
     repo = "obsidian-smart-export";
-    version = "1.11.0";
-    hash = "sha256-Ts3m2AxXHA42VODlR/S21S81WAH86dIY+DsAfGz66xA=";
+    version = "1.12.0";
+    hash = "sha256-JveDWwH2xSXUOI1ldDxNJXssms5ZBnF7qKNhhofDFbE=";
   };
   smart-html-select = {
     owner = "IsaiaScope";
@@ -16199,8 +16199,8 @@
   yolo = {
     owner = "Lapis0x0";
     repo = "obsidian-yolo";
-    version = "1.5.6.1";
-    hash = "sha256-5pyHxqrRfjRq/8oAEbvpIF8qZj6s6KyweY4kV4AHe3Y=";
+    version = "1.5.6.2";
+    hash = "sha256-IYd9wv+aLxrOhlI7fL/z8lPW5xrNxfrAKO6S6GZITVQ=";
   };
   you-and-your-research = {
     owner = "neozhang";
