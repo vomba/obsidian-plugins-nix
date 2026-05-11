@@ -1457,8 +1457,8 @@
   breadcrumbs = {
     owner = "SkepticMystic";
     repo = "breadcrumbs";
-    version = "4.8.3";
-    hash = "sha256-pVyTNJSO8DFu1oVEn3Dyn+017LOElBZ5KFu/XgwWYiY=";
+    version = "4.9.0";
+    hash = "sha256-pYSZN0BqYcia85ZgOzR29yBU5IWiHlcokCtTu9fsRzM=";
   };
   break-page = {
     owner = "corentin-godefroy";
@@ -8509,8 +8509,8 @@
   notemd = {
     owner = "Jacobinwwey";
     repo = "obsidian-NotEMD";
-    version = "1.8.5";
-    hash = "sha256-xWRATnsOcSEQTgxkjODhc8fjJkpJ7OVW7MTZFW9sOmM=";
+    version = "1.8.6";
+    hash = "sha256-mCq7ztaJaGeCMo77IcIfe6oidJ4O1PGn0grZiXJea8U=";
   };
   notepix = {
     owner = "AyushParkara";
@@ -8593,8 +8593,8 @@
   nova = {
     owner = "shawnduggan";
     repo = "nova";
-    version = "1.5.5";
-    hash = "sha256-aycpXViLUXYQNiA2+GqE3EYxamYKwbbt7iaesZ7m0Rw=";
+    version = "1.6.0";
+    hash = "sha256-B0zaU3KrmnXtWvpYTJ7lg/QiphxtUR/hUMxvpzSlSNM=";
   };
   novel-word-count = {
     owner = "isaaclyman";
@@ -11192,8 +11192,8 @@
   obsidian-weread-plugin = {
     owner = "zhaohongxuan";
     repo = "obsidian-weread-plugin";
-    version = "1.4.3";
-    hash = "sha256-u+tr3TMfTr/SnDNHLj26fTw2Fhf2wYuPBwWs8iJKGBQ=";
+    version = "1.5.2";
+    hash = "sha256-eBWrQY5O0molISWuxI6me9DNY1krTKcBCcirN2xCrjw=";
   };
   obsidian-wikipedia = {
     owner = "jmilldotdev";
@@ -11342,8 +11342,8 @@
   omnisearch = {
     owner = "scambier";
     repo = "obsidian-omnisearch";
-    version = "1.28.2";
-    hash = "sha256-9r/8tcK8qc7fDqY1e/MymMFwNejzjguOMkrug3MuAzo=";
+    version = "1.29.0";
+    hash = "sha256-7NRDusizp4dUxMrZon+IJ43q76SO9G9F2YDv8IzvGjs=";
   };
   on-this-day = {
     owner = "jose-elias-alvarez";
@@ -11817,8 +11817,8 @@
   peerdraft = {
     owner = "peerdraft";
     repo = "obsidian-plugin";
-    version = "2.16.1";
-    hash = "sha256-APhADGSU+WoNeuJc42P/56yyvyhg9uVM9seq7mqKZLA=";
+    version = "2.20.0";
+    hash = "sha256-JNe6bguHpaIEQCSlFhY5IbRx3Z/Cl2cvHLhChfuNe30=";
   };
   performosu = {
     owner = "ruikurenaii";
@@ -11841,8 +11841,8 @@
   periodic-para = {
     owner = "quanru";
     repo = "obsidian-lifeos";
-    version = "1.25.0";
-    hash = "sha256-v7WRD2f1mzkQFx2drD7CRqkBCSVplA3mzCNE9vqDSX4=";
+    version = "1.25.1";
+    hash = "sha256-k6CyadXs7QQQ8PeHcvZlxd0Wx8mdyYgxTlUyhvVC/FY=";
   };
   periodic-table = {
     owner = "R-Cramer4";
@@ -11884,8 +11884,8 @@
   personal-assistant = {
     owner = "edonyzpc";
     repo = "personal-assistant";
-    version = "1.6.5";
-    hash = "sha256-8aIEjQY/XZnvrXlm5eSv2B+CpHjrnNvPIaMGer74XRo=";
+    version = "1.7.0";
+    hash = "sha256-oEHe5tvH3Kop5cS5VyMw1HCC6WFIKnZ/UNM9n+F/DHo=";
   };
   personal-development-plan = {
     owner = "artemkorsakov";
@@ -14572,8 +14572,8 @@
   tasks-map = {
     owner = "NicoKNL";
     repo = "tasks-map";
-    version = "0.31.1";
-    hash = "sha256-seR+BB1r5RGet8bb+sdzu9K8aToRLoT5e+t6NSLXHdc=";
+    version = "0.31.2";
+    hash = "sha256-o8Hn3ZKD0XssgKLn9dmEjRUrA0Ueih99ic06Xpv5D9s=";
   };
   tasks-packrat-plugin = {
     owner = "therden";
@@ -15496,8 +15496,8 @@
   various-complements = {
     owner = "tadashi-aikawa";
     repo = "obsidian-various-complements-plugin";
-    version = "11.2.0";
-    hash = "sha256-1/piS6Pg8xOiuzDB5XPjfI4o3uyl4PMirvRRvp4kZY8=";
+    version = "11.3.0";
+    hash = "sha256-I+xitn+qqVuF2ce3EcvkSG/QIkePmFMb9y0utHRGMY0=";
   };
   vault-2-book = {
     owner = "Mitra98t";
@@ -15844,8 +15844,8 @@
   wayback-archiver = {
     owner = "IshizuEitaro";
     repo = "obsidian-wayback-archiver";
-    version = "1.1.5";
-    hash = "sha256-wZ1blkfDeNwCrSZcLjPqGsmX/z/xMI0LA54hetwMSbI=";
+    version = "2.0.0";
+    hash = "sha256-XSZe8F8v2nLxDRa4LZwYivEhPngs1mQZGs44cvRfttw=";
   };
   waypoint = {
     owner = "IdreesInc";
@@ -16205,8 +16205,8 @@
   yolo = {
     owner = "Lapis0x0";
     repo = "obsidian-yolo";
-    version = "1.5.7.4";
-    hash = "sha256-QuhHTnRmIJcYEGXdnQg3s46yZaRT7QuO5wb7k6TVXK8=";
+    version = "1.5.7.5";
+    hash = "sha256-93uLK3h0Ez6U9GV2vVaKcWsgxKiNFn+b9vFRBNy4DRw=";
   };
   you-and-your-research = {
     owner = "neozhang";
