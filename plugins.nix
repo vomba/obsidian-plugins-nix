@@ -205,6 +205,12 @@
     version = "0.7.2";
     hash = "sha256-8HMo4sNAXZPzU3lFfzOoi5uUChESEh7vJbz0+/+V0UM=";
   };
+  accessible-pdf-export = {
+    owner = "cybernative-ai";
+    repo = "accessible-pdf-export";
+    version = "0.1.1";
+    hash = "sha256-0qOWkNp/OvxNU/6n4sqLZZGlEGw58bxDlrQ/PTqW35U=";
+  };
   accordion-file-view = {
     owner = "cazzek";
     repo = "obsidian-accordion-file-view";
@@ -373,6 +379,12 @@
     version = "0.1.1";
     hash = "sha256-ldrq7ZZjAd+T6PTARMBaeC+wYmfirbrjswNMsBgX7N4=";
   };
+  ad-recap = {
+    owner = "chi-li-peppers";
+    repo = "obsidian-ad-recap";
+    version = "1.0.2";
+    hash = "sha256-QC7B0dK9/lgDTlQrMfvoRunXyECO80FFoG4lWju53dQ=";
+  };
   adamantine-pick = {
     owner = "notlibrary";
     repo = "obsidian-adamantine-pick";
@@ -487,6 +499,12 @@
     version = "0.5.1";
     hash = "sha256-6+2X5Wth+L482L35h4z3aFQ0y1LPTygdw80EvncFNb0=";
   };
+  advanced-daily-tracker = {
+    owner = "kgniewek";
+    repo = "advanced-daily-tracker";
+    version = "1.0.2";
+    hash = "sha256-81JWmRDqxMzWs61EGly5GO9lC4an16jJ8gEbDEd06ac=";
+  };
   advanced-debug-mode = {
     owner = "mnaoumov";
     repo = "obsidian-advanced-debug-mode";
@@ -589,6 +607,12 @@
     version = "4.8.0";
     hash = "sha256-XLLBOPgRgsApYOayNEEQYey9W/f03MthiLhBeUTkMCY=";
   };
+  advanced-progress-bars = {
+    owner = "cactuzhead";
+    repo = "Advanced-Progress-Bars";
+    version = "1.3.1";
+    hash = "sha256-BmY0ZaxuZBLDcXeoc3/JGZtdrALhjzOzGU7iKa+22UI=";
+  };
   advanced-random-note = {
     owner = "karstenpedersen";
     repo = "obsidian-advanced-random-note";
@@ -622,14 +646,14 @@
   advanced-web-link-features = {
     owner = "kgniewek";
     repo = "advanced-web-link-features";
-    version = "1.0.6";
-    hash = "sha256-VSwV5VS3jEfVgKqFkhBlD4U2SCV/1qrk4juxkb4lnAM=";
+    version = "1.0.9";
+    hash = "sha256-RKHWVEU/jU5thQBEj1Ugu3+5gHeToQo6bKt+wOuU6q8=";
   };
   advanced-wikipedia-importer = {
     owner = "dyllonwright";
     repo = "Wikipedia-To-Obsidian-Markdown";
-    version = "2.5.0";
-    hash = "sha256-mICr9WhQ1jbuSXUhDgeIzfn3IAGY3zJ1lDzNwHvyA3k=";
+    version = "2.5.1";
+    hash = "sha256-rlzXR7snWIEG664Jxce/EqheS6XrjkNilwE2DnVxq1s=";
   };
   advanced-word-count = {
     owner = "pan4ratte";
@@ -640,8 +664,8 @@
   advanced-youtube-features = {
     owner = "kgniewek";
     repo = "advanced-youtube-features";
-    version = "1.1.2";
-    hash = "sha256-SMXcmWMfLKVDoodVVIKM9p1n5rq9eVqN+ff/8PWkeqA=";
+    version = "1.1.5";
+    hash = "sha256-t65hS5FGxc/kAzUqbfhW/5FaZc3pdEaQ6cX5jmvj/vQ=";
   };
   aegis-note-locker = {
     owner = "tutivsoft-com";
@@ -736,8 +760,8 @@
   agent-deck = {
     owner = "matsurimw";
     repo = "obsidian-agent-deck";
-    version = "1.10.7";
-    hash = "sha256-FXyeC3VMMSEqAeik8RY27laEmJbjSzpxyAHGQAOxm0Y=";
+    version = "1.12.2";
+    hash = "sha256-xVIX+/87ZTJMpP6TjOdhhIgR971xMdfNpr/wjonDgas=";
   };
   agent-file-pane = {
     owner = "philphilphil";
@@ -766,8 +790,8 @@
   agent-manager = {
     owner = "mattmaiorana";
     repo = "agent-manager";
-    version = "1.5.0";
-    hash = "sha256-MSjbLPjr/c5pz4zauTosqKayxmm3uzv/A7UcFmZoS+A=";
+    version = "1.6.0";
+    hash = "sha256-Q0DnFVvw09IFrHOcrnhd1lhVmqE96jqUTNaQTT8VvOc=";
   };
   agent-mcp = {
     owner = "rospaans";
@@ -868,8 +892,8 @@
   agentic-dashboard = {
     owner = "faizulahasun-cloud";
     repo = "agentic-dashboard";
-    version = "1.8.2";
-    hash = "sha256-Vci77DNFMoH72EM0CaxMUUu48hG+H9LaUDzWW1ZFdPg=";
+    version = "1.8.3";
+    hash = "sha256-oI6KhB2E+GN2+9h7yRA6j3wAZM+L/jotv2/eyhVNU4c=";
   };
   agentic-git-sync = {
     owner = "leweii";
@@ -886,8 +910,8 @@
   agentic-resource-discovery-server = {
     owner = "dsebastien";
     repo = "obsidian-agentic-resource-discovery-server";
-    version = "1.3.0";
-    hash = "sha256-f61SEBIUr9Mbxo6/2rbRYv1rDR7oZI5LxklGnREBVmM=";
+    version = "1.3.1";
+    hash = "sha256-q7whiDOYOJYDFcu30HyswjZALd9lkj8N9WTUFn6Bm/A=";
   };
   agentic-vault = {
     owner = "cadakerem";
@@ -901,29 +925,23 @@
     version = "0.1.2";
     hash = "sha256-K+1AQ4KTKvYsgR45mvVh5wWJJ++8XAp8XajaUPFaWu0=";
   };
-  agentlens-social-importer = {
-    owner = "inkad-code";
-    repo = "AgentLens-for-Obsidian";
-    version = "0.1.6";
-    hash = "sha256-1Tcitcs2AMYtti/YeEtccgID5nWJv1cI24E2TQ6gpPU=";
-  };
   agentmd = {
     owner = "z-fab";
     repo = "agentmd-obsidian";
     version = "0.3.1";
     hash = "sha256-GB/dgUGq5VCmE2sNGwMxzSF5yXbYjAmDKIF7PmPsWWE=";
   };
-  agentnote = {
-    owner = "xinxinrana";
-    repo = "agentNote-Obsidian-";
-    version = "0.8.0";
-    hash = "sha256-DOzfDWx0jjfyY9ZBxODFdY1fSy6njdPdKXXqrGw9Yq0=";
-  };
   agentwiki-sync = {
     owner = "neomei";
     repo = "agentwiki-sync";
     version = "0.5.12";
     hash = "sha256-Iw6EbiYVlerfsehZVHHY9UJPg0WBzkYAdSH/7xCniK4=";
+  };
+  aglc-citations = {
+    owner = "blursedperf";
+    repo = "obsidian-aglc4";
+    version = "1.5.4";
+    hash = "sha256-IfmPmHSxDjhxszsjCs50dqXqumW4HEyySqe7EOuMvbg=";
   };
   ahmed-toolkit = {
     owner = "ahmdmusa";
@@ -982,8 +1000,8 @@
   ai-assistant-suite = {
     owner = "rexxall";
     repo = "obsidian-ai-assistant-suite";
-    version = "1.9.1";
-    hash = "sha256-kuQZw5Hh9M7giCzCbVRznWqMSDD5jyrNzOmE6JzJ+2s=";
+    version = "1.9.2";
+    hash = "sha256-87oGOslsEYpsYrJS09d++m7jlm49dOYdU4fxsvqwKl8=";
   };
   ai-attachmate = {
     owner = "mesqueeb";
@@ -1294,8 +1312,8 @@
   ai-pm-tool = {
     owner = "caesarloo";
     repo = "ai-pm-tool";
-    version = "0.3.4";
-    hash = "sha256-3zGSQDOBq/Lz9UEnHjbDkzjrKWASQyGA5mQvb7QzWrA=";
+    version = "0.3.5";
+    hash = "sha256-2Of+Ei4XJ2k7WZL7gyJRhdlD2wXnsKjQ8KqxqH/htNQ=";
   };
   ai-providers = {
     owner = "pfrankov";
@@ -1570,8 +1588,8 @@
   aiditing = {
     owner = "ditingai";
     repo = "obsidian-aiditing";
-    version = "0.1.18";
-    hash = "sha256-a3TTucDC1huARERWSeC+eK5lDUDEjLKzj5vUAD9khE0=";
+    version = "0.1.20";
+    hash = "sha256-Jle+iPQLLHEKfJ50+Xbio6PjPP3zrKkAeIZxsiacb9M=";
   };
   aiditor = {
     owner = "mariomile";
@@ -2071,6 +2089,12 @@
     version = "0.2.3";
     hash = "sha256-QIOSaoeTfhiHeqhnbydIzAA4f9nsOToBHzZnS0JItAs=";
   };
+  anki-integration = {
+    owner = "rifts-obsidian-laboratory";
+    repo = "anki-integration";
+    version = "1.4.3";
+    hash = "sha256-9R5CzmdnjUbZSRUODeJlcWxS4iavZM5a+jNpF+C4jag=";
+  };
   anki-markdown-sync = {
     owner = "justinnnnnnn045";
     repo = "anki-markdown-sync";
@@ -2119,6 +2143,12 @@
     version = "0.4.2";
     hash = "sha256-vop+KahmInhMKhiQfMgrOzO0nMUVqEQovsXnZ8g8X+w=";
   };
+  annotate-audio = {
+    owner = "12-vide";
+    repo = "annotate-audio";
+    version = "1.5.2";
+    hash = "sha256-VTIKwkXvABZrzxct8Gnagpuh4xrijqKIYc6IlOcyEU8=";
+  };
   annotation-inbox = {
     owner = "theluckystrike";
     repo = "annotation-inbox";
@@ -2146,8 +2176,8 @@
   annotations = {
     owner = "arugyani";
     repo = "annotations";
-    version = "1.0.12";
-    hash = "sha256-/Qhsl1ArnxYtA3jrpCGHsQBwC+AzNGpqcBh+ZJm9O6s=";
+    version = "1.0.16";
+    hash = "sha256-9UchJZGllD1fS946g5kdIiN9xzVk19SXFkKJm7uDfkQ=";
   };
   annotations-everywhere = {
     owner = "heptazero";
@@ -2698,8 +2728,8 @@
   articlewriter = {
     owner = "gengbl";
     repo = "articlewriter-obsidian";
-    version = "0.4.4";
-    hash = "sha256-ZRX8l8Yr33k8H54DyEtNb3H9DLIc1XkWnxxF4T0LiA0=";
+    version = "0.4.5";
+    hash = "sha256-R2gA2RG2pr+I+hKoGeTe1656mGRxK3pd1JCs1QmCpP0=";
   };
   artifact-embed = {
     owner = "leonyew-ley";
@@ -2971,12 +3001,6 @@
     version = "0.16.0";
     hash = "sha256-N7POwByhXZnTcthuHcJI3t0y9iZ0coZRYOxul96GLyw=";
   };
-  atlas-vtt-connect = {
-    owner = "evoljoaobento";
-    repo = "atlas-vtt-connect";
-    version = "0.9.0";
-    hash = "sha256-/i9Rq0RRQ6naYSWn4JkHGFKu3GLjpgZmzLvSv+5N3x4=";
-  };
   atlassian-jira-auto-linker = {
     owner = "kovah";
     repo = "obsidian-jira-auto-linker";
@@ -3046,8 +3070,8 @@
   atrium = {
     owner = "sebshq";
     repo = "obsidian-atrium";
-    version = "0.13.0";
-    hash = "sha256-pxs/YwS13P0EVYOl4Qw5IwPbtO/21tHYD+AsB0Vmaao=";
+    version = "0.14.0";
+    hash = "sha256-WoqrDRfU3dZhlLAo6Tq9XNAxWLQFm7Y8cmWjFdbz8G4=";
   };
   att-meta-map = {
     owner = "heptazero";
@@ -3163,11 +3187,23 @@
     version = "1.2.8";
     hash = "sha256-mH13HklvWrkCwakvg2UuK3dNSiQOKBYV/vv4ghYkkl4=";
   };
+  attachments-cache = {
+    owner = "luisbs";
+    repo = "obsidian-attachments-cache";
+    version = "0.7.0";
+    hash = "sha256-mWlf1JB3QRgpWvDY2thF6Opi5HgKk+rNyoULRvsz08Y=";
+  };
   attachments-library = {
     owner = "compadrejunior";
     repo = "attachments-library";
     version = "1.0.3";
     hash = "sha256-LWwd0vQbRHZHlz0bQF2711N6VjCj0ymZ/4S8aCdFts0=";
+  };
+  attachments-md-indexer = {
+    owner = "iinkov";
+    repo = "obsidian-attachments-md-indexer";
+    version = "2.1.4";
+    hash = "sha256-ClDexCXQADUhEOTKJOQRogNAi3d88419nT1DN62KeQw=";
   };
   attention = {
     owner = "semsevens";
@@ -3343,6 +3379,12 @@
     version = "1.2.2";
     hash = "sha256-4EEagiShE53FKgxF1LsCXUVhDQlIzxGv3r+yLWk6ykg=";
   };
+  auto-bullet = {
+    owner = "takitsuba";
+    repo = "obsidian-auto-bullet";
+    version = "1.1.0";
+    hash = "sha256-mJ2ElW832wAQ9NQMUx/z5ibmcYcotUTg2pF4mSyIeA8=";
+  };
   auto-card-link = {
     owner = "nekoshita";
     repo = "obsidian-auto-card-link";
@@ -3468,6 +3510,12 @@
     repo = "obsidian-auto-folder-collapse";
     version = "1.2.4";
     hash = "sha256-+hTyWjoElCQVm0UvUaVPr9VG+ivND3BjyQTChEl0Tlg=";
+  };
+  auto-folder-note-paste = {
+    owner = "d7sd6u";
+    repo = "obsidian-auto-folder-note-paste";
+    version = "1.0.1";
+    hash = "sha256-UUtnAYyKMPMSuHl5+pXhB8lU4qA7k11R9y4l/1pWveU=";
   };
   auto-folder-tags = {
     owner = "gansxx";
@@ -3606,6 +3654,12 @@
     repo = "Obsidian-Auto-Move-On-Property";
     version = "1.0.4";
     hash = "sha256-SPmNjRztClucOBu5UlFGAMMlU3R9CP7wRvXOH+LSgLw=";
+  };
+  auto-mover = {
+    owner = "al0cam";
+    repo = "AutoMover";
+    version = "1.0.11";
+    hash = "sha256-wfH5TprFBXPItAGZHw9Im6abRGcqu2kwZExFwEZn9L4=";
   };
   auto-navigator-pages = {
     owner = "ccccarlos0504";
@@ -3874,8 +3928,8 @@
   automatic-mood-history = {
     owner = "remriel";
     repo = "automatic-mood-history";
-    version = "1.9.4";
-    hash = "sha256-akE9BfMBlfPMrtC9eYMTeF5um1rvnTvaMaVXzEMXjkM=";
+    version = "1.9.7";
+    hash = "sha256-eelS+F9bW18JwxfYata5GCWHGu2v0XnyQ+IDInegf4A=";
   };
   automatic-paragraph-review = {
     owner = "williambooth0803-ui";
@@ -4117,6 +4171,12 @@
     version = "3.0.3";
     hash = "sha256-8Va4wFAsIhrlJUedpilZ6AjbGPVClSVZ8RT31xxm5QM=";
   };
+  backlink-full-path = {
+    owner = "mnaoumov";
+    repo = "obsidian-backlink-full-path";
+    version = "1.9.0";
+    hash = "sha256-0WFyokeDhrcEh35mZ6Bi4HNbIZJW99XszrORWcV0kkk=";
+  };
   backlink-settings = {
     owner = "calvinwyoung";
     repo = "obsidian-backlink-settings";
@@ -4186,8 +4246,8 @@
   baidu-sync = {
     owner = "minlaoge";
     repo = "obsidian-baidu-netdisk-sync";
-    version = "2.1.1";
-    hash = "sha256-kNt9YyF6yWdRP1yMce+NRDq2regeNSSSND5/TJxUnoU=";
+    version = "2.1.2";
+    hash = "sha256-IpkJNYRMO8nVhGOAUFugxnfqU7PTNfZKwoqjUoXsgJE=";
   };
   baiyi-weekly-planner = {
     owner = "yibai435-star";
@@ -4216,8 +4276,8 @@
   bamboo-immortals = {
     owner = "miaoziguan";
     repo = "obsidian-bamboo-immortals";
-    version = "3.34.1";
-    hash = "sha256-C4GHMxgDIWO2DXMI2VnmeQMCs3leQ+1X5PLXuUDPA8M=";
+    version = "3.35.2";
+    hash = "sha256-++YZ3wjN/5nvvEI5/AdD2mCDBl/y7+YjwPMioChNwyM=";
   };
   bamboo-walking = {
     owner = "miaoziguan";
@@ -4621,6 +4681,12 @@
     version = "0.2.0";
     hash = "sha256-yb4Y/sUCEGKxhDUnW3zos9rLS4EcXKnYe5IRA26WuHg=";
   };
+  bases-relations-graph = {
+    owner = "pigon1";
+    repo = "bases-relations-graph";
+    version = "0.1.1";
+    hash = "sha256-IiZUt5QlOhjCXjlRdhqMGFpLhH9qVt0B5K0KMZFSiGc=";
+  };
   bases-rename-sync = {
     owner = "prometheus-maker";
     repo = "bases-rename-sync";
@@ -4854,6 +4920,12 @@
     repo = "beautiful_pdf";
     version = "1.2.4";
     hash = "sha256-rbQqHIAK2+H7LQAW/sOP/7O/yzMhKeWyWvMSZn8s/S0=";
+  };
+  beautify = {
+    owner = "jiangyugang";
+    repo = "obsidian-beautify";
+    version = "1.0.2";
+    hash = "sha256-UJGHeseVUindVOpidChuFzngiXGKQh1dPLXJtO0UhsE=";
   };
   beautitab = {
     owner = "andrewmcgivery";
@@ -5322,8 +5394,14 @@
   bible-search-reader = {
     owner = "viacai";
     repo = "obsidian-bible-search-reader";
-    version = "6.0.3";
-    hash = "sha256-ChalaLxu5O906GmwBOdRZ9EBy11kPBy51gP8wyejxo0=";
+    version = "6.1.0";
+    hash = "sha256-mw3lghXOiJY/q0LoxQ3Vizom4/39R6pZlUWAD1QnWPg=";
+  };
+  bible-sidecar = {
+    owner = "janisringli";
+    repo = "bible-sidecar-obsidian-plugin";
+    version = "1.2.5";
+    hash = "sha256-ESfG/001IBuNYUYQj3o0mZuDzAEssCR6Fih+UVb/c8Q=";
   };
   bible-sidecar-kr = {
     owner = "korthomasjeong";
@@ -5336,12 +5414,6 @@
     repo = "obsidian-bible-study";
     version = "1.4.2";
     hash = "sha256-bq8AlXvkztFUBmcqt2lVAve4ZteCYwa7qznHLsgyxKk=";
-  };
-  bible-verse = {
-    owner = "kilrkrow";
-    repo = "obsidian-bible-verse";
-    version = "1.12.4";
-    hash = "sha256-UlwuUH+v//0w5MaFC524xz7x0JaNlqmP+5tWRxuSVq4=";
   };
   bible-verse-tips = {
     owner = "joelwongjy";
@@ -5520,8 +5592,8 @@
   bits-and-bobs = {
     owner = "leroyw1e";
     repo = "bits-and-bobs";
-    version = "1.10.0";
-    hash = "sha256-/jAzvEI0a5d8ZaA7MHkiaClDMm5o0mw6f356AQy9Q0o=";
+    version = "1.14.0";
+    hash = "sha256-FA8/DQnLdByDP46kyqSGX1yb8S/Cx6qe1PHAIGpDN4c=";
   };
   bitwarden = {
     owner = "toki1703";
@@ -5750,6 +5822,12 @@
     repo = "boardgame-search";
     version = "2.3.0";
     hash = "sha256-H1RLdWqTh5ILX2qM0Ifde0W3Wlk+1jr0PrtuB5FGva0=";
+  };
+  boardhydra = {
+    owner = "madebysaints";
+    repo = "boardhydra-obsidian";
+    version = "0.3.6";
+    hash = "sha256-Ry7MqMVtqIdTB+kPhl/J8b1YpZCO484MTBe6ZntZ4zQ=";
   };
   boardline = {
     owner = "kjs104901";
@@ -6009,6 +6087,12 @@
     version = "1.0.8";
     hash = "sha256-c1OxXKrtL/ZvQTfkcWQ8mv8t121IjzxNubPVeYTV9YE=";
   };
+  bookshelf = {
+    owner = "weph";
+    repo = "obsidian-bookshelf";
+    version = "0.21.3";
+    hash = "sha256-1H7vfffkZb7FR6vPvEdvhcEnlFRjli8nsm+TwBG9+G0=";
+  };
   bookshelf-base = {
     owner = "dsebastien";
     repo = "obsidian-bookshelf";
@@ -6204,8 +6288,8 @@
   branching-table-of-contents = {
     owner = "tonypeonio";
     repo = "obsidian-branching-table-of-contents";
-    version = "0.2.0";
-    hash = "sha256-tKRgUPaS5TDgXu/yCGukUwZ3scTvjX/sFFRNIcbgAKs=";
+    version = "0.3.0";
+    hash = "sha256-KfFxZWhXS8A3xDUQUUyEs2KPm5AOCNWnt+Uz8YayqF4=";
   };
   brand-icons = {
     owner = "richin13";
@@ -6471,6 +6555,12 @@
     version = "1.0.3";
     hash = "sha256-Im+MXK6t9LAgbVoT9zBeNud6flEhhxBM49AUzk6l+Ic=";
   };
+  bulletin = {
+    owner = "schooltwistchris";
+    repo = "obsidian-bulletin";
+    version = "0.1.3";
+    hash = "sha256-l6IX462X/r0Rwt6hQc4Hrc6gM2AWqelf2l1WUyM7u6A=";
+  };
   bulletlist-toolbar = {
     owner = "tangweijuan";
     repo = "bullet-bar";
@@ -6552,8 +6642,8 @@
   bz-reader = {
     owner = "yeshimei";
     repo = "bz-reader";
-    version = "1.5.1";
-    hash = "sha256-NQkYKzOh2OZwYkYTpz3KwNONMLlkd19gmuudWPlawFA=";
+    version = "1.5.2";
+    hash = "sha256-5P1baLrXiib+yR1XX16eT3LIRF6DHzaPyZflA39RXV4=";
   };
   ca-sync = {
     owner = "bhavers";
@@ -6618,8 +6708,8 @@
   calcul-inline = {
     owner = "theshiningroastpanda";
     repo = "calcul-inline";
-    version = "0.3.2";
-    hash = "sha256-O9tzwZd5cFlryVpu0B89vf8xazTT3GHSupbo0AI2NRA=";
+    version = "0.3.3";
+    hash = "sha256-VrHa3adT1hOuvTSfI+N/tMRyT8TEGfKo8AWEk4GFtkE=";
   };
   calculator-pro = {
     owner = "hoangminhcv2000";
@@ -6654,8 +6744,8 @@
   caldera = {
     owner = "schoettle-cmd";
     repo = "caldera";
-    version = "0.29.3";
-    hash = "sha256-EI8xkcZcKzqLMgJrKENMcKcIjdaRH4HFKTTmQGE3f3Y=";
+    version = "0.30.1";
+    hash = "sha256-GJ2O+A++VhnaNCM9mgl1/pszjm1+4PYjTVDWjhRLJS4=";
   };
   calendar = {
     owner = "liamcain";
@@ -7173,6 +7263,12 @@
     version = "0.8.2";
     hash = "sha256-VbUXrclJBhjeQchD073GBLlB0xn5maRLSpWbjYedwkY=";
   };
+  canvas-format-brush = {
+    owner = "wenlzhang";
+    repo = "obsidian-canvas-format-brush";
+    version = "0.1.1";
+    hash = "sha256-fjTEIvTR4JWoUy3beGfPgqitYMGCf99GqMUtgHQ6Pws=";
+  };
   canvas-html-exporter = {
     owner = "hkohlhoff";
     repo = "canvas-html-exporter";
@@ -7620,8 +7716,8 @@
   carnet-du-poete = {
     owner = "sbridel";
     repo = "carnet-du-poete";
-    version = "2.31.1";
-    hash = "sha256-VIXzkIqAp5WarL4Mq65noqYghgqyIyr7/S8uMpP7Bro=";
+    version = "2.31.2";
+    hash = "sha256-+sGFo0QVPKTEhxeTTMkBnrDSggFiHBajeqLPI49kIdw=";
   };
   carrel = {
     owner = "alas-poor-ophelia";
@@ -7682,6 +7778,12 @@
     repo = "obsidian-catego";
     version = "0.2.6";
     hash = "sha256-L3CmWhm57H0DEFfinRBtoEs/SPi5BoPG1oWJ0CVtcZ4=";
+  };
+  category-workbench = {
+    owner = "skyswordx";
+    repo = "obsidian-category-workbench";
+    version = "1.0.2";
+    hash = "sha256-IK9r2fS6mRLHARtFjv4zjx1a1v0++lQd4cVbQDEc8R8=";
   };
   caute = {
     owner = "axionary-jwc";
@@ -7878,8 +7980,8 @@
   chart-hands = {
     owner = "everydaymind";
     repo = "obsidian-chart-hands";
-    version = "0.10.12";
-    hash = "sha256-cRfXjAGrbZR7KTLkvv3xCMddyicPA46IZn2T2zpoy20=";
+    version = "0.10.15";
+    hash = "sha256-LkqvcC6Sox84C2nExlvhet37Z+/sWuZ6OV521Mlr/fw=";
   };
   chartdown = {
     owner = "nossimonov";
@@ -8016,8 +8118,8 @@
   chatterbox = {
     owner = "owo";
     repo = "obsidian-chatterbox-plugin";
-    version = "1.1.2";
-    hash = "sha256-0MyBUqtyVWOOFrSNVS6A7kJtMyM/Of3F0k+lyskwoFo=";
+    version = "1.1.4";
+    hash = "sha256-6uLjhuUg1rgJPAKitF/9dM3E80jOrPBaVrYxxCo/VXw=";
   };
   chatting-with-ai = {
     owner = "o1xhack";
@@ -8040,8 +8142,8 @@
   cheatsheet-exporter = {
     owner = "legalunicorn";
     repo = "obsidian-cheatsheet-exporter";
-    version = "0.1.6";
-    hash = "sha256-/z2n4WeAMHeZo6XYmmh5p3K4J22RT9tvpMkzc1QPvkA=";
+    version = "0.1.7";
+    hash = "sha256-dEkulMEdjAjmDCpbbR5l9MkBuz+33+Og7X/ovZPEU70=";
   };
   check-and-delete = {
     owner = "Danitiate";
@@ -8164,10 +8266,10 @@
     hash = "sha256-Imq83uLvB5ZzI359zzLMv+06Tp4fm58sBNaR23emV/0=";
   };
   checklist-progress-bar = {
-    owner = "profesr-chaos";
+    owner = "nipsey-cosmo";
     repo = "obsidian-checklist-progress-bar";
-    version = "1.1.0";
-    hash = "sha256-15/NBUywJYiI4Nfrx9MhobFTi8+5/O87w2SLL38iTCw=";
+    version = "1.1.1";
+    hash = "sha256-M+mEj38WzyWvXqHY0KxWvjotfFn+xmfsrPyty62gAr0=";
   };
   checklist-sort = {
     owner = "profesr-chaos";
@@ -8312,6 +8414,12 @@
     repo = "chicago";
     version = "1.0.2";
     hash = "sha256-jGBS1Oi2O7URzFEU6A8hwvwAALenYnJQRl+D/7pzMOc=";
+  };
+  chickin-tweaks = {
+    owner = "chickchicky";
+    repo = "chickin-obsidian-tweaks";
+    version = "1.0.4";
+    hash = "sha256-IdXurkf9MsKO79QhMwF95aWwHcb2nJrNnGMkuJx5SDQ=";
   };
   chill-autocorrect = {
     owner = "ling1984";
@@ -8914,6 +9022,12 @@
     version = "1.0.13";
     hash = "sha256-YBHvU3Y5zxRx/UL0vO7kapHWs6sLqXShIJk0mZik7pw=";
   };
+  claudius-chat = {
+    owner = "benjmin-r";
+    repo = "obsidian-claudius-chat";
+    version = "0.1.1";
+    hash = "sha256-dnAAYf0jfXsV7015HCT4YtZ1du5qj13/gOOjw3Lq7uY=";
+  };
   clean-ai-paste = {
     owner = "goslowpoke168";
     repo = "obsidian-clean-ai-paste";
@@ -9129,6 +9243,12 @@
     repo = "obsidian-clipper-catalog";
     version = "1.3.1";
     hash = "sha256-GkxSILJJh0oEeMgioi9yK8icmmUAYGMKTV7hijh0thA=";
+  };
+  clippermaster = {
+    owner = "aqeja";
+    repo = "ClipperMaster-for-Obsidian";
+    version = "0.1.10";
+    hash = "sha256-6QsM7hNUi7bgXu6yYLQyYw+vWpBnufBu0UnniIu091E=";
   };
   clipping-note = {
     owner = "brightwav3";
@@ -9985,8 +10105,8 @@
   collis = {
     owner = "r529";
     repo = "collis";
-    version = "2.0.0";
-    hash = "sha256-gQckaUwlsIakGob6yhuiurmtgOsRyIDm7ET5amASRwE=";
+    version = "2.0.1";
+    hash = "sha256-FII6V2wEN30MkwgGgla+Ky1TmtrU5u59Ii6W0GHe+/Y=";
   };
   colloquy = {
     owner = "yoitsrdl";
@@ -10165,8 +10285,8 @@
   column-flow = {
     owner = "jakimcikas";
     repo = "obsidian-column-flow";
-    version = "0.1.5";
-    hash = "sha256-0kzs7iBm1LzKoyfNPgHl3keTkhr0hKGleL+TlQc5LW8=";
+    version = "0.1.6";
+    hash = "sha256-TSTUdwJarfAiAuhI+Ac312JfGg/3SXR5ozfMqM01bcM=";
   };
   columns-callout = {
     owner = "reiuyuu";
@@ -10191,6 +10311,12 @@
     repo = "Combo-Colors";
     version = "1.4.2";
     hash = "sha256-dnUdk8YSdbI6fOAGBt9zXBhFWpDM9Zc88brLOv+GtYo=";
+  };
+  come-down = {
+    owner = "mntno";
+    repo = "obsidian-come-down";
+    version = "1.2.1";
+    hash = "sha256-N1enG53ibwqdHFzFmyxPHvIbGSREg16Z71IpjjwO5aA=";
   };
   come-gither = {
     owner = "kaleho";
@@ -10221,6 +10347,12 @@
     repo = "Command-Center";
     version = "1.11.1";
     hash = "sha256-mw6aKIYQVpbiy85CIsbfDFAJDFe5y8H4utLMONzbP0M=";
+  };
+  command-line = {
+    owner = "sstallion";
+    repo = "obsidian-command-line";
+    version = "1.2.0";
+    hash = "sha256-SV5e6XpJpz2Tnrdx4ATrrRj/L9AKG+JGTxGVHuE9ztU=";
   };
   command-tracker = {
     owner = "namikaze-40p";
@@ -10342,6 +10474,12 @@
     version = "1.1.1";
     hash = "sha256-V7WpLfKD6thg8apY5KYIYUIIOIAw63lqJyJrCr4ViIk=";
   };
+  components = {
+    owner = "rainpour";
+    repo = "obsidian-components";
+    version = "0.12.1";
+    hash = "sha256-nJ2eL6FU0AXj9C9QnHGH1AxD1wapzbmWmensMhejDlo=";
+  };
   components-lib-downloader = {
     owner = "raven-pensieve";
     repo = "obsidian-components-lib-downloader";
@@ -10359,6 +10497,12 @@
     repo = "composition-mode";
     version = "1.2.5";
     hash = "sha256-qEqrhubxbEDZFXSdr6EIQtdxkYYuXwYuVatno7nzVJ8=";
+  };
+  compress = {
+    owner = "networkmastered";
+    repo = "obsidian-compress";
+    version = "1.2.5";
+    hash = "sha256-YcF+/zd1CInuNZGPWcPFea8Y54jT39ds3tTD5Q7BTWQ=";
   };
   compress-image-webp = {
     owner = "bjornclauw";
@@ -10489,8 +10633,8 @@
   confluence-integration-plus = {
     owner = "flyxhub";
     repo = "obsidian-integration-plus";
-    version = "1.2.11";
-    hash = "sha256-taZVAa8aYmoDr3Uu/kLmb15GWFA0jMdWxx7Wd44Q/1Y=";
+    version = "1.3.0";
+    hash = "sha256-pDgEGViKz4lAT1TJ1qqvfIUHA9bXJq7FslP6893AZ14=";
   };
   confluence-link = {
     owner = "BungaRazvan";
@@ -10641,6 +10785,12 @@
     repo = "contact-note";
     version = "2.3.0";
     hash = "sha256-qmtzMIuSdikVNP7jhjIF4RXTXgyU7u85kw7NX9jYRAU=";
+  };
+  contemporary-theme-settings = {
+    owner = "jsmorabito";
+    repo = "obsidian-contemporary-theme-settings";
+    version = "0.1.0";
+    hash = "sha256-j+JNClRXNrKAaG31RV1lujp/XKjhJimE325adKXPMsk=";
   };
   content-addressed-attachments = {
     owner = "natescarlet";
@@ -10885,8 +11035,8 @@
   cookbook = {
     owner = "edherrick";
     repo = "obsidian-cookbook";
-    version = "1.0.2";
-    hash = "sha256-PHDTyQ1QNW82aL7N+3GbTmLdX2F+KW/SA1HntW0XW8Q=";
+    version = "1.0.3";
+    hash = "sha256-V3JD3VFtoqJ9rLhxREaU09z6p5lxQ0+7MqMlO2wCIAM=";
   };
   cooking-navigator = {
     owner = "jareika";
@@ -11005,8 +11155,8 @@
   copy-as-latex = {
     owner = "mo-seph";
     repo = "obsidian-copy-as-latex";
-    version = "0.1.9";
-    hash = "sha256-4eXA1F9HbdtLZBwVhTAlZ4k8sgrgy17AaiJUQQhqqJM=";
+    version = "0.1.10";
+    hash = "sha256-6DBU1alLVrdQIbemyvLCeXEhY9ijbeGs5sGv6xfn1G4=";
   };
   copy-as-note = {
     owner = "lyqed";
@@ -11127,6 +11277,12 @@
     repo = "obsidian-copy-linked-file";
     version = "1.0.1";
     hash = "sha256-zSRfIqnlkcWTa4k8hBO8SYNxR2tGndzoU1JH+01RUMM=";
+  };
+  copy-local-graph-paths = {
+    owner = "0melette";
+    repo = "copy-local-graph-paths";
+    version = "1.0.1";
+    hash = "sha256-EGBjDlpzMVZqefwANN0EkophFuWTZ8a6g0v2InR1dL0=";
   };
   copy-markdown-source = {
     owner = "mit-bach";
@@ -11404,6 +11560,12 @@
     version = "1.0.0";
     hash = "sha256-ZVkfCJVzs4doRVwQrp7lVlqh8ka9s/gfYRZAE+SgW5o=";
   };
+  countdown-to = {
+    owner = "guicattani";
+    repo = "obsidian-countdown-to";
+    version = "1.6.0";
+    hash = "sha256-hAljidbEiIqpuQRLW7XF0f07Xre6VtksHPzpFN3j5Lw=";
+  };
   courier = {
     owner = "ah-yu";
     repo = "courier";
@@ -11509,8 +11671,8 @@
   crawl-mapper = {
     owner = "matalina";
     repo = "obsidian-crawl-mapper";
-    version = "0.1.0";
-    hash = "sha256-8FHnU1w/xD61+QAgFRgRAUlDrCasDiVTAbeo5j29UPE=";
+    version = "0.1.1";
+    hash = "sha256-mgqCniq5xD79Jw9+2iIuytMSrjcv1tXn0Pp0FH3F6pM=";
   };
   creases = {
     owner = "liamcain";
@@ -11619,6 +11781,12 @@
     repo = "crossbow";
     version = "1.4.0";
     hash = "sha256-5hIBOJdWvXxvhuj0aqii/VGxDfDkVmnWncTlu+Cjl34=";
+  };
+  crosslink-advanced = {
+    owner = "d7sd6u";
+    repo = "obsidian-crosslink-advanced";
+    version = "1.0.3";
+    hash = "sha256-X/xJqR5PnKYRCe+FxIbmC+0hqw25jRZHT2bZL+xjDbw=";
   };
   crumbs-obsidian = {
     owner = "tgrosinger";
@@ -11836,6 +12004,12 @@
     version = "0.7.2";
     hash = "sha256-XzhcQ3HipHI1QJMQJoZ4CaE9lUHGn3Q2hcdikPXlpC0=";
   };
+  cubox-sync = {
+    owner = "olcubo";
+    repo = "obsidian-cubox";
+    version = "1.0.7";
+    hash = "sha256-UinH7m459AE3SjoDmgPlyzOGhE6qlbL8pM2TICu4YPM=";
+  };
   culebra-ai-spell-correct = {
     owner = "tutivsoft-com";
     repo = "Culebra-Obsidian-AI-Auto-Correct-Spelling";
@@ -11845,8 +12019,8 @@
   cult-canvas = {
     owner = "saneety";
     repo = "cult-canvas";
-    version = "0.1.1";
-    hash = "sha256-c7JobMh6xDOaJFjiX8x6z34AzZ5JR6vqfwTFJx2JKgU=";
+    version = "0.2.1";
+    hash = "sha256-Ote7Q91jEYDAgh6s9UE4U5lb9itSMZdp7WMm+o7ZObg=";
   };
   cumulus-sync = {
     owner = "q-sn";
@@ -11931,6 +12105,12 @@
     repo = "cursor-navigator";
     version = "1.0.1";
     hash = "sha256-pkIF5ptn6T6WQVoxMdWuq4c6slPJfVH9ZJW6/yJCRno=";
+  };
+  cursor-position-history = {
+    owner = "fgubler";
+    repo = "obsidian-cursor-position-history";
+    version = "1.4.0";
+    hash = "sha256-U6gyf0W1BxK4QD3okAC9buojiQE7fZpHyqddYvh/9rU=";
   };
   cursor-position-on-title-enter = {
     owner = "chaintng";
@@ -12139,8 +12319,8 @@
   custom-theme-studio = {
     owner = "gapmiss";
     repo = "custom-theme-studio";
-    version = "1.7.30";
-    hash = "sha256-CsH5+YwRloFA/bgTpjNbz5XBIq+m3GGwT0bALDh0Uac=";
+    version = "1.7.32";
+    hash = "sha256-cE6KC9zBOy4HHHCrU66I7XugBIgqDw8sEeaVL3a6mqE=";
   };
   custom-translate = {
     owner = "liwbcraft";
@@ -12235,8 +12415,8 @@
   da-tool = {
     owner = "sots1689";
     repo = "DA-Tool";
-    version = "0.2.40";
-    hash = "sha256-mkFI1i6wEXUVmwV5sEgWrcOZhUklZYWRB8MKZf4vfh0=";
+    version = "0.2.41";
+    hash = "sha256-zo5SC09CuxtGURGs1DAVfKfULuOacsgJIl1hMZKFbnY=";
   };
   dagens-ord = {
     owner = "kouge0510";
@@ -12357,6 +12537,12 @@
     repo = "daily-nav";
     version = "1.1.4";
     hash = "sha256-QfurCGSOXk9ON2jXTE+PD1MmqSQGiyzclXwRN7X6Od4=";
+  };
+  daily-news-briefing = {
+    owner = "chenziqiadam";
+    repo = "Daily-News-Briefing";
+    version = "1.13.4";
+    hash = "sha256-Dj0unOK3yHf2XP5ypSJyWIl6d/7UmIOGXpGe1L6NEzY=";
   };
   daily-note-automater = {
     owner = "davidpedrero";
@@ -12718,6 +12904,12 @@
     version = "9.0.1";
     hash = "sha256-fhI5cyvQfSY0Zsy7YpjLRRps1WdLlCOlqUuw3B57WoE=";
   };
+  data-fetcher = {
+    owner = "qf3l3k";
+    repo = "obsidian-data-fetcher";
+    version = "1.3.0";
+    hash = "sha256-+oEuIxSBwWB5Pqvam9urkQnawq8SAxP0ocMzttSAtNI=";
+  };
   datacharts = {
     owner = "jcf-402";
     repo = "datacharts";
@@ -12825,6 +13017,12 @@
     repo = "date-property-alerts";
     version = "1.2.3";
     hash = "sha256-832Y8Dl0fOMAyy94YEopFUXxok/cC3yQ4DAcCM5qDxk=";
+  };
+  date-range-expander = {
+    owner = "mildeveloper";
+    repo = "obsidian-date-range-expander";
+    version = "1.0.2";
+    hash = "sha256-QPsyxvA4fBWnIQhG3/oQ3Wc02NIlEouIzcsFpB9DNQ4=";
   };
   date-tags = {
     owner = "bobthearsonist";
@@ -13059,6 +13257,12 @@
     repo = "Deadline-Countdown";
     version = "1.0.2";
     hash = "sha256-rEmDL6k5kYcy6/y2vf0118d0ecIMQa5bDfa0ecUl8+k=";
+  };
+  debugger-highlight = {
+    owner = "ott3r07";
+    repo = "obsidian-debugger-highlight";
+    version = "0.1.1";
+    hash = "sha256-xg6xSRK728T7EBKx77GtmecB7/M94phA8oxC3poGh+k=";
   };
   decision-ledger = {
     owner = "din-es";
@@ -13477,8 +13681,8 @@
   dgmo = {
     owner = "diagrammo";
     repo = "obsidian-dgmo";
-    version = "1.38.21";
-    hash = "sha256-maAEJ7Pph22vD0mWyKBmAo3rmI4SUT1WkzHMyPgu6Gg=";
+    version = "1.38.22";
+    hash = "sha256-So74ots1MCmjidAQxinCnWpfPwf4XVOFYHLc8/J8S10=";
   };
   dgracy-application-flow = {
     owner = "dgracy";
@@ -13506,9 +13710,9 @@
   };
   diagram-zoom-drag = {
     owner = "ssentiago";
-    repo = "image-zoom-drag";
-    version = "6.3.1";
-    hash = "sha256-V8v90on4RkyJZyLqflTQDb6EGu3gosqo87D8k6H2IwQ=";
+    repo = "zoomdrag";
+    version = "6.4.0";
+    hash = "sha256-X2YHSMpzci2Bd0GhvlLV79GekyR7vlJr2UqVDKuCrCo=";
   };
   dialogue-mode = {
     owner = "patrickchiang";
@@ -13678,12 +13882,6 @@
     version = "0.6.1";
     hash = "sha256-ETRgFnTwTKTnHPdqXnpd+xasYA4rgOB8kvJDqWdShyU=";
   };
-  digital-archive = {
-    owner = "hyoyoonnam";
-    repo = "digital-archive";
-    version = "1.0.0";
-    hash = "sha256-urmJ6NB55flUueEqnvewuZAxcq0UFiERORV+P+v3f0k=";
-  };
   digital-desk = {
     owner = "zhangkaiming2579-dev";
     repo = "digital-desk";
@@ -13779,6 +13977,12 @@
     repo = "obsidian-disable-tabs";
     version = "1.0.13";
     hash = "sha256-fdmH/yEU28utNe8ULVODSfy84LiiJ0XRhh1RmUOGlGE=";
+  };
+  disciples-journal = {
+    owner = "scotttomaszewski";
+    repo = "obsidian-disciples-journal";
+    version = "1.14.0";
+    hash = "sha256-dKSs1JX6sgZcPa1WmxZcsTqguekndsE5gAm3rxNo2y0=";
   };
   discogs-cover = {
     owner = "3f3l0";
@@ -14221,8 +14425,8 @@
   domorium = {
     owner = "lavich";
     repo = "domorium-obsidian";
-    version = "1.19.0";
-    hash = "sha256-KIbz4DtHrl7LNqMjcngfrqBgqDcs8vkaocv4GFPkO5g=";
+    version = "1.20.0";
+    hash = "sha256-p9cMpzA0Gwh+I/gwnGB3B84aU7IF2lgrKJAY3qAk8z0=";
   };
   doms = {
     owner = "sirhobby";
@@ -14275,8 +14479,8 @@
   dot-kanban = {
     owner = "deepika-public";
     repo = "dot-kanban";
-    version = "0.8.0";
-    hash = "sha256-uSgQcG2cGWIBMiBtEnWZB6nS5/NxS7d9RooppDhx+tI=";
+    version = "0.9.0";
+    hash = "sha256-la4/jWP1ZrG9WqcQzHlUdc90N0sUpkzJm+4C3Bfi1TU=";
   };
   dot-navigator = {
     owner = "jeansordes";
@@ -14644,6 +14848,12 @@
     version = "1.0.1";
     hash = "sha256-RkoaJDzoXfusVHxlxnAfDBAmDRH0iIuz0hKZ9b9mjY0=";
   };
+  dropbox-photo-grid = {
+    owner = "alimoeeny";
+    repo = "obsidian-dropbox-photo-grid";
+    version = "1.0.8";
+    hash = "sha256-Peju5bgEa2YX1TqitD5AAjPhFxEd8Giu1HbTeaZ0GjA=";
+  };
   dropbox-vault-sync = {
     owner = "lau32";
     repo = "dropbox-obsidian-sync";
@@ -14803,8 +15013,8 @@
   duoai-assistant = {
     owner = "sxpwx";
     repo = "obsidian-ai-assistant";
-    version = "1.0.2";
-    hash = "sha256-6Ku067oKopRpZ7Wp8XX6FXg/mLGLc/CfTB3yT6btKvg=";
+    version = "1.0.3";
+    hash = "sha256-zVzLLIH19KFgcc7SAp8ZAdG7Bk1JBmJQnGgrReviwTY=";
   };
   duowei-table = {
     owner = "jepicaju862-lab";
@@ -15115,8 +15325,8 @@
   easy-tikz = {
     owner = "saiki77";
     repo = "easy-tikz";
-    version = "5.2.2";
-    hash = "sha256-bUKNKVbIoqJNwrhkNr/8FptgO3p0TVbFq3qyIUB9/wA=";
+    version = "5.2.4";
+    hash = "sha256-x0ggnDdUnGxmazQ8AQrBipFEmnGZlOpAoJ2LCF1XiBk=";
   };
   easy-timeline = {
     owner = "romelium";
@@ -15743,6 +15953,12 @@
     version = "1.1.19";
     hash = "sha256-hwq4cPXLNSZkpUYYjjMKpyFIIjJJ0YgfpShNMERgqvQ=";
   };
+  enchartix = {
+    owner = "true-ed";
+    repo = "enchartix";
+    version = "1.0.3";
+    hash = "sha256-zp8X5zYwhJe9Wn1/ogOAwfBIDzrdKH7FPma0HlooxPk=";
+  };
   enclave = {
     owner = "flo-wolf";
     repo = "obsidian-enclave";
@@ -15872,8 +16088,8 @@
   engram-quest = {
     owner = "bahfahh";
     repo = "engram-quest";
-    version = "2.0.4";
-    hash = "sha256-YIpGwZCRYW7SY2zCofnWeyXcWD32q/cFLlgy743Yn24=";
+    version = "2.0.6";
+    hash = "sha256-GiOePexWM5wGaKSY5qAoWue6/mJ6H58NAuRhittGuOY=";
   };
   engram-vault-sync = {
     owner = "engram-app";
@@ -15908,8 +16124,8 @@
   enhanced-canvas = {
     owner = "robertttbs";
     repo = "obsidian-enhanced-canvas";
-    version = "1.0.39";
-    hash = "sha256-5O8QFXAmiJH0W1RJb6cG2DMqMSlE28SFRoHL6zN7Ukg=";
+    version = "1.0.40";
+    hash = "sha256-897ZLocXij078Q4wSL5zdAkKIZ2CRqse0WR50+WUoN8=";
   };
   enhanced-copy = {
     owner = "mara-li";
@@ -16106,8 +16322,8 @@
   epxsc-syntax = {
     owner = "shir0tak1na";
     repo = "EpXsC-Syntax";
-    version = "2.0.0";
-    hash = "sha256-oT+g/umAwIiko2sMjHy8yMXftoAyTni3TPXqmDQaiyA=";
+    version = "2.3.0";
+    hash = "sha256-LkhmywedG6wdlBrJ1Y1GQN8wFYB/qwZsIlXRc93CgvM=";
   };
   equation-citator = {
     owner = "friedparrot";
@@ -16496,8 +16712,8 @@
   exo-agent = {
     owner = "mariomile";
     repo = "obsidian-exo-agent";
-    version = "0.51.0";
-    hash = "sha256-J0GKnI9GNodiOzX499OCMx8Czdb2D4DGSBIsul56czw=";
+    version = "0.51.1";
+    hash = "sha256-eJzibXJ1Acw0iMoAVe0y7eu9wH06IexVdCne/G23pbE=";
   };
   expand-selection = {
     owner = "atait";
@@ -16649,11 +16865,23 @@
     version = "0.2.2";
     hash = "sha256-UTyu3J/RLHtqJ/fZv0Ew6hfN5DAfwRe1ds6jlIAM3PU=";
   };
+  export-as-markdown = {
+    owner = "frankcrc";
+    repo = "obsidian-export-plugin";
+    version = "0.0.3";
+    hash = "sha256-709iFvlVona0k9Lf3a4qKEnYrgrWFovWWlNOwEY9ASU=";
+  };
   export-folder-to-zip = {
     owner = "radixtenshi";
     repo = "obsidian-export-folder-to-zip";
     version = "1.0.4";
     hash = "sha256-zWtl+fJRIhM7+v7ZS0f2XCZHi353cnnxGgWPfaSv8KI=";
+  };
+  export-graph-view = {
+    owner = "seantiz";
+    repo = "obsidian_egv_plugin";
+    version = "1.2.2";
+    hash = "sha256-jya2eqS8c2vYdBbYEqymuZ2WWTyfSX+b6/zrXTwqe0Q=";
   };
   export-ics-schedule = {
     owner = "lindongyan1992";
@@ -16732,6 +16960,12 @@
     repo = "obsidian-extended-file-support";
     version = "1.4.1";
     hash = "sha256-F84LoQ6WYOCeN2UCF4dP3CvlKCfwZQmW2b7yKw7Z7Mg=";
+  };
+  extended-graph = {
+    owner = "elsatam";
+    repo = "obsidian-extended-graph";
+    version = "2.7.7";
+    hash = "sha256-mVWtI8odM3s1BKepsYNjWpemUhBYKDvxeUORgvFMFDc=";
   };
   extended-headings = {
     owner = "obsidiest";
@@ -16916,8 +17150,8 @@
   fakecard = {
     owner = "godfatherlg";
     repo = "fakecard";
-    version = "1.0.18";
-    hash = "sha256-EAWSBJeMTiFc5yI/9LbKfDX9fWELyEqQbxU5r8qTSPQ=";
+    version = "1.0.23";
+    hash = "sha256-6NhV6RTlN4sOJ0vY/5bvYuEc/DD1XOv+U/vKvkxZitg=";
   };
   fakelink = {
     owner = "godfatherlg";
@@ -17098,12 +17332,6 @@
     repo = "obsidian-feed-bases";
     version = "0.2.0";
     hash = "sha256-KoOhHYfrx+vEet9ElRADc0ES3U/ZuWdOskqoctuxO4E=";
-  };
-  feedly-annotations = {
-    owner = "fleker";
-    repo = "feedly-for-obsidian";
-    version = "1.6.7";
-    hash = "sha256-loOyuvX7ce252ry+n4yL9k9yyrcFgjCqYsA7THYl9HI=";
   };
   feeds = {
     owner = "lukemt";
@@ -17597,6 +17825,12 @@
     version = "0.1.2";
     hash = "sha256-o/0M8Qwz495+lmvNczuRgtMwG2Zg712ykCvZRapnkCQ=";
   };
+  file-title-updater = {
+    owner = "wenlzhang";
+    repo = "obsidian-file-title-updater";
+    version = "0.6.1";
+    hash = "sha256-UGv8xEU67yiPEYyOe+WvWoeeShUl5rB3++G8/HRlQ7g=";
+  };
   file-to-code-block = {
     owner = "medusero";
     repo = "file-to-code-block-obsidian-plugin";
@@ -17708,8 +17942,8 @@
   filtered-file-commands = {
     owner = "jsmorabito";
     repo = "obsidian-note-types";
-    version = "1.18.0";
-    hash = "sha256-MoeREm5DaPQ8Y8tES/JOU5air6iiPDGiBrOvwjBnk20=";
+    version = "1.18.1";
+    hash = "sha256-OoTkG++Jsij66gtCnldaai6fmQ2HetBx8hCWhHjZAxU=";
   };
   filtered-opener = {
     owner = "balibaloo";
@@ -17834,8 +18068,8 @@
   finenotes = {
     owner = "joost-8";
     repo = "FineNotes";
-    version = "2.9.1";
-    hash = "sha256-bvVRW8JCrMBt/eb37/rubzF60GjXyzSoB8LCSXGt31U=";
+    version = "2.10.0";
+    hash = "sha256-rWpahqre0Z3vAucP9V9LydlWMbVtBChuJqzSX9+OcuE=";
   };
   fingerprint-lock = {
     owner = "alexpazzy";
@@ -18225,8 +18459,8 @@
   floor-notes = {
     owner = "ashenashes";
     repo = "floor-notes";
-    version = "1.5.1";
-    hash = "sha256-5NczKBQya74dDxWtLBlnQj+d9ZF0WB+dkerV6+G44hY=";
+    version = "1.6.0";
+    hash = "sha256-t9KDKhs95zwZZVyruL/PucyDXhvTXZvo7UWKKmpNwMg=";
   };
   flora = {
     owner = "paranoaidev";
@@ -18288,12 +18522,6 @@
     version = "1.0.0";
     hash = "sha256-UMHvAs0MbPQ5+W4fdarmqv4hfwzLrxFhs6CUJUGgICY=";
   };
-  flowershow = {
-    owner = "flowershow";
-    repo = "obsidian-flowershow";
-    version = "4.2.3";
-    hash = "sha256-tRNXo2pLupRbhGEK4sw/lwcE/9sgjfwHl/PMUukVQ+Y=";
-  };
   flowkit-health-dashboard = {
     owner = "israerusan";
     repo = "flowkit-health-dashboard";
@@ -18305,12 +18533,6 @@
     repo = "FLOWnote";
     version = "0.6.1";
     hash = "sha256-kRsLvZGuNvK0dYN/10goFUK2xFBdBH4XWziENsfHmsA=";
-  };
-  flowscript-diagrams = {
-    owner = "kilrkrow";
-    repo = "flowscript-for-obsidian";
-    version = "0.1.1";
-    hash = "sha256-QiovqW4SF+xDJ0dhg8V8NX3wktwGANmLbtD/hit92Hw=";
   };
   flowtaker-inbox = {
     owner = "reit5667";
@@ -18744,6 +18966,12 @@
     version = "0.2.3";
     hash = "sha256-MzeYsasEClaDiiUAjMZ1M8KbBe7z3v6/D6TOL6bzos0=";
   };
+  folder-navigator = {
+    owner = "wenlzhang";
+    repo = "obsidian-folder-navigator";
+    version = "0.5.0";
+    hash = "sha256-BwKWOpJHbbF1HAmB1VGmRqV9yd5/DSiMMWYFkjtIbGM=";
+  };
   folder-new-note-button = {
     owner = "wuhup";
     repo = "obsidian-folder-new-note-button";
@@ -18963,8 +19191,8 @@
   folia-kanban = {
     owner = "stavarengo";
     repo = "folia-kanban";
-    version = "0.7.0";
-    hash = "sha256-8IPvRTIW4rnQbXrk+nCZSEE87VzwnxFNWxwWJYvch8s=";
+    version = "0.8.0";
+    hash = "sha256-SB9HtkRk8KxEqdGaps+PxCnVZN+tIgMFQtcaQ9TTdqQ=";
   };
   folio = {
     owner = "danigarvire";
@@ -19617,8 +19845,8 @@
   game-shelf = {
     owner = "tetsuya-dev-jp";
     repo = "obsidian-game-shelf";
-    version = "1.0.3";
-    hash = "sha256-lxlFi4Wncf+iJD4PMT8PHZPxsMgBBmBsA3IZe5pv4BI=";
+    version = "1.1.3";
+    hash = "sha256-eT72nl1UQK8JScg9AJrcMMYIkTK8uS8L23jxyI7OeZc=";
   };
   game-timers = {
     owner = "pjeurien";
@@ -19637,6 +19865,12 @@
     repo = "obsidian-game-search";
     version = "1.0.4";
     hash = "sha256-YytzN4dfvhgP0MNu3zOt3tdqLvfmqNOm7JaliDQI30U=";
+  };
+  gamebook-press = {
+    owner = "live-to-role";
+    repo = "gamebook-plugin";
+    version = "0.4.3";
+    hash = "sha256-kZ9PA2GHXZY5TOjXpjKvPVvCviVVCATZDWPGYtS9jrA=";
   };
   gamified-pkm = {
     owner = "saertna";
@@ -19671,8 +19905,8 @@
   gantt-this = {
     owner = "altarok";
     repo = "gantt-this";
-    version = "1.7.5";
-    hash = "sha256-ANtxilLZPUmiBtiPYwELesHzpydYt5+uolbPtP6DAyg=";
+    version = "1.7.6";
+    hash = "sha256-7GPTOO8RpQTK8J4O8SSWS0cN9FH/3vprpodsgIsGJH8=";
   };
   gantt-tracker = {
     owner = "surranov";
@@ -19827,8 +20061,8 @@
   gemini-helper = {
     owner = "takeshy";
     repo = "obsidian-gemini-helper";
-    version = "1.26.5";
-    hash = "sha256-DtT+OhydlICumj5VlB06oLK4Cl53nODZ3CnW0fLAMRo=";
+    version = "1.26.8";
+    hash = "sha256-er0rCUY/7XpURW55Yr0dnjo+DsOmaKB+mBhQRmAVgFo=";
   };
   gemini-notebooklm = {
     owner = "justanotherjurastudent";
@@ -20136,6 +20370,12 @@
     version = "1.7.1";
     hash = "sha256-lWthLGhscX9OIBEVK4JeRDjxV9Lj0ftASFly+KMuSBw=";
   };
+  git-changelog = {
+    owner = "shumadrid";
+    repo = "obsidian-git-changelog";
+    version = "0.6.0";
+    hash = "sha256-dFsaxPyIWMUJwwelBILISIEPCPktG8cW0NGIDrmVWc0=";
+  };
   git-commands = {
     owner = "dimanchello";
     repo = "obsidian-git";
@@ -20334,6 +20574,12 @@
     version = "0.3.1";
     hash = "sha256-sErJfaAYhGSeTUZJUo4Qs+zj8d1YZXuBnvrxnOfy7Bk=";
   };
+  github-gitless-sync = {
+    owner = "silvanocerza";
+    repo = "github-gitless-sync";
+    version = "1.0.7";
+    hash = "sha256-kICkHAgNIvchx6on0MCuc8dpmVkoxuVPXNQBPRU0j/I=";
+  };
   github-image-host = {
     owner = "rockychang7";
     repo = "obsidian-github-image-host";
@@ -20430,6 +20676,12 @@
     version = "0.1.4";
     hash = "sha256-/ZtBhZGkuk2aalqngC7fUxTDlN3c30YJ8Zg9sk3pC6U=";
   };
+  github-stars = {
+    owner = "flyingnobita";
+    repo = "obsidian-github-stars";
+    version = "1.5.2";
+    hash = "sha256-ydMktY8x7RXgjpwZ3A4c4n9yHZSqtqyN75j8BoU1k5U=";
+  };
   github-stars-manager = {
     owner = "embersparks";
     repo = "obsidian-github-stars-manager";
@@ -20459,6 +20711,12 @@
     repo = "obsidian-github-tasks";
     version = "1.1.0";
     hash = "sha256-DwOp9+iNDFYgVUg+MZIg0/mp6TTpR7A1pUNuC/x/JPw=";
+  };
+  github-tracker = {
+    owner = "schaier-io";
+    repo = "obsidian-github-tracker-plugin";
+    version = "1.2.0";
+    hash = "sha256-7mEjtcf/rShyGUW6096WuNX1yW0gf2ngplVHWcQjLJQ=";
   };
   github-vault-relay = {
     owner = "ankhang0704";
@@ -20817,20 +21075,20 @@
   gogoga-mindmap = {
     owner = "jackweigogoga";
     repo = "gogoga-mindmap";
-    version = "0.80.0";
-    hash = "sha256-RjgnIZpbfkmsSaTRIYkH6Gnn1QNC+ZzzppWyVgcVp+c=";
+    version = "0.86.0";
+    hash = "sha256-NVs1H4wQ05GYj5XXUcNXAXhyR3nNsQWfL60F8RrM9RI=";
   };
   gogoga-outline = {
     owner = "jackweigogoga";
     repo = "gogoga-outline";
-    version = "0.8.1";
-    hash = "sha256-rmE0xz9/MVryToTBT/Lr+DxlYy0TSqBtOHXTQgYfWF0=";
+    version = "0.9.0";
+    hash = "sha256-vk587WoanIdJ+VlXLCBs7Y/MBzIRWRdDwr937BA0FWM=";
   };
   gogoga-table = {
     owner = "jackweigogoga";
     repo = "gogoga-table";
-    version = "0.17.5";
-    hash = "sha256-hNM59o6CTz+IDd/D/xRK4H8SWcBXsNLLQ8nbdFSYiwo=";
+    version = "0.18.0";
+    hash = "sha256-hCoOFNwy3qQI/VcMGmwFcHoZVdcoN48ZiXkWQ1mtIJs=";
   };
   goko = {
     owner = "artem-levchenko-2";
@@ -21135,8 +21393,8 @@
   granola-sync = {
     owner = "og-sync";
     repo = "obsidian-granola-sync";
-    version = "3.0.2";
-    hash = "sha256-IbxXpomyd9blWMr/O4Y0+LdpJVuNZuhCrBk7ffA5vmw=";
+    version = "3.0.3";
+    hash = "sha256-afrSf7+0tv0f4lFkwyAZp6RN9UsvJwOXOZoFHp6Izvo=";
   };
   granola-sync-plus = {
     owner = "dannymcc";
@@ -21171,8 +21429,8 @@
   graph-color-legend = {
     owner = "4-humans";
     repo = "graph-color-legend";
-    version = "2.0.1";
-    hash = "sha256-EbbaMuwgJd7s8zkOIcM07opXnek4sagbP8vMecGS8HU=";
+    version = "2.1.1";
+    hash = "sha256-2ouKnxMJpGdww47klF8vEnkpq9t11cKEDXI5vUZdJUw=";
   };
   graph-color-propagation = {
     owner = "tacitustus";
@@ -21393,8 +21651,8 @@
   graphfrontier = {
     owner = "pikiby";
     repo = "GraphFrontier";
-    version = "0.9.1";
-    hash = "sha256-uO9fUULiMeoSvoT0fpolHAEOn0QBxTXuj2exLbI0p9k=";
+    version = "0.9.2";
+    hash = "sha256-hOSbqxoNXw/BWSFL2qHPOVVEWt2dKz1g/vghw0Iy0/k=";
   };
   graphic-organizer = {
     owner = "nickfreedom";
@@ -21411,8 +21669,8 @@
   graphite-sync = {
     owner = "omaryazeedi";
     repo = "graphite-sync";
-    version = "0.6.0";
-    hash = "sha256-Mp1qmY6L8CgggtoDjjoP+pTHi/FOGedTcbJ6eDNQseY=";
+    version = "0.6.10";
+    hash = "sha256-r55p9Ba/lXHvR8FMDudSwYfs/3qBKL5ZjFGeT8REZCs=";
   };
   graphs = {
     owner = "DylanHojnoski";
@@ -21557,6 +21815,12 @@
     repo = "ObsidianGSync";
     version = "1.1.0";
     hash = "sha256-ETDdr9yoQFPw8Gik1en8qnUuJxcKRlUiWsSnIG2QOyc=";
+  };
+  gsync-teams = {
+    owner = "dg0988";
+    repo = "ObsidianGSyncTeams";
+    version = "1.0.0";
+    hash = "sha256-91zcCmdKB32el6uR4cXxfc75Vd2AwblesMKey1GPON4=";
   };
   gtc-sync = {
     owner = "etudes-informatiques-et-services35";
@@ -21879,8 +22143,8 @@
   handnote = {
     owner = "pilgrimagecoding";
     repo = "obsidian-handnote-public";
-    version = "0.12.1";
-    hash = "sha256-tfxN9tnFIvMB95GHk9ce8PZC+si/O2L7IRd6LeVYkNc=";
+    version = "0.12.3";
+    hash = "sha256-3bTvu31KdoJ1FW2JgYBuj/O5Se9zeSTbrn9JdBT/Z2o=";
   };
   handwriting = {
     owner = "ellimist-afk";
@@ -21927,8 +22191,8 @@
   handwritten-notebook = {
     owner = "otho-dll";
     repo = "Obsidian-Handwriting";
-    version = "3.16.5";
-    hash = "sha256-HpNKPEwYoUZ4ezvi31EjGd8xj40DU+qxvHS7F2YwijQ=";
+    version = "3.17.1";
+    hash = "sha256-tssqu9se18lz/wZE+3Fn/UweA3XLoFtUQMAph6OPjMM=";
   };
   handwritten-notes = {
     owner = "fbarrca";
@@ -22182,6 +22446,12 @@
     version = "1.0.14";
     hash = "sha256-rRWgFgVYfjR82oFeroITmaAIMqpU32Z23GCIQlsc37A=";
   };
+  heading-decorator = {
+    owner = "dragonish";
+    repo = "obsidian-heading-decorator";
+    version = "3.1.2";
+    hash = "sha256-fHEuwKj9c/iRGrjYac4S2yZp1jnQBueG9yIJnt3divI=";
+  };
   heading-guard = {
     owner = "nnq7";
     repo = "obsidian-heading-guard";
@@ -22377,8 +22647,8 @@
   hedgesync = {
     owner = "tionis";
     repo = "obsidian-hedgesync";
-    version = "0.4.0";
-    hash = "sha256-mCvHrkN2u+MhoWp5QwBrNVTO7j5YIVhIuIpS6WS2bHk=";
+    version = "0.5.0";
+    hash = "sha256-E9iTC5ObWVQyBh+b/dAR6MotrlfY2XOW3lSTSAARXVM=";
   };
   heic-viewer = {
     owner = "kiaraorq";
@@ -22545,14 +22815,20 @@
   hexwright = {
     owner = "wickedcreativesystems";
     repo = "hexwright";
-    version = "0.1.4";
-    hash = "sha256-DsiELXyb7Z7Q3jJmGNbbyX/5AwPJjBVqD3pz63x6i/U=";
+    version = "0.1.7";
+    hash = "sha256-eOGbvhgnfh511XbBrTOV03Havso8xJOAjA7VvvfezKw=";
   };
   heycalmdown-navigate-cursor-history = {
     owner = "heycalmdown";
     repo = "navigate-cursor-history";
     version = "1.1.0";
     hash = "sha256-N77afw2wa1wVSk6zb5BIciRkbv7/n5BtrHyG6suWjYQ=";
+  };
+  hi-note = {
+    owner = "catmuse";
+    repo = "HiNote";
+    version = "0.6.1";
+    hash = "sha256-dTtmXk/RGCUIP9WnaOEqXM4NrD2n2E96oHVhtDtsTdU=";
   };
   hi-words = {
     owner = "catmuse";
@@ -22620,6 +22896,12 @@
     version = "1.0.1";
     hash = "sha256-zQZF/THCYMjLExm426LspLZ3kmFxnMOZFxKxdHnEA8o=";
   };
+  hide-index-files = {
+    owner = "d7sd6u";
+    repo = "obsidian-hide-index-files";
+    version = "1.0.2";
+    hash = "sha256-IJavS+mZxIufLDzSHeUvdOeDnmYLjwhb9gmCF/kPsr8=";
+  };
   hide-sidebars = {
     owner = "hasanyilmaz";
     repo = "hide-sidebars";
@@ -22674,11 +22956,17 @@
     version = "1.5.3";
     hash = "sha256-6CdDwHTv8qCKkILSKIPD8O5FZTjGaum0N+/BQIKwHcI=";
   };
+  highlight-annotations = {
+    owner = "katananananna";
+    repo = "highlight-annotations";
+    version = "1.0.0";
+    hash = "sha256-KZe4mI0/K6H4asq8a2X3h6rtRZLSOyHWKkduNC/mgWQ=";
+  };
   highlight-boost = {
     owner = "danlingdan";
     repo = "highlight-boost";
-    version = "1.0.1";
-    hash = "sha256-3IgZ0iWfEFgQoCOSEaLFVT4Z73uHy2wePA4k56lcmDY=";
+    version = "1.1.1";
+    hash = "sha256-8YSe1rmw/f3Q/PHh+OuzUD6UftCOokb/ky9NiF4R3Bs=";
   };
   highlight-helper = {
     owner = "byfun";
@@ -22731,8 +23019,8 @@
   highlighter-ink = {
     owner = "ypgrimm";
     repo = "Highlighter-Obsidian";
-    version = "1.0.4";
-    hash = "sha256-Lmy/hajACMfQ+5HN/xV6UBYQpGWFEfViqMvlr0Ae2bI=";
+    version = "1.0.5";
+    hash = "sha256-Y75rHjqMuJsQGlBo5bHMFGY8H5mV5F3zV51ZqkaS3ws=";
   };
   highlighter-plus = {
     owner = "creesee";
@@ -22791,8 +23079,8 @@
   hilighter = {
     owner = "pandorareads";
     repo = "HiLighter";
-    version = "2.8.20";
-    hash = "sha256-6EuSwbEhYC36qI6AUCyL5wdRUAYj00N5J+m2FgyDe3g=";
+    version = "2.9.0";
+    hash = "sha256-FwpgZmLCsvlpOlK2f3sRmpHe3g32OYWnDD9zckvrR7A=";
   };
   hilo = {
     owner = "opellen";
@@ -22929,8 +23217,8 @@
   homebound-webdav = {
     owner = "aurastywear3-netizen";
     repo = "homebound-webdav";
-    version = "0.2.0";
-    hash = "sha256-Gt0MWy+/iPttxXYgYmwLBFtelOkwHShq3bx2fVC4Oy8=";
+    version = "0.2.2";
+    hash = "sha256-MJsB5FYna1muVLO16HBRKpx1RtRLjCQSMeJWGs2HoaI=";
   };
   homekey-action = {
     owner = "shichishima";
@@ -23091,8 +23379,8 @@
   hover-bar = {
     owner = "saltcoffee";
     repo = "hover-bar";
-    version = "0.1.6";
-    hash = "sha256-OhgSlRZGAvSw7XYQZ1WEKdfUS916vTKfKl7pU/xFk/w=";
+    version = "0.1.7";
+    hash = "sha256-p7bOAm7n57feWSn9l+bjpGurHGXv0bS2Fv12W1RrwaM=";
   };
   hover-external-link = {
     owner = "jamiebrynes7";
@@ -23457,8 +23745,8 @@
   hwp-hands = {
     owner = "everydaymind";
     repo = "obsidian-hwp-hands";
-    version = "0.4.2";
-    hash = "sha256-+aE0/2umg1Kcofn2IfZsfzOcmNyvYi7IUeZo8psKJO8=";
+    version = "0.4.4";
+    hash = "sha256-yYxvRVoR9K+mj13NBxZRS0oRDyBEAqmF5JRAC0K1yd0=";
   };
   hwp-to-pdf = {
     owner = "kathar0s";
@@ -23721,8 +24009,8 @@
   icor-for-life-planner = {
     owner = "myicor";
     repo = "icor-for-life-planner";
-    version = "0.16.2";
-    hash = "sha256-CKyYfw+Q/a9oBmzP4hW7nhbMQ5rlLWXBoNDMwhbSKRg=";
+    version = "0.16.3";
+    hash = "sha256-X3euyHaJmW0MeQ0AyurDKi+xQQN2vj2SVZ2iv16Me94=";
   };
   icor-for-life-scaffold-check = {
     owner = "myicor";
@@ -23739,8 +24027,8 @@
   icor-for-life-terminal = {
     owner = "myicor";
     repo = "icor-for-life-terminal";
-    version = "0.2.0";
-    hash = "sha256-HvyvfbacsVY+SITUWvTLrfqRpF4gQriNComzBhbPUkE=";
+    version = "0.3.0";
+    hash = "sha256-w1YAlU3p1z2e/3T6ncJTS2NyVYrqaXo/7ps+xM2KK9Y=";
   };
   ics = {
     owner = "open-horizon-labs";
@@ -23765,6 +24053,12 @@
     repo = "obsidian-idea-vault";
     version = "2.0.1";
     hash = "sha256-e3lbc/Rh8qeTHjK4rJ8Tw3R9KMA6DU/yEukZWALMIrk=";
+  };
+  idealogs-annotator = {
+    owner = "idlgcl";
+    repo = "obsidialogs";
+    version = "1.1.7";
+    hash = "sha256-YeCNSSjiWljujWDZxkl85NLMudbJjvR97crwngqudAw=";
   };
   ideamap-sync = {
     owner = "tooonnnnyyy";
@@ -24048,6 +24342,12 @@
     version = "1.8.0";
     hash = "sha256-U4kP0qAkY3SoazkAYQaDPMZKdRMUt78wwcL50uwFBDM=";
   };
+  image-icons = {
+    owner = "pesstudios";
+    repo = "image-icons";
+    version = "1.2.0";
+    hash = "sha256-K8GXl6jDgL2nXE54aBYPoD5YH+lv+qhKaUoJ+5wtX5A=";
+  };
   image-importer = {
     owner = "ahmed-hegazi0";
     repo = "image-importer";
@@ -24147,8 +24447,8 @@
   image-paste-on-github = {
     owner = "hyoyoonnam";
     repo = "image-paste-on-github";
-    version = "1.2.0";
-    hash = "sha256-8fxDyWAdhOlv/KAemtN2Kq9/KvHbic4rBz2zroRpWKc=";
+    version = "1.2.2";
+    hash = "sha256-FwyQ7M5ufH9grmUUshGRjrHBDVkMKKB1P9GUWAR/0Lc=";
   };
   image-peek = {
     owner = "groundfic";
@@ -24197,6 +24497,12 @@
     repo = "image-rows-and-wraps";
     version = "0.1.3";
     hash = "sha256-0GbyRV0ObV7UOCCK7GWTI5p0OS6Wy5ihd8SL8R7sr1Y=";
+  };
+  image-s-three-upload = {
+    owner = "jkoor";
+    repo = "obsidian-image-s3-upload-plugin";
+    version = "5.0.3";
+    hash = "sha256-MolLBiVW+PtEwOPcm9UgvX1tiB+nkYI9zSx8qjWZHK8=";
   };
   image-scroll-gallery = {
     owner = "rainajia716";
@@ -24285,8 +24591,8 @@
   image-transcriber = {
     owner = "dsebastien";
     repo = "obsidian-transcriber";
-    version = "2.1.1";
-    hash = "sha256-88Jz46IPY3HMvajphv9n+j3z5I36E97fYmGjxvoxGRY=";
+    version = "2.2.0";
+    hash = "sha256-GmllAeSY7m7X489SkSHhmE7FUDpxKXIPCEwNIrplmrY=";
   };
   image-upload-toolkit = {
     owner = "addozhang";
@@ -24396,6 +24702,12 @@
     version = "0.1.2";
     hash = "sha256-9KfSV6Fr7Wd565vxS91hHWogR3iMCWP3/YJ/huZebmI=";
   };
+  img2html = {
+    owner = "0x1da9430";
+    repo = "img2html";
+    version = "1.1.0";
+    hash = "sha256-f+F5YtfEHNGmBCgCHmpBEKcn44WozQ0+lOkg4uPijCQ=";
+  };
   imgbb-uploader = {
     owner = "jordanhandy";
     repo = "obsidian-imgbb-uploader";
@@ -24489,8 +24801,8 @@
   important-days = {
     owner = "duany2026";
     repo = "important-days";
-    version = "1.4.3";
-    hash = "sha256-fOt/YVPr+bkICLcIMqL3km/jrtXJjL3WzWqH4lckIcE=";
+    version = "1.4.5";
+    hash = "sha256-5Wocq/U4Nibnx6yzdglkKD3H7dlNijU+Tm1jyL6w+3M=";
   };
   improved-random-note = {
     owner = "ShockThunder";
@@ -24503,6 +24815,12 @@
     repo = "obsidian-improved-random-note";
     version = "2.1.2";
     hash = "sha256-us5rh6zPM2Qq7qFkLcILKqGyPGaUk6fke38gTFSpoh8=";
+  };
+  imswitch-mathblock = {
+    owner = "cailurus";
+    repo = "imswitch_mathblock_obsidian";
+    version = "1.0.6";
+    hash = "sha256-aK2V2QBdzs6+ooEGtq81HItjdUsN4xvIJVKUg1v39z0=";
   };
   in-file-nav-history = {
     owner = "beaurancourt";
@@ -24569,6 +24887,12 @@
     repo = "obsidian-incremental-id";
     version = "0.5.0";
     hash = "sha256-ZTD+0T+JXSE+0iqd0Cg6xhZFXGa0Lg1LteJ5fdz7Di8=";
+  };
+  incremental-reading = {
+    owner = "gpanakkal";
+    repo = "incremental-reading-obsidian";
+    version = "0.8.3";
+    hash = "sha256-o/+R9qPs1ufByFY3n8EpFXULtM7W3rGUdaTvG2JzB/Q=";
   };
   incremental-reading-toolkit = {
     owner = "kja140";
@@ -24684,6 +25008,12 @@
     version = "2.3.1";
     hash = "sha256-t1fua8HDoQPga/DrfaLPOWzwFTqY7DxyLSTQhDAiql4=";
   };
+  infoflow = {
+    owner = "infoflow";
+    repo = "Obsidian-InfoFlow";
+    version = "1.1.0";
+    hash = "sha256-Y7r+wIZ6bcvYafZhNXH06b0eSuRg0t+yDnzW8uleZC8=";
+  };
   infographic = {
     owner = "shuuul";
     repo = "obsidian-infographic";
@@ -24774,6 +25104,12 @@
     version = "3.0.1";
     hash = "sha256-kIpVqcMlmvwKlT1uUN4U9s4P5JUE3kO1MFzPVyIN6AM=";
   };
+  ink-player = {
+    owner = "uglyboy-tl";
+    repo = "obsidian-ink-player";
+    version = "2.3.2";
+    hash = "sha256-CbhcUt5agXL3x5XnmwaWGy7czZ/TwyiKS44ekuX8UzE=";
+  };
   inkbound = {
     owner = "kidpeterpan";
     repo = "inkbound";
@@ -24789,8 +25125,8 @@
   inkedmark = {
     owner = "pcrausaz";
     repo = "obsidian-inkedmark";
-    version = "1.5.1";
-    hash = "sha256-1H6CnCRKU9E7w4Zftcqjrd7k70mdFJobtQDcgOwitLo=";
+    version = "1.5.2";
+    hash = "sha256-jbE2EKHPKaIhEJqLpI+i9fNpYiFFEnFlgzRSAJDzSkA=";
   };
   inkidian = {
     owner = "toffalori";
@@ -24902,9 +25238,9 @@
   };
   inline-annotation = {
     owner = "baksili";
-    repo = "obsidian-inline-annotation";
-    version = "0.4.0";
-    hash = "sha256-gmLli3A1++LOIX6AxZ1qqI2xw0cEGGSyjQBwoc3/BJk=";
+    repo = "markdown-inline-annotation";
+    version = "0.8.4";
+    hash = "sha256-Tj+uR02vajYiU8lYsbCLeYG2w6/I78Qr9FsGvkTNufs=";
   };
   inline-annotations = {
     owner = "cetrodk";
@@ -24947,6 +25283,12 @@
     repo = "obsidian-inline-cmd";
     version = "0.1.0";
     hash = "sha256-ajA2SM3NpWqXlor1UNSYSVFw140eIb7FMpkmyrkUtW8=";
+  };
+  inline-code-copy = {
+    owner = "lhinxue";
+    repo = "obsidian-inline-code-copy-plugin";
+    version = "1.0.1";
+    hash = "sha256-zyNEjO7RX3kk42gf12QU4lbwxYjW1AR2QZv60BOZab0=";
   };
   inline-code-highlight = {
     owner = "Dimava";
@@ -25233,8 +25575,8 @@
   insightpage-style = {
     owner = "3-ark";
     repo = "Insightpage-style";
-    version = "1.2.3";
-    hash = "sha256-0yx7uR7lr3ekGEhd7r6N5NzcSFKlep+laj4izlHYbgo=";
+    version = "1.2.4";
+    hash = "sha256-Tti1/Twozu/KmybrLZVZg6efr6SwsGtYDIr5k8g6KYY=";
   };
   insta-toc = {
     owner = "iLiftALot";
@@ -25313,6 +25655,12 @@
     repo = "interactive-hill-chart-obsidian";
     version = "1.0.2";
     hash = "sha256-wnGIvuCfBNv6cztEw3lY3Wojj4RTeLxrUjUlVa/dVWw=";
+  };
+  interactive-ratings = {
+    owner = "peritus";
+    repo = "obsidian-interactive-ratings";
+    version = "1.0.8";
+    hash = "sha256-lXxcWyKOXq1TuaiLRL3J2FRSIGxcJ5+o5Wav0rRr+PE=";
   };
   interactive-timeline = {
     owner = "tulgardinc";
@@ -25739,6 +26087,12 @@
     repo = "obsidian-jira-links-shortener";
     version = "1.0.6";
     hash = "sha256-i+s0tHfr+IczAU7cIT5CphLI79T/g4AqmAG8iZaEZ1Q=";
+  };
+  jira-sync = {
+    owner = "alamion";
+    repo = "obsidian-jira-sync";
+    version = "1.7.5";
+    hash = "sha256-H+xgPIeKU1eG6PSheGfHW+v+1TRl+rxMLRh70zuCeTY=";
   };
   jira-sync-dashboard = {
     owner = "nabheetcloud";
@@ -26302,8 +26656,8 @@
   kanban-action-planner = {
     owner = "dsebastien";
     repo = "obsidian-kanban-action-planner";
-    version = "2.13.0";
-    hash = "sha256-by1hzkXmLTUHGC42QSc1fxW29PsPQPG3xTEohRfecJo=";
+    version = "2.15.0";
+    hash = "sha256-dcNtpClpjOaddyxXdXN+IumdjA/gqm9CLaNI6q51590=";
   };
   kanban-archiver = {
     owner = "eiger3970";
@@ -26383,6 +26737,12 @@
     version = "0.3.0";
     hash = "sha256-OCPJVCH3HFdkvUNOvz0dCV/pXxTCDgfC8zlYA96YzoE=";
   };
+  kanban-status-updater = {
+    owner = "ankit-kapur";
+    repo = "obsidian-kanban-status-updater-plugin";
+    version = "1.0.0";
+    hash = "sha256-sbG971+Xn+To/R+yujZqiFxA+wiBgCKJGlJNlPWEy40=";
+  };
   kanban-to-bases = {
     owner = "brievora";
     repo = "kanban-to-bases";
@@ -26452,8 +26812,8 @@
   karpathywiki = {
     owner = "gd4ai";
     repo = "obsidian-llm-wiki";
-    version = "1.31.0";
-    hash = "sha256-gn/FcDN8Hm8lWrO7QFSiUlsllkSmX61r+pVPSEF1m4g=";
+    version = "1.32.0";
+    hash = "sha256-AzDP0c0j+Vgyl7HFPmT4LpIl+EbJDBarfEJR3aI3dpE=";
   };
   katazuke = {
     owner = "daisukemiyazaki";
@@ -26484,6 +26844,12 @@
     repo = "obsidian-kb-semantic-search";
     version = "1.0.6";
     hash = "sha256-LA8P5q+XWBy0O4iqAFaH8H+d2J1e5AnxW+Wc7YJbr7Y=";
+  };
+  kb-workbench = {
+    owner = "xinghe-1018";
+    repo = "kb-workbench";
+    version = "1.0.33";
+    hash = "sha256-7XjkqBX7oQUWIJb2Uhuw7ntD5pfd4YPLMCRCL3dzAkw=";
   };
   kcal-calc = {
     owner = "13green13";
@@ -26929,6 +27295,12 @@
     version = "0.1.8";
     hash = "sha256-Itgc6HVRsD8M9zAPI6Jm01/7ICp2BDvS6DJTsgMHGAY=";
   };
+  knowledge-workbench = {
+    owner = "gintmos";
+    repo = "knowledge-workbench";
+    version = "1.0.5";
+    hash = "sha256-IAHYWbB+PMYkT1zZ/1UfAPPPb92e7tyV5+WZEoxVLfA=";
+  };
   knowlery = {
     owner = "jayjiangct";
     repo = "knowlery";
@@ -26995,6 +27367,12 @@
     version = "0.2.0";
     hash = "sha256-O4IFcRUegNNA0FtCEFjWdW8yFwtp/yms62TJvzHHZ7Q=";
   };
+  koi-sync = {
+    owner = "metagov";
+    repo = "koi-obsidian-plugin";
+    version = "1.2.1";
+    hash = "sha256-Zv4OtEQggl1xLeJfsw4tRNCvjuDlHe9h3sK70HnFfcs=";
+  };
   komaki-furigana = {
     owner = "komakiharunobu-dot";
     repo = "obsidian-furigara-plugin";
@@ -27016,8 +27394,8 @@
   kordoc-transform = {
     owner = "everydaymind";
     repo = "obsidian-kordoc-transform";
-    version = "4.24.62";
-    hash = "sha256-GoOekWgGopR1Ol906Hqni9upXtC1bgXQLvSEgx0XwlU=";
+    version = "4.24.63";
+    hash = "sha256-V9ZPqN7qI8UrX1yP3QOc4XdfQMKdWx+n+fTtKZjzqOQ=";
   };
   koreader-highlights-importer = {
     owner = "t5k6";
@@ -27766,8 +28144,8 @@
   lecture-companion = {
     owner = "tonypeonio";
     repo = "obsidian-lecture-companion";
-    version = "0.1.18";
-    hash = "sha256-Btr5g/wnZS8SkfAxPGw1sWUowD7cl5gm2M9U/rE/nzo=";
+    version = "0.3.3";
+    hash = "sha256-tp2KXz6Wuf3Tu/jvCIwA6aFI9WmEHUVdfJaaKWe5Pg4=";
   };
   lecture-lens = {
     owner = "yima-gu";
@@ -27979,6 +28357,12 @@
     version = "1.17.29";
     hash = "sha256-7bRQC87hUJEZFpXc9CXT6KvH5/5HYcokwcEWhXXSMvY=";
   };
+  lexiside = {
+    owner = "kimahtio";
+    repo = "lexiside";
+    version = "1.0.3";
+    hash = "sha256-yuL46faIntWn9CDnRdNeE2kYNlCNXvIYYz2rw728WCY=";
+  };
   lexophile = {
     owner = "bryanmanio";
     repo = "obsidian-lexophile";
@@ -27988,14 +28372,20 @@
   lexvoice = {
     owner = "lynn-x";
     repo = "LexVoice";
-    version = "3.1.1";
-    hash = "sha256-LAtuHjBb9F05jZEIAEqwUvHz/W8bFtd4nVTnVYdCyjo=";
+    version = "3.1.2";
+    hash = "sha256-+hglGkaA3mC1TGOAKF91H2k0LU2aMpAsyn112z1v/r8=";
   };
   lexweave-lookup = {
     owner = "lexweave";
     repo = "obsidian-lexweave-lookup";
     version = "1.4.4";
     hash = "sha256-mQWFHxDQ/dVfMcPCck2BBIaBBW7bCpL2vdTozfKhpp0=";
+  };
+  liber-music-player = {
+    owner = "sudh29";
+    repo = "liber_music";
+    version = "3.0.2";
+    hash = "sha256-VxLf+2eH5eaQABMiIhkTR/uyV+yCk/z4Qj9dzgQjcTA=";
   };
   librarian = {
     owner = "lastratalive";
@@ -28120,8 +28510,14 @@
   lifeworld = {
     owner = "b0xfan";
     repo = "lifeworld";
-    version = "1.5.5";
-    hash = "sha256-vHVYAhOkTU3G2FJb1HLFLPk+oroKFxnXBKcN6jfDSa4=";
+    version = "1.6.6";
+    hash = "sha256-4SBmsNE9A1kHQPpP15Ya/CLKU5p4TzIDGnwxy3rFqSs=";
+  };
+  lifeworld-capture = {
+    owner = "b0xfan";
+    repo = "lifeworld-capture";
+    version = "1.0.1";
+    hash = "sha256-9MzwvGBkiAni0LpFR/C6/28L/QNtXRUdWvjXn6fk1T0=";
   };
   liftoff = {
     owner = "hpasic";
@@ -28162,14 +28558,8 @@
   lilbee = {
     owner = "tobocop2";
     repo = "obsidian-lilbee";
-    version = "0.6.105";
-    hash = "sha256-mlGbPdfn0ZZnD5Q69xkz//p5iSAlMERkclsBYmdblJc=";
-  };
-  lilium = {
-    owner = "quasicry";
-    repo = "lilium";
-    version = "0.2.6";
-    hash = "sha256-vk44qxv/3RVvIoXfSTYqiRDM6rz5GMjps7iydgsQA/Y=";
+    version = "0.6.106";
+    hash = "sha256-LwbPrSRwKaYbyc77rFiL8OWNQCDDadHF/tsxdbANqio=";
   };
   lilypond = {
     owner = "dot-asterisk-nl";
@@ -28182,6 +28572,12 @@
     repo = "liminal-plugin";
     version = "1.1.1";
     hash = "sha256-wLW0Rl0eDj42i2RnchZ4rBIFbE29OtkaRXt1EWYSwzs=";
+  };
+  limitless-lifelogs = {
+    owner = "maclean-d";
+    repo = "obsidian-limitless-lifelogs";
+    version = "1.0.6";
+    hash = "sha256-kF6sNloYw1ykGbEOjDq2AcKIouRBAvfd6gc3fq8t27Y=";
   };
   limn = {
     owner = "tednaleid";
@@ -28945,6 +29341,12 @@
     version = "0.1.2";
     hash = "sha256-+RAvrlPupT2laZc3KzHLv0uLfd/JX+amNuzjpsSk69I=";
   };
+  literature-matrix = {
+    owner = "hackrlife";
+    repo = "literature-matrix";
+    version = "1.0.1";
+    hash = "sha256-FIbqRi9mVPPgsYUIyayiaxpkrBD3OwpmpjpyTRzPvNg=";
+  };
   literature-review-synthesizer = {
     owner = "ibrh96-prog";
     repo = "literature-review-synthesizer";
@@ -29113,6 +29515,12 @@
     version = "0.2.4";
     hash = "sha256-rtOrCwYs82+b1jhnG/7jq+EfCtVmV0lzhSz8SH15goU=";
   };
+  livres = {
+    owner = "kellygrass";
+    repo = "livres";
+    version = "1.0.1";
+    hash = "sha256-cgGZmIeNr3inhqFTkJ8lJrFDQJAyFusIq7dHESYXlqc=";
+  };
   lj-os = {
     owner = "ljrobinson";
     repo = "obsidian-lj-os-plugin";
@@ -29170,8 +29578,8 @@
   llm-hub = {
     owner = "takeshy";
     repo = "obsidian-llm-hub";
-    version = "0.39.1";
-    hash = "sha256-v1rUrlxwXmvzEOd8Q1TSBLVOT1HJWGz9yFKrcYRJLl8=";
+    version = "0.39.4";
+    hash = "sha256-BxZk0tSAV2N8FcXY1yPC0238H4Q6ymf8THcXgePqnPM=";
   };
   llm-lab = {
     owner = "johannes-kaindl";
@@ -29202,6 +29610,12 @@
     repo = "obsidian-llm-tagger";
     version = "1.1.2";
     hash = "sha256-cXL25b9waD/U1fGQjlLFB/Tzj+fbFlNd6LMqRk4mkp0=";
+  };
+  llm-test-gen = {
+    owner = "aldo-g";
+    repo = "obsidian-llm-test";
+    version = "1.2.2";
+    hash = "sha256-tE55lpQzrcx0rCSDssAfdhWJV0FCysiBufMpi7EGYew=";
   };
   llm-token-count = {
     owner = "hardes11";
@@ -29338,8 +29752,8 @@
   local-dictation = {
     owner = "brittain9";
     repo = "speech-kit-obsidian-plugin";
-    version = "2026.11.1";
-    hash = "sha256-FDVQJsp1SCzILnO43QYtKISgaNVgSjrDA46crpfj8Bw=";
+    version = "2026.11.2";
+    hash = "sha256-D/M1/MGC6pPW/hoZOe0dUFeN003Ts8URCogJJj2OTyk=";
   };
   local-finance-notes = {
     owner = "zoepiqian";
@@ -29566,8 +29980,8 @@
   local-vault-agent = {
     owner = "tonypeonio";
     repo = "obsidian-local-vault-agent";
-    version = "0.6.0";
-    hash = "sha256-u/0rzoYdD8dm749Z7EP5YY+bUC6DOF6wmYpnZPjpE1Y=";
+    version = "0.8.0";
+    hash = "sha256-3YEp0gXMMDOJquRZmzcF0RW3aZXdyko6SJSZTRMW5Ko=";
   };
   local-version-history = {
     owner = "bartlab";
@@ -29992,8 +30406,8 @@
   lumina = {
     owner = "lumina-apps";
     repo = "obsidian-lumina";
-    version = "1.4.21";
-    hash = "sha256-yse+QDsTZMbwfHbQq63ia8TeP59bWgl/Qaqw1rVaPpQ=";
+    version = "1.4.22";
+    hash = "sha256-k+hspCSDKlCmTgZ4vNOyZoUj6bOnuF1b8bZAmDOXJes=";
   };
   lunar-calendar = {
     owner = "whg555";
@@ -31102,8 +31516,8 @@
   math-autocomplete = {
     owner = "emil513t";
     repo = "obsidian-math-autocomplete";
-    version = "0.5.1";
-    hash = "sha256-IxGiAsoe4elQUBtJEtPLva0KoMBRLus+Onva8pDP9fI=";
+    version = "0.6.0";
+    hash = "sha256-v+KvLq0XU0lnsdwMJ8pmZiw/fVrNOmA1lgcFXYmrreU=";
   };
   math-box = {
     owner = "jiangyancoder";
@@ -31195,6 +31609,12 @@
     version = "0.8.15";
     hash = "sha256-DPIcrU52cBh5Wqo8l1nEEPXWtmBNgXVbuggTiNW7T/k=";
   };
+  mathtype = {
+    owner = "slateblua";
+    repo = "mathtype";
+    version = "1.0.3";
+    hash = "sha256-IeKDWc4Z4qQk1rcH4GCIM2EDZWrDp2wfRmDALiQxBcI=";
+  };
   mathvoice = {
     owner = "freewheelerz";
     repo = "obsidian-mathvoice";
@@ -31282,8 +31702,8 @@
   mcq-tracker = {
     owner = "ifriedenson";
     repo = "mcq-tracker";
-    version = "1.307.16";
-    hash = "sha256-CDs0Ii9JYs7ASFmjNO1baTWiHGL6j+MzEntGLyAo59o=";
+    version = "1.307.18";
+    hash = "sha256-a1q/KAbociuo6DHdxgLcBkQUQ2abr4vA8pX9pacnT9Q=";
   };
   md-annotator = {
     owner = "aipmwx";
@@ -31408,8 +31828,8 @@
   md-to-hwpx = {
     owner = "everydaymind";
     repo = "obsidian-hwpx-exporter";
-    version = "0.9.21";
-    hash = "sha256-kKWdSug6mAfvAxksUCxBjmyRu0X+OcaRLBlkZij2aak=";
+    version = "0.9.23";
+    hash = "sha256-IkEGS1uZayKiboCH4P5S+wJ0eFyj24M5BPR7N5ZFR60=";
   };
   md-to-json = {
     owner = "meghan-lendhe";
@@ -31446,12 +31866,6 @@
     repo = "MDbase64";
     version = "1.1.2";
     hash = "sha256-Z/32Iwa5iKnHdeGdDXG2191iEkyInuc/zqh+7rUS0FU=";
-  };
-  mdbase-sync = {
-    owner = "mdbase-dev";
-    repo = "mdbase-obsidian";
-    version = "0.4.35";
-    hash = "sha256-VuGvKYUY817WaSNwHVWe26K4XKkn92Jc+xjkOZoolnk=";
   };
   mdbridge = {
     owner = "lichao343515276-pixel";
@@ -31690,8 +32104,8 @@
   media-offload = {
     owner = "moboku";
     repo = "media-offload";
-    version = "1.0.1";
-    hash = "sha256-VVpg+WnY3oRXZHGs5kaSm/o9e+p/eaVY+y0Bv5YYP/g=";
+    version = "1.0.2";
+    hash = "sha256-J5OXOIK2uA0BXmUv/3eOnpMChIDEIno/w0sHRVIejGc=";
   };
   media-quick-edit = {
     owner = "hemashishi12";
@@ -31981,6 +32395,12 @@
     version = "0.1.0";
     hash = "sha256-65o9kcvqxYkZCgxlkmnblTNljxXN29ALCpaCfYoAtGs=";
   };
+  memos-ai-sync = {
+    owner = "leoleelxh";
+    repo = "obsidian-memos-ai-sync";
+    version = "1.0.4";
+    hash = "sha256-+IldyBXYoj4hu3BytZHak4744i4ymn9KDl2b7EB/VRg=";
+  };
   memos-ai-sync-plus = {
     owner = "erbanku";
     repo = "obsidian-memos-ai-sync";
@@ -32026,8 +32446,8 @@
   mendeley-integration = {
     owner = "elisaurrejola16";
     repo = "obsidian-mendeley-integration";
-    version = "0.1.4";
-    hash = "sha256-f6HmmggSgoclxMJmvKQcjg9l3qCA0Kybuq5Y3TTGiUM=";
+    version = "0.2.2";
+    hash = "sha256-X3hLAC0i1QPmggks1w6YhEkPD4p1tZjMdfx8NDjX9PY=";
   };
   mengram = {
     owner = "alibaizhanov";
@@ -32046,6 +32466,12 @@
     repo = "obsidian-mentat";
     version = "0.3.11";
     hash = "sha256-aB5Gf8vAzIh4xoBJd2ZD1yUyQhuw6xlJlVEkVN4yPvI=";
+  };
+  mention-things = {
+    owner = "stracker-phil";
+    repo = "obsidian-mention-things";
+    version = "1.1.0";
+    hash = "sha256-mIG8epGeJXy6ZWhi775BUuK7jZG6B9iyYmd73JT/zBY=";
   };
   menu-filter = {
     owner = "sreenivasanac";
@@ -32191,12 +32617,6 @@
     version = "1.0.1";
     hash = "sha256-UahP0H9pvj2+j2gHzOJUQrK4tGTagjvZaZZP6lpJ0jQ=";
   };
-  mermaid-exporter = {
-    owner = "addozhang";
-    repo = "obsidian-mermaid-exporter";
-    version = "1.1.0";
-    hash = "sha256-EHavCuuSeJAaLmhvBLxSdjB27xhYIO2d5syY50z4WKY=";
-  };
   mermaid-fence-helper = {
     owner = "ayush4265";
     repo = "mermaid-fence-helper";
@@ -32310,12 +32730,6 @@
     repo = "obsidian-mermaid-next-plugin";
     version = "1.2.0";
     hash = "sha256-4C1OuKeWpF/+AVBQ/JvHE8uDEBwgLRuabgBgSiHrDK0=";
-  };
-  mermaid-nixie = {
-    owner = "jaskaran-sethy";
-    repo = "obsidian-mermaid-nixie";
-    version = "1.1.1";
-    hash = "sha256-+fXSUpGaRaPEW2YFHOgGF8JN2q930q4reZa9d5ksfeY=";
   };
   mermaid-pilot = {
     owner = "andrwj";
@@ -32578,8 +32992,8 @@
   microsoft-todo-panel = {
     owner = "au2mater";
     repo = "obsidian-microsoft-todo-panel";
-    version = "1.4.0";
-    hash = "sha256-IJvyETHd28fIxgBgSFswDEEa6TCJ5GBa0N7zTxptDK4=";
+    version = "1.5.2";
+    hash = "sha256-EKwZh30fFUckfPv6ePhX8ttQgEqShSTvYBA1tphPhGQ=";
   };
   midad-arabic-sources = {
     owner = "nebedaay";
@@ -32851,6 +33265,12 @@
     version = "0.1.5";
     hash = "sha256-tWmpqxdZHvbMfSweEU/Jo/jB04J+5TdJu8M+Yly48gU=";
   };
+  minimal-quiz = {
+    owner = "lutu-dev";
+    repo = "Obsidian-Minimal-Quiz";
+    version = "1.0.0";
+    hash = "sha256-Ui94oZD6TkzOSIor8uDBDsJ7nNV0N5808kPl0AsskWw=";
+  };
   minimal-task-board = {
     owner = "selectstarfromusers";
     repo = "obsidian-task-manager";
@@ -33004,8 +33424,8 @@
   miyo-tomo-hashi = {
     owner = "mmomm-org";
     repo = "miyo-tomo-hashi";
-    version = "0.31.0";
-    hash = "sha256-7F9qHGwTwR2ByUmaR8fkpEqgmxqv65O1ipVxr+sdg1Q=";
+    version = "0.32.0";
+    hash = "sha256-8QbG8tsmIi76LzevmB/9NqrtcX3yLWLz/1ut74TntiE=";
   };
   mlir-syntax-highlight = {
     owner = "lewuathe";
@@ -33193,6 +33613,12 @@
     version = "1.71.0";
     hash = "sha256-2NTnqibdvZVaoom7GqhrEhCv7JKHUt4QCxX/SBrQXkU=";
   };
+  mode-manager = {
+    owner = "dk949";
+    repo = "obsidian-mode-manager";
+    version = "0.3.1";
+    hash = "sha256-AwmDJd85fyeugcS0J4EtsgBlL9vG7jRAEN/RSXo7jSg=";
+  };
   mode-switch-scroll-fix = {
     owner = "code-sub";
     repo = "obsidian-mode-switch-scroll-fix";
@@ -33376,8 +33802,8 @@
   monthly-tasks = {
     owner = "duany2026";
     repo = "obsidian-monthly-tasks";
-    version = "1.8.6";
-    hash = "sha256-yxyXAIFtJYPUYm0+796Lw+7DvzQfPA/te5aqsW1/O9w=";
+    version = "1.9.0";
+    hash = "sha256-FeTxaMX9L8g9XU4Q4rkMmqk+rh+jeAXl5DFZWppkGgk=";
   };
   monthly-tracker = {
     owner = "younginshin115";
@@ -33448,8 +33874,8 @@
   more-periodic-notes = {
     owner = "nachiketa3299";
     repo = "more-periodic-notes";
-    version = "0.1.6";
-    hash = "sha256-0Bf5n3M7TADAji+jaqQv+G9hsGQN9yNwIlcB4YwSJ0Y=";
+    version = "0.1.7";
+    hash = "sha256-Ifu455wYRX//eGy/GQL1JsbyDCVT7GBXlGWFA1uJhr0=";
   };
   more-text-styles = {
     owner = "chi-xin-yan";
@@ -33478,8 +33904,8 @@
   morning-pages-analytics = {
     owner = "remriel";
     repo = "morning-pages-analytics";
-    version = "0.6.2";
-    hash = "sha256-KfszSm8q0oou9gHCYwTvBXL7olOwCd8uJu+gxusCj3c=";
+    version = "0.6.5";
+    hash = "sha256-nz8nKfigBGTq1Wxnz0Eu6/8GYoKCReGeqGe1yAxqHsU=";
   };
   morphic = {
     owner = "llocphann";
@@ -33964,14 +34390,20 @@
   music-practice = {
     owner = "dsebastien";
     repo = "obsidian-music-practice";
-    version = "0.26.0";
-    hash = "sha256-6nGGxqqj4AkW09BFY+Tw4ThN1+niai5JT398VRZ34QU=";
+    version = "0.28.0";
+    hash = "sha256-c/gEjETCGlBK22U6FtR4UvlNZlpP8NPkUSgGNQpeh3I=";
   };
   music-search = {
     owner = "gfontenot";
     repo = "obsidian-music-search";
     version = "1.1.0";
     hash = "sha256-GLMwnZ2pBPF+/YlDw4EH0C+W7SmlAkfEtd43Bg5mUeM=";
+  };
+  musical-text-highlighter = {
+    owner = "tynanpurdy";
+    repo = "musical-text";
+    version = "0.2.2";
+    hash = "sha256-1kX1NKtHqEaAOGXncGr7qx25o1SFSHDrBOSCEfdxHKM=";
   };
   mutextum = {
     owner = "erykjj";
@@ -34108,8 +34540,8 @@
   mybrain = {
     owner = "carlb01";
     repo = "myBrain";
-    version = "1.0.50";
-    hash = "sha256-TBg3pIdUatK7HVYC++d3ywrtpn7T8YvyA5JWijA7Hbw=";
+    version = "1.1.0";
+    hash = "sha256-puPa/38IFDUq28oKXCFtMwQRhvHDU5Oi7ETnCFEv9Pw=";
   };
   mybrain-ai = {
     owner = "mybrain-ai";
@@ -34228,8 +34660,8 @@
   named-links = {
     owner = "danyim";
     repo = "obsidian-named-links";
-    version = "1.3.3";
-    hash = "sha256-PJ5IjUw4Rqua1sZ48mNKVHPacbsWz1Fu7nm4YVNEJIY=";
+    version = "1.3.4";
+    hash = "sha256-2xhSWsTGyUF/mNIG9auWlZLDiFxjDozHOfhPFsStDA0=";
   };
   nameforge = {
     owner = "kennyrn";
@@ -34363,6 +34795,12 @@
     version = "1.4.0";
     hash = "sha256-1yZ+XS0hN+o97BbmjnVJeg85tn5QXTFVHzj5P8g1Fdw=";
   };
+  natlee-word-mode = {
+    owner = "natlee";
+    repo = "obsidian-word-mode";
+    version = "1.4.1";
+    hash = "sha256-f/WtVrj/qXRgIgQh56WewEaVNJcdU+L5Nck8ATKtL30=";
+  };
   natural-link = {
     owner = "rekby";
     repo = "obsidian-natural-link";
@@ -34465,6 +34903,12 @@
     version = "1.5.0";
     hash = "sha256-Hv1+O0hxVzq/EeDKyPTIJIR46bb+vHQkwRbx3hGOOlA=";
   };
+  nebula-graph = {
+    owner = "scott-duby";
+    repo = "nebula-graph";
+    version = "1.4.0";
+    hash = "sha256-RlXqTCvLjCR8jd9LC2bH9OuHvqu2Zufs3Sltt8zrcCU=";
+  };
   nectenda = {
     owner = "nectenda";
     repo = "nectenda-plugin";
@@ -34534,8 +34978,8 @@
   neon-work = {
     owner = "27escape";
     repo = "neon-work-obsidian";
-    version = "1.3.0";
-    hash = "sha256-la83Mjd9uuYfDeN8J2v2D+P1eWi/FTpEUjz+Fb9goX0=";
+    version = "1.4.1";
+    hash = "sha256-oZpXUIDV1niTNs8C2Q7F7sBdqGak78HHqPMG95iTGxM=";
   };
   neovide-cursor-trail = {
     owner = "azdmjiny";
@@ -34885,6 +35329,12 @@
     version = "1.8.1";
     hash = "sha256-WndxOHQ+FFSb2QifPQRdLa2OrxfHP5UTuww/IqCyC+s=";
   };
+  nexus-graph = {
+    owner = "peonat2804";
+    repo = "nexus-graph";
+    version = "1.1.1";
+    hash = "sha256-PjMLIykKOgO0KZfjgOhJElonmPO/RNGzw16l/kehBPo=";
+  };
   nexus-lm = {
     owner = "anshusrathe";
     repo = "nexus-lm";
@@ -34936,14 +35386,14 @@
   nihong-ai-explain = {
     owner = "iikira";
     repo = "obsidian-nihong-ai-explain";
-    version = "0.1.7";
-    hash = "sha256-RHJ6HgXw7Ngn8UolN0uG8CIHhyRKujnBkRMcpWT8Ors=";
+    version = "0.1.8";
+    hash = "sha256-9bjhOF2CTlyrZ9Iz28wIM7qoHcuSBODl8gmL+/k1RsA=";
   };
   nimble-gm = {
     owner = "puddinglord";
     repo = "obsidian-ttrpg-encounter-manager";
-    version = "1.4.0";
-    hash = "sha256-5ufrKAoeqaB1/MeoUOT5s083BIOflpLy/Dr80f86oGc=";
+    version = "1.6.1";
+    hash = "sha256-HpFtHrzaLUJ+zs6a4MkZVTnsbVcXduRcKcj8Ttk4Sbw=";
   };
   nimbus-sync = {
     owner = "lengedliu";
@@ -35026,8 +35476,8 @@
   nldates-revived = {
     owner = "amato21";
     repo = "nldates-revived";
-    version = "0.9.85";
-    hash = "sha256-UoD8ZNr5iNlBZFOWCuULg5JYiQ1xWZEGK3gKtN6FRwg=";
+    version = "0.9.9";
+    hash = "sha256-Udl1kxWRXMhgqStkXggj/EJhNHxHc8YD+9JDoGUNHXA=";
   };
   nn-bridge = {
     owner = "maws7140";
@@ -35070,6 +35520,12 @@
     repo = "Obsidian-Node-Auto-Resize";
     version = "1.2.1";
     hash = "sha256-E/A8bPsRvtUVLR8qdz/oZSIbRqATa2XcquWCdfj2KFY=";
+  };
+  node-factor = {
+    owner = "calfmoon";
+    repo = "node-factor";
+    version = "3.0.1";
+    hash = "sha256-P4/Tp6XuMkM38eRHrhhxiOZSwVq2jtFDIe9LOVjLVgs=";
   };
   node-flow = {
     owner = "LincZero";
@@ -35491,6 +35947,12 @@
     version = "0.2.0";
     hash = "sha256-4UZBqxImbHNCDUYpm8RXutQAYULw3O8dgHSK6PitJa0=";
   };
+  note-metrics = {
+    owner = "andre-diamond";
+    repo = "note-metrics";
+    version = "1.2.0";
+    hash = "sha256-y6l+UoIXAtQAOzgzvz+hqqe57ICpElAMyAioJNjxzvg=";
+  };
   note-minimap = {
     owner = "lorenbll";
     repo = "Note-Minimap";
@@ -35545,6 +36007,12 @@
     version = "1.0.0";
     hash = "sha256-dHnqOHOM/ewa3zsCaEMHOFhsH1nmkYcKlhsTFoS4/to=";
   };
+  note-peek = {
+    owner = "pesstudios";
+    repo = "note-peek";
+    version = "1.1.0";
+    hash = "sha256-SqQyFEkMBhyBI9U1tZZRC3bLBFTyEHJXq1mHBFf6vlw=";
+  };
   note-pi = {
     owner = "ch-yyk";
     repo = "obsidian-pi";
@@ -35557,11 +36025,23 @@
     version = "0.1.8";
     hash = "sha256-ResmLihR+/W6YvqRj7WUEF5SI1CKEruLJ1w8tbOgia0=";
   };
+  note-placeholder = {
+    owner = "xzst4nce";
+    repo = "note-placeholder";
+    version = "2.1.10";
+    hash = "sha256-a9vUoynUZXX8MgvrafxoMwg9H9hj42ixBAiXt9HVuzM=";
+  };
   note-player = {
     owner = "goberomsu";
     repo = "obsidian-note-player";
     version = "0.9.1";
     hash = "sha256-tWVyHq+bvGCmBgBnnP3SF6yRdiKUnquqEMXhrmJ74ME=";
+  };
+  note-progress-bar = {
+    owner = "robcoles";
+    repo = "obsidian-note-progress-bar";
+    version = "1.0.0";
+    hash = "sha256-S7jITzFYY2PbmJdmDNq3Mn8ABYjTT1pkYKrW70tZ8MM=";
   };
   note-progressbar = {
     owner = "ryohma0510";
@@ -35662,8 +36142,8 @@
   note-relay = {
     owner = "kjdevelopers";
     repo = "note-relay-obsidian_plugin";
-    version = "0.2.19";
-    hash = "sha256-8TfBaKE2uRKUTF0noBIGdNIdbnGqdDn1AdQ/fhtEfvA=";
+    version = "0.2.23";
+    hash = "sha256-1khbyQ7LFVTeEvunuiP+UqIdW+4Znhik/8Fc0FPZNSA=";
   };
   note-repetition = {
     owner = "timonwendland";
@@ -35755,6 +36235,12 @@
     version = "0.3.5";
     hash = "sha256-RxhvYU7ZFEgktmiYIz6zKZ1Y64Z2NQeHd2MVC4P7uEk=";
   };
+  note-sync = {
+    owner = "zigholding";
+    repo = "obsidian-notesync-plugin";
+    version = "0.6.6";
+    hash = "sha256-UvJxFMAxBr5WLJvbRHLZ9NF6PuTZI3Rtg2rKDD0sFs8=";
+  };
   note-synchronizer = {
     owner = "tansongchen";
     repo = "obsidian-note-synchronizer";
@@ -35784,6 +36270,12 @@
     repo = "obsidian-note-to-public";
     version = "0.1.6";
     hash = "sha256-KC7Yp14GvlPevSN5eBVsTP1PkuhxkQVskj9F0zEzMPI=";
+  };
+  note-to-red = {
+    owner = "yeban8090";
+    repo = "note-to-red";
+    version = "1.0.19";
+    hash = "sha256-22bVpdEqf2HYbfkU8EakRGynp8f09kKsmytU6wTojOU=";
   };
   note-toolbar = {
     owner = "chrisgurney";
@@ -36004,8 +36496,8 @@
   notepages = {
     owner = "0xkurian";
     repo = "Obsinotes";
-    version = "1.4.5";
-    hash = "sha256-iZsdxBToFeLC4rPfOj3NZdrOKr7ZyqPBWTpUgQ8O/Rs=";
+    version = "2.0.7";
+    hash = "sha256-O38aiVgQFfyGUfHO2KkFTMD6T63QrpJsFlEDvpUjQgw=";
   };
   notepic-oss = {
     owner = "luhui-dev";
@@ -36054,6 +36546,12 @@
     repo = "notes-dater";
     version = "1.0.2";
     hash = "sha256-t+gli8fujL3W5QmL8I0d9tC0vWN/zzOGiA5GnzbxeVw=";
+  };
+  notes-explorer = {
+    owner = "tu2-atmanand";
+    repo = "obsidian-notes-explorer";
+    version = "2.7.1";
+    hash = "sha256-Ei9eNepWIY1ie18QeOqzo5owbHtBWe95Hnqg41U9WCg=";
   };
   notes-exporter = {
     owner = "podviaznikov";
@@ -36430,8 +36928,8 @@
   nutstore-sync = {
     owner = "nutstore";
     repo = "obsidian-nutstore-sync";
-    version = "1.6.1";
-    hash = "sha256-DyPlmhksw5pbCMBjtpzHbIKjMOj059rtOeRnaPg2U34=";
+    version = "1.6.2";
+    hash = "sha256-r/kLNlD/YGJSdGEvfHT/YHerfVtGX9bz77OcmjWHSFk=";
   };
   nux-exporter = {
     owner = "jasonqg26";
@@ -36502,8 +37000,8 @@
   ob-epub-reader = {
     owner = "chengshans";
     repo = "ob-epub-reader";
-    version = "1.3.43";
-    hash = "sha256-76pVyHxaldhnf8t0MSv4e4h/y1wszCr515hrfjlfpb8=";
+    version = "1.3.45";
+    hash = "sha256-ByyV7L3sNINfmz4F0357PRZooff347y/C6TYNrQ/WEQ=";
   };
   ob-mail-client = {
     owner = "l4fu";
@@ -38954,12 +39452,6 @@
     version = "0.1.4";
     hash = "sha256-E2d43+woceQMmk3XMoTvN8x2doeYIIWZJznXEOHV8zQ=";
   };
-  obsidian-weread-plugin = {
-    owner = "zhaohongxuan";
-    repo = "obsidian-weread-plugin";
-    version = "3.5.0";
-    hash = "sha256-BkqqpLMi0O/KqsAPg34NvcqZ7Z0kfeyIhiFdJx2H72s=";
-  };
   obsidian-wikipedia = {
     owner = "jmilldotdev";
     repo = "obsidian-wikipedia";
@@ -39119,8 +39611,8 @@
   obsyncian = {
     owner = "aabulkhairov";
     repo = "obsyncian";
-    version = "1.0.25";
-    hash = "sha256-0COFSaBHow9/KRrhL2AsdxH2mHnj8d9aiMqLHhy8IuQ=";
+    version = "1.0.28";
+    hash = "sha256-GIzrUwBcYvfOG1SWEQ9DyeOlx8e5gZohXUqPduMeUoc=";
   };
   obtion = {
     owner = "hakubisual";
@@ -39167,8 +39659,8 @@
   octavo = {
     owner = "mealuda";
     repo = "OctavoRelease";
-    version = "1.1.0";
-    hash = "sha256-QIBcN/N25BWQmirv+AJAOqVkNGNI1vfY/Rd1FECfWnE=";
+    version = "1.1.1";
+    hash = "sha256-9P5qxxe9Dq55iIYKn9ZHz0jGGXsOzjgaHWh9ouTVpB4=";
   };
   octavo-toolbar = {
     owner = "jiuxianzai";
@@ -39235,6 +39727,12 @@
     repo = "offline-whisper";
     version = "1.2.1";
     hash = "sha256-HlcG1IUGy2gic37K0FTMKkxk5jRW4a8+Ydq6oJblbWc=";
+  };
+  og-task = {
+    owner = "vn-78";
+    repo = "og-task-plugin";
+    version = "1.0.1";
+    hash = "sha256-BsYw04F6mhRv7Omex7s0zcZ30wSbwxUoi4AFeUFrK8Q=";
   };
   ogenda = {
     owner = "jiang198012";
@@ -39506,6 +40004,12 @@
     version = "1.0.0";
     hash = "sha256-j0KNwNvGXggdFJOqOc99qtv+7lXiKoJxwcj55o2xCKM=";
   };
+  one-step-wiki-link = {
+    owner = "busyogg";
+    repo = "OneStepWikiLink";
+    version = "1.0.4";
+    hash = "sha256-Gcm1jhpJB9YvDMgzNEJ8IIwIS3dS5Frb+zmO5b3ZCL4=";
+  };
   one-way-backlinks = {
     owner = "theluckystrike";
     repo = "one-way-backlinks";
@@ -39733,6 +40237,12 @@
     repo = "open-in-cursor";
     version = "1.0.11";
     hash = "sha256-dHLASY+YmEB9KMhAe5yQuScHqfjLT8t5u1OQIxqYh6Y=";
+  };
+  open-in-github = {
+    owner = "hacker-c";
+    repo = "obsidian-open-in-github-plugin";
+    version = "1.0.3";
+    hash = "sha256-w9r5iToWuvNNzqL4p5o8I9YsC13D0hV0HUD2+ciEimU=";
   };
   open-in-ide = {
     owner = "carlstedt1";
@@ -40026,8 +40536,8 @@
   openyolo = {
     owner = "kamijoucen";
     repo = "obsidian-openyolo";
-    version = "1.1.4";
-    hash = "sha256-i1PZ34lI+qxLtguW4N8mk0Nn2C3ekv4tU7AX0T+by9o=";
+    version = "1.2.0";
+    hash = "sha256-Tjl+IAfxxAlVySnUf1u2wVoeM9j9ilC+r7KLtC6G3nQ=";
   };
   operon = {
     owner = "hasanyilmaz";
@@ -40172,6 +40682,12 @@
     repo = "Organized";
     version = "0.1.6";
     hash = "sha256-3Nthsm3ZGdZiET3jjpYtipJQzMsOEq65DWQIMbZZA30=";
+  };
+  organized-daily-notes = {
+    owner = "duchangkim";
+    repo = "organized-daily-notes";
+    version = "1.0.5";
+    hash = "sha256-h67fLt6VjATs8P3jSqCf4KmDN7j+ipEEwVlu/9OGIY0=";
   };
   orgmode-cm6 = {
     owner = "bbazard";
@@ -40353,6 +40869,12 @@
     version = "1.0.4";
     hash = "sha256-ZKq4XG8C13ccB57ADVAIA2ap3jTjzuR3dh7zGL5YCiY=";
   };
+  outlook-calendar-panel = {
+    owner = "au2mater";
+    repo = "obsidian-outlook-calendar-panel";
+    version = "1.2.0";
+    hash = "sha256-Movkrc+7nieDBSPCpcmHlye5xTYzWW+GRJUZxGV5Wn0=";
+  };
   outlook-drop-importer = {
     owner = "viggomeesters";
     repo = "obsidian-mail-drop";
@@ -40364,6 +40886,12 @@
     repo = "outlook-event-notes";
     version = "0.3.5";
     hash = "sha256-TJbCjgy6V7a6m7uEyCECnq+F4o1Zd1A02rYZEPPo3ck=";
+  };
+  outlook-meeting-notes = {
+    owner = "davidingerslev";
+    repo = "outlook-meeting-notes";
+    version = "0.2.1";
+    hash = "sha256-1yw3IXytVCIVfKWcmvcFHfAa90bM3F56MAlCgzb+TK0=";
   };
   outlook-sync = {
     owner = "dtobia";
@@ -40446,8 +40974,8 @@
   owla-butler = {
     owner = "pilafdob";
     repo = "owla-butler";
-    version = "3.5.1";
-    hash = "sha256-o+26/UkYOwQD1iI2svbEFRRszP+gT2je7H++l+igx+g=";
+    version = "3.6.2";
+    hash = "sha256-pvtNyv9QC5RVc0SQ3cL80hdp1p0/6GeML8Eaba4Q3+8=";
   };
   ownly = {
     owner = "liuh886";
@@ -40464,8 +40992,8 @@
   oxill-calendar = {
     owner = "oxilldat";
     repo = "oxill-calendar";
-    version = "1.9.0";
-    hash = "sha256-FOEJQdOoDgcTgX4y7PIufjOJoaY8YiIXVy/QN82VsKI=";
+    version = "1.10.0";
+    hash = "sha256-4D8dDHCN3hFTBXBBqoqbFK6XA2UnrQ2IfF4ChQ60kNM=";
   };
   oxill-finance = {
     owner = "oxilldat";
@@ -40584,8 +41112,8 @@
   page-tree = {
     owner = "alpadoze";
     repo = "obsidian-pagetree";
-    version = "0.3.9";
-    hash = "sha256-pFDbEzyiVgR8QZNq0IfuMM3npJ6mg/ALNdNjDCGyehI=";
+    version = "0.3.10";
+    hash = "sha256-7tTa2vpIxiOYLLH2aH/xilCbeXnZDQid4oiuGePuboo=";
   };
   page-turner = {
     owner = "junhcha";
@@ -40632,8 +41160,8 @@
   pageink = {
     owner = "zzzdragondyngphx";
     repo = "pageink";
-    version = "0.1.10";
-    hash = "sha256-6loMsxj31Q3PfIFT1/mKE7G3nmY1t2siUMwpPKnAe1M=";
+    version = "0.1.11";
+    hash = "sha256-PPGOlk2kM01mwR0FozrzkoBoFbYBBmmr/bafMdytgOQ=";
   };
   pagemode = {
     owner = "lugglory";
@@ -40662,8 +41190,8 @@
   pahlavan = {
     owner = "saeed1262";
     repo = "pahlavan";
-    version = "0.29.0";
-    hash = "sha256-fvZupFj5TcPS0MR3M1tcATuwt4I9AGEDCXJXWRcHpOg=";
+    version = "0.29.1";
+    hash = "sha256-NXk3QkmJlyV055l1AfuJh1Qji9T0vjLKI4oquy5QpkU=";
   };
   paipa-gallery = {
     owner = "paipa03";
@@ -40746,8 +41274,8 @@
   pantalytics = {
     owner = "pantalytics";
     repo = "pantalytics-obsidian";
-    version = "1.13.54";
-    hash = "sha256-x/p8aAFH/SLWBCq/+MqnMezsPMBB8EEoYfB1BGjGd2g=";
+    version = "1.13.59";
+    hash = "sha256-ZemBHkbjl7YzBUW2Wx/c3C6JpD7I8+5qQu9Sx8Ot2zQ=";
   };
   pantry = {
     owner = "ekrizdis367";
@@ -41058,8 +41586,8 @@
   paranoid-tasks = {
     owner = "paranoidmann";
     repo = "Paranoid-Tasks";
-    version = "1.2.0";
-    hash = "sha256-Xr9dYqIAeI5aOg42YKj+d5qaNDbdoInvC2HL1nuFre4=";
+    version = "1.3.2";
+    hash = "sha256-/7ObPkcYYrAi1q8NslHAC8+vA8RhTmQgql/aiI1+njI=";
   };
   particle-spoilers = {
     owner = "llxzxzxll";
@@ -41214,8 +41742,8 @@
   patches = {
     owner = "yaroxy";
     repo = "obsidian-patch";
-    version = "0.3.2";
-    hash = "sha256-uZFbVgeuXvhGHPu9rAgDT0x1EA5uZ8TuiwcyAdMAfz8=";
+    version = "0.4.0";
+    hash = "sha256-KWOFgLbR4RboIG2vPlcMHB4ktybFhPhkXLKFur+VB0Y=";
   };
   path-focus-explorer = {
     owner = "curelove";
@@ -41244,8 +41772,8 @@
   path-to-prod = {
     owner = "alex3l3t33";
     repo = "path-to-prod";
-    version = "0.1.4";
-    hash = "sha256-SA19oN+5Z7CvqS3Z0rE0qQuwfhkK/nFpGirfsVJVziY=";
+    version = "0.2.1";
+    hash = "sha256-rRo85IpFun7thhpEhDgxHayppwI/RzwRxcevTPCtu9o=";
   };
   pathlinker = {
     owner = "Kay607";
@@ -41319,6 +41847,12 @@
     version = "2.0.3";
     hash = "sha256-tJlwFxeMenkzUW2H5/fh+DEKiUbXJOJ5EAb2HpUepMY=";
   };
+  pdf-folder-to-markdowns = {
+    owner = "crishood";
+    repo = "pdf-folder-to-markdowns";
+    version = "1.1.0";
+    hash = "sha256-EfAYR+E/tle9UPII0f9QzpV4SI2M3YJMCoP2sHZzNXk=";
+  };
   pdf-font-rewriter = {
     owner = "alexandert142";
     repo = "pdf-font-rewriter";
@@ -41372,6 +41906,12 @@
     repo = "obsidian-PDF-pager";
     version = "0.1.19";
     hash = "sha256-kzWrLtd7SAEsAxBHD0Sy8Wl2ALs5xcm/6ljwPuECUVI=";
+  };
+  pdf-paste = {
+    owner = "cormac-c";
+    repo = "obsidian-paste-plugin";
+    version = "1.0.0";
+    hash = "sha256-J+zUmRouvILlVZ6oijpAewJVVcades0o8Oi3Imw9EYA=";
   };
   pdf-plus = {
     owner = "ryotaushio";
@@ -41562,8 +42102,8 @@
   pecklist = {
     owner = "killswitchio";
     repo = "pecklist-obsidian";
-    version = "0.1.1";
-    hash = "sha256-jfY/vMQKhYznamPgjZ2iqVyh9h6/YgLbBae8Oqtu0wY=";
+    version = "0.2.0";
+    hash = "sha256-U6xHim5IH9t7XrdA8mLFLqDCRQRpOW0fO9c7ryxnIpw=";
   };
   peekaboo = {
     owner = "Lio5n";
@@ -41589,6 +42129,12 @@
     version = "1.3.1";
     hash = "sha256-l3qyEJg2eA4ghdALI0Nl4yo3spvc4n+b57alZqZFzgM=";
   };
+  pele-editor = {
+    owner = "alexhallajian";
+    repo = "pele-editor-releases";
+    version = "1.0.3";
+    hash = "sha256-i+NDsIBbbHQSipsTceqoXS/9RIjslAP87dqAUKQWYQQ=";
+  };
   penbook = {
     owner = "wangcccccct";
     repo = "penbook";
@@ -41600,12 +42146,6 @@
     repo = "obsidian-pencil";
     version = "1.0.6";
     hash = "sha256-0dqJ+xCHZ/T4Dkx/2NFx7uAm/Pr6gxvzyjWUmiCDqg8=";
-  };
-  pendf = {
-    owner = "dhwan0112";
-    repo = "pendf";
-    version = "0.8.1";
-    hash = "sha256-axdPrrYKggLNEV6met5aLMX9FUxdrtX6I9pw7hqYACk=";
   };
   penny-wallet = {
     owner = "twrusstw";
@@ -41622,8 +42162,8 @@
   penseed = {
     owner = "rebornwalker";
     repo = "penseed-obsidian";
-    version = "1.0.70";
-    hash = "sha256-TWyfv8nqXZL3ADqRDqz1hnOwsx5lRf76SaibYnezYhQ=";
+    version = "1.0.73";
+    hash = "sha256-ieakvqWLWHfIUcbNzFunJhSpLLdYLiz9Rl+0NVQz0UA=";
   };
   pensio-sync = {
     owner = "gabrielrubens";
@@ -41931,11 +42471,17 @@
     version = "0.3.1";
     hash = "sha256-uGGUspUJ/n7WEEPxKxSjMKpfHW8BLmDWWpgOrGpa1qw=";
   };
+  photo-workspace = {
+    owner = "coherence-wizard";
+    repo = "photo-workspace";
+    version = "0.0.5";
+    hash = "sha256-S6gYt5/OT9e2WiDCPvEAkPawSV3Daak+iojMnagkhTw=";
+  };
   photomark-plus = {
     owner = "vbv11";
     repo = "photomark-plus";
-    version = "1.0.0";
-    hash = "sha256-SxVj9y4bjjP0Zg/V23WP9HS60qeW77hZfkXuFsNv4X0=";
+    version = "2.0.0";
+    hash = "sha256-8FhLVJV8+nNlkgoq+bnvQPASl3c9XdSURn/xkHrVJUI=";
   };
   photopea-editor = {
     owner = "KarmaToast40340";
@@ -41964,8 +42510,8 @@
   pi-edge = {
     owner = "anderbone";
     repo = "pi-obsidian-edge";
-    version = "0.3.6";
-    hash = "sha256-xgVsl+Vxl6rnKZmZHtmJZu+VvzSu2UixlOSmJY19oRI=";
+    version = "0.3.7";
+    hash = "sha256-O8f9F71n9cNaZ9yYaXkwmQUcfrZNGQ7rHvl84Q0j4X4=";
   };
   pi-harness = {
     owner = "chao0120";
@@ -42164,6 +42710,12 @@
     repo = "Pinit";
     version = "1.0.0";
     hash = "sha256-6ev0p/wi2JsCVJP+Lt/ky7lCFOSWwcMQIHEBdBbyPSg=";
+  };
+  pinned-daily-notes = {
+    owner = "docmarionum1";
+    repo = "obsidian-pinned-daily-notes";
+    version = "1.2.0";
+    hash = "sha256-YqxYW0HyXYU/N4v6Y3f8GrTWz0a2OgHfN+LaaKpCfgY=";
   };
   pinned-files = {
     owner = "mattmaiorana";
@@ -42708,8 +43260,8 @@
   plugin-radar = {
     owner = "alitekdemir";
     repo = "obsidian-community-radar";
-    version = "0.13.0";
-    hash = "sha256-E0biwOFkOTLw891RZ4sjhCdpEJSraUKN7UZboxQlo00=";
+    version = "0.14.0";
+    hash = "sha256-xF2HpZhVaDkR4sNLq7mlUQmXLq8+y8fgCW1jK4/BntU=";
   };
   plugin-reloader = {
     owner = "benature";
@@ -42900,14 +43452,20 @@
   podnotes = {
     owner = "chhoumann";
     repo = "PodNotes";
-    version = "2.24.0";
-    hash = "sha256-XiP5qQpIaeKf7wlHcUDq8gPYzgOSd1PSyHszSqdUGJQ=";
+    version = "2.25.0";
+    hash = "sha256-xTpAKG/goMisD9ONxNUnKz+tF6pf+A8xqIxNUxwJRQE=";
   };
   poetry-notebook = {
     owner = "sbridel";
     repo = "poetry-notebook";
     version = "1.5.0";
     hash = "sha256-grZwXynSOx1jrw4HTt1AH9ZY4CyTi7+MHb3an8jh9+0=";
+  };
+  poincare-disk-view = {
+    owner = "hw-and-mj";
+    repo = "poincare-disk-view";
+    version = "0.1.7";
+    hash = "sha256-X7TPzm2e6W1NilP3vQF3k6guyQaNQ6Dmw7XvyPygCys=";
   };
   pointificate-links = {
     owner = "eranmeir";
@@ -43053,6 +43611,12 @@
     version = "1.1.10";
     hash = "sha256-/ReeKGjVjsaYYOOzKn1MrQ2/0Crj8taGqNv2CvPRFKM=";
   };
+  popnote = {
+    owner = "iijarrett";
+    repo = "popnote";
+    version = "0.0.7";
+    hash = "sha256-dQFXRmt9YVUnxr3AOP7Q11TM/zdYAAZKYHPbgw+2WrM=";
+  };
   poppy = {
     owner = "opa-oz";
     repo = "poppy";
@@ -43068,14 +43632,14 @@
   portals = {
     owner = "samaraliwarsi";
     repo = "obsidian-portals";
-    version = "1.5.1";
-    hash = "sha256-Ici9UtHwmk6TzsDUmuxVGpZbNDAOLz20LaNGIDNtti0=";
+    version = "1.5.3";
+    hash = "sha256-NHneRU5gYfwZkv5B/vtVewCD2NQZkrBDJEDBze+1rZI=";
   };
   porygon = {
     owner = "iuga";
     repo = "obsidian-porygon";
-    version = "0.30.0";
-    hash = "sha256-aumnOpPztULlzh/I2hlJcowGSmCe4cAgr/8HdtuYvPY=";
+    version = "0.31.0";
+    hash = "sha256-y8Hv3/p3fPCPp4L7cdem6tYwNEGV/BsG0Rkc2Ga6MPo=";
   };
   position-restore = {
     owner = "aisahpa";
@@ -43236,8 +43800,8 @@
   precise-reading-edit = {
     owner = "speam";
     repo = "precise-reading-edit";
-    version = "1.0.1";
-    hash = "sha256-ZGtugd9k/p/dRxI+IClue+rf5Q0nT9QjbCNzouvsAmI=";
+    version = "1.0.2";
+    hash = "sha256-B+zXxxygl0DHCNwy1lRP+/00b97UGDMAEwkHzQ/yBqg=";
   };
   prepend-creation-date = {
     owner = "fizzyhex";
@@ -43443,6 +44007,12 @@
     version = "1.0.64";
     hash = "sha256-219A/tr1Fs91AKd8ZduAdu5mqXyCcwfExIce1XOidAU=";
   };
+  private-mode = {
+    owner = "markusmo3";
+    repo = "obsidian-private-mode";
+    version = "1.2.0";
+    hash = "sha256-q1XQB+U1chDuBY081IJYAxIWUzBvnDOIRcjHtcqJLhc=";
+  };
   private-quartz-publish = {
     owner = "jagajaga";
     repo = "private-quartz-publish";
@@ -43485,6 +44055,12 @@
     version = "1.0.5";
     hash = "sha256-SOmE2YBhOKgziqW7S6n90PAcpANcF4EQWXKyUYDOpnc=";
   };
+  progress-tracker = {
+    owner = "vannamhh";
+    repo = "progress-tracker";
+    version = "1.5.4";
+    hash = "sha256-wyALiID8CWoH9AiOBCFVdl7WGGwunm5fteCq9dfsMnM=";
+  };
   progressbar = {
     owner = "zwpaper";
     repo = "obsidian-progressbar";
@@ -43514,6 +44090,12 @@
     repo = "curie-obsidian-plugin";
     version = "0.4.0";
     hash = "sha256-T7TWxjQy25xDcGtzXksCiGuPT7Qa6VN65LMQ9nyTmIk=";
+  };
+  project-euler-stats = {
+    owner = "artemkorsakov";
+    repo = "project-euler-stats";
+    version = "1.0.4";
+    hash = "sha256-fanibVf0IEkc6r8kZGtbOwl8MifX+3gLY2Q3aYZzIqs=";
   };
   project-gantt = {
     owner = "project-planner-gantt";
@@ -43557,6 +44139,12 @@
     version = "1.0.12";
     hash = "sha256-gXhNXqh4YfClN3aGZmtEBu2b+LJFbkVqRpr/H53Raf8=";
   };
+  project-planner = {
+    owner = "hmil1151";
+    repo = "project-planner";
+    version = "1.2.3";
+    hash = "sha256-toIql3OfRvus5UTFuotg3mB8z3fU1/7q6jgaTJYPSRs=";
+  };
   project-tasks = {
     owner = "paulpaterson";
     repo = "obsidian-project-tasks";
@@ -43592,6 +44180,12 @@
     repo = "obsidian-projects-system";
     version = "1.1.0";
     hash = "sha256-dlfqt0nhPkEb94Ga4lQFXfynoaKB1jcCrjlRx3tAQ2I=";
+  };
+  projurista-legislacao = {
+    owner = "ja1mez";
+    repo = "projurista-legislacao";
+    version = "0.1.0";
+    hash = "sha256-0+OOqxBCl2ThZ4mGBlp2h0V0PvybsBAKQpBvbOKOq1o=";
   };
   projurista-mcp = {
     owner = "ja1mez";
@@ -43686,8 +44280,8 @@
   propcraft = {
     owner = "saltcoffee";
     repo = "prop-craft";
-    version = "0.1.2";
-    hash = "sha256-ivSkjahXyTjTkHDuVd7RL36d1QjQvXmW70pkcw+FmCo=";
+    version = "0.1.3";
+    hash = "sha256-cs+1RI8PIpFGN5EgSLZ51abTdvXTNqLHBz8OcXUb/RI=";
   };
   properties-filename = {
     owner = "gilles6";
@@ -43764,8 +44358,8 @@
   property-icons = {
     owner = "runnerback";
     repo = "property-icons";
-    version = "0.2.4";
-    hash = "sha256-k//0qw+KwptGqA/WvOjU87JNiOavbUAzFRkrB9Tg0ds=";
+    version = "0.2.5";
+    hash = "sha256-eiQdBWyDLnjlCwbJi5002N4L1sF5877fmpQo5G/LfbA=";
   };
   property-kanban = {
     owner = "maitake4211";
@@ -43884,8 +44478,8 @@
   proton-sdk-sync = {
     owner = "ondreu";
     repo = "proton-sdk-sync";
-    version = "1.0.0";
-    hash = "sha256-olsrM80o/1Ix24wbKpnU4FaT6JvaSggoNwpZLL8cNdY=";
+    version = "1.2.0";
+    hash = "sha256-3GXm68J6S9YVPcENXbvj1rjAJCRSDkTz3bkbsSoT90M=";
   };
   proxima = {
     owner = "santhoshsram";
@@ -44016,8 +44610,8 @@
   pulsewright = {
     owner = "yhjes2019";
     repo = "pulsewright";
-    version = "1.0.3";
-    hash = "sha256-Vn6vFtrsrSNR/fqdivOdPdxDHztYYeVY5pFTKVDb3Qc=";
+    version = "1.1.0";
+    hash = "sha256-iml4/2RJmZBkF5v/wMAS+WjflwOWIf4QPiPqeYRVM18=";
   };
   pumice = {
     owner = "search5";
@@ -44286,8 +44880,8 @@
   quadro = {
     owner = "chrisgrieser";
     repo = "obsidian-quadro";
-    version = "1.29.0";
-    hash = "sha256-9j3uyHcLWfwsvcs2/ATOLLAQEWDqUA1GSnH2I4kpbaE=";
+    version = "1.30.0";
+    hash = "sha256-0oGRLy3j8YbWSrTm8lfBG47lmQk6VuYjycbmBW+4L5o=";
   };
   quadtasks = {
     owner = "siranhq";
@@ -44342,6 +44936,12 @@
     repo = "query-json";
     version = "0.1.9";
     hash = "sha256-7Es6cwFJuJSXDrm3oyl/+NsMRu3gklnUJbasYyOyU4c=";
+  };
+  querydash = {
+    owner = "liufree";
+    repo = "obsidian-querydash";
+    version = "2.0.3";
+    hash = "sha256-hTMfr7lYjSwby4pghfRzCWqStnqsPnz9+5y+jwJhlb8=";
   };
   questify-rpg = {
     owner = "beberbebrovich-hub";
@@ -44533,8 +45133,8 @@
   quick-notes-board = {
     owner = "avettorel71";
     repo = "quick-notes-board";
-    version = "1.1.8";
-    hash = "sha256-+oK3CUD+Sc36ayMEBAsGSSuOY4a20OGFQw82fFlWRkY=";
+    version = "1.1.9";
+    hash = "sha256-zEEbnxi5ahTsoLY8cx2ZzHNGhiPV2Ih7VHRoCh9qmuM=";
   };
   quick-open = {
     owner = "itsonlyjames";
@@ -44629,8 +45229,8 @@
   quickadd = {
     owner = "chhoumann";
     repo = "quickadd";
-    version = "2.33.2";
-    hash = "sha256-x/QjY/JaiewcFoabkNl1qcN5jvAPIGAmSS7wDyJvuDY=";
+    version = "2.33.3";
+    hash = "sha256-23kHNFyDfSmAaS5O561XQ+7qs32qfOdLbgSPg8GF7hQ=";
   };
   quickcite = {
     owner = "ismailsaoulaj";
@@ -44906,8 +45506,8 @@
   raindown = {
     owner = "rainpour";
     repo = "raindown-obsidian";
-    version = "0.10.0";
-    hash = "sha256-14CRGlqvnNbO80H8052PuD/jrd80n+TlKVchAhJcphc=";
+    version = "0.12.1";
+    hash = "sha256-gFmQ2VYkrKlaw6Rh/cfTvSgUt+yJfREsv/JUH74of8w=";
   };
   raindrop-io = {
     owner = "dotwee";
@@ -45044,8 +45644,8 @@
   ratel-vault = {
     owner = "golddream-y";
     repo = "obsidian-ratel";
-    version = "1.5.5";
-    hash = "sha256-rLzgVfquS8oddcfEFkNfiwQlAH6zeoDBHo8YoVCyUW8=";
+    version = "1.5.6";
+    hash = "sha256-UL2HsuZ4ubcYp7/KejIz3e4do+QOvSxEFMT/h28QuZ8=";
   };
   rating-filter = {
     owner = "niccoloniccoli";
@@ -45509,11 +46109,17 @@
     version = "1.1.3";
     hash = "sha256-GzgpravKqqFUBkFAw/uEs87wuWKz1FYmTYqCBqqNGmY=";
   };
+  recipe-atelier = {
+    owner = "mariolung";
+    repo = "obsidian-recipe-atelier";
+    version = "1.0.3";
+    hash = "sha256-B3mmCSBQUzuIw+sQuw0mwx6psxVB3hURq+UDzglofX8=";
+  };
   recipe-box = {
     owner = "adamarcane";
     repo = "obsidian-recipebox";
-    version = "0.3.0";
-    hash = "sha256-8KJrcrqclkHMRKbhwlAhVPI6HaU7ON4x2V0twS+C7iA=";
+    version = "0.4.1";
+    hash = "sha256-Pyqf8VnQIvZ66dTKa+SwsRfhbhP1z9RUux6QEoBdSyM=";
   };
   recipe-notes = {
     owner = "burningburrito";
@@ -45560,8 +46166,8 @@
   recordnote = {
     owner = "0xcjl";
     repo = "RecordNote";
-    version = "0.2.36";
-    hash = "sha256-hQPCMk7GJDLI93qtq8ILmYn+z2UvrNb1WaEJT+aLysk=";
+    version = "0.2.37";
+    hash = "sha256-AOq1j2WR+y5AElfkgMa/o7RITRNsBjc22VuR1yrLkF8=";
   };
   recovery-engine-study = {
     owner = "sedghimohammadamin";
@@ -45722,8 +46328,8 @@
   refine = {
     owner = "refine-sh";
     repo = "refine-obsidian";
-    version = "1.0.2";
-    hash = "sha256-KmiBXG9fRKrm0izRqQz4XwwqmNH2uTjXBOAUCFlhqaE=";
+    version = "1.1.0";
+    hash = "sha256-KXKMbD9VPxdny4nT22SXzZm3Bk5DeShfljmxG7Hu/bY=";
   };
   refined-layout = {
     owner = "floratina";
@@ -45833,6 +46439,12 @@
     version = "1.1.2";
     hash = "sha256-oL10+exjFFZ7RyiUkV6y02UOKDtUWpvTwrWycj2g6IU=";
   };
+  related-notes = {
+    owner = "mrboxtobox";
+    repo = "obsidian-related-notes";
+    version = "4.3.0";
+    hash = "sha256-9wozrs9VTjPRGEARrsq2nso9Am8AX7SNJzuCaCVKGjI=";
+  };
   related-notes-by-tag = {
     owner = "chrishoward-projects";
     repo = "related-notes-by-tag";
@@ -45860,8 +46472,8 @@
   relation-weaver = {
     owner = "guilier";
     repo = "relation-weaver";
-    version = "3.15.10";
-    hash = "sha256-w0LTPkza/SRGEViXGrvWXJXcpOYV66sVN7ctURLuqwA=";
+    version = "3.48.5";
+    hash = "sha256-KWnOtg4pECRo0Vd4BETzlLJtIoOuRGFhzLONMq523kM=";
   };
   relational-graph = {
     owner = "tristanvangarsse";
@@ -45986,8 +46598,8 @@
   remarkable-tagged-sync = {
     owner = "thomas-hochbichler";
     repo = "obsidian-remarkable-tagged-sync";
-    version = "1.12.0";
-    hash = "sha256-2KWNHuYp8YUBXvMsYC3+k9fOzWXna+36/LyY5anw4Cs=";
+    version = "1.12.1";
+    hash = "sha256-TC5u5BjPelq2R8sLL9ze/LKmaL02RVhIYS9uwBQEAGQ=";
   };
   remember = {
     owner = "volfpe";
@@ -46126,6 +46738,12 @@
     repo = "obsidian-remove-unused-block-ids";
     version = "1.0.9";
     hash = "sha256-1x4DL/ylLh4/JgTNIIZAZkmTHIGq7WNtjOEoRM3hQeU=";
+  };
+  rename-file-to-selection = {
+    owner = "aavagames";
+    repo = "obsidian-rename-file-to-selection";
+    version = "1.0.1";
+    hash = "sha256-FWz8dq4YDlx/x3X152xZBhSglj8mmbkBYUyuGq+lDK8=";
   };
   render-api = {
     owner = "caesarloo";
@@ -46349,6 +46967,12 @@
     version = "0.9.30";
     hash = "sha256-BaVj7Tmzl1vjDxTPe+Ns6jfQqYpKWiSg1L+vZhpPvk4=";
   };
+  resolution-and-random-tables = {
+    owner = "matalina";
+    repo = "obsidian-resolution-random-tables";
+    version = "0.1.1";
+    hash = "sha256-cSr+tJ+V99lqnqWGVhrBuJHK0+3ruEjjpA5bbI8d9Yk=";
+  };
   resonance-next = {
     owner = "blackajiro";
     repo = "Resonance";
@@ -46420,6 +47044,12 @@
     repo = "reveal-active-file-button-plugin";
     version = "2.0.6";
     hash = "sha256-t9OH9xWYARsKi1lto2glBWDxGTn2RgzqanbHVUV4GEg=";
+  };
+  reveal-folded = {
+    owner = "d7sd6u";
+    repo = "obsidian-reveal-folded";
+    version = "1.1.2";
+    hash = "sha256-Ft/t+DmmJomHap0Pv+ZZK1qkO1LQmKgcc30pvGhsrgk=";
   };
   reveal-hidden-files = {
     owner = "josipmarkus";
@@ -46696,6 +47326,12 @@
     repo = "obsidian-right-click-tools";
     version = "1.8.2";
     hash = "sha256-9EOBGoR3Rpqy++PBHeNuJI/TDUIFFftq9kKVphiPJN4=";
+  };
+  rightymath = {
+    owner = "moskobosko";
+    repo = "rightymath";
+    version = "1.2.0";
+    hash = "sha256-wEjqpxXgT9JQaYLJrJ2oK2GDn/B25u+PvznmF4V6pLI=";
   };
   ring-a-secretary = {
     owner = "vrtmrz";
@@ -47000,8 +47636,8 @@
   rubik-cube-algorithms = {
     owner = "altarok";
     repo = "RubikCubeAlgoView";
-    version = "1.0.0";
-    hash = "sha256-NCKAHr76rpjMVTPXHbOt06e0RTHEQeGhIlDykRDNKkU=";
+    version = "1.0.1";
+    hash = "sha256-XyQabPQVGzL93j1bJq19Boesu2kR63BHFK3Mnm1FDMo=";
   };
   rubik-visualizer = {
     owner = "fabianserna";
@@ -47234,8 +47870,8 @@
   safi-site-audit = {
     owner = "abdulkader-safi";
     repo = "obsidian-safi-site-audit-plugins";
-    version = "0.7.1";
-    hash = "sha256-GOH/8Dw+hH5AXO85KiOfD/yMT4XTyPO35dnrpZpAW7o=";
+    version = "0.9.0";
+    hash = "sha256-qG/zoS9jHpDddL6Tl/YQ7l3CHKnN8Ra0diLFF+X004c=";
   };
   sage = {
     owner = "nicholasjroy";
@@ -48014,8 +48650,8 @@
   seeker = {
     owner = "nickolay-kondratyev";
     repo = "Obsidian-Seeker";
-    version = "1.1.23";
-    hash = "sha256-RHpxank2i4qUf1a5geMJaZobwkVC/I16g2obT7q4smw=";
+    version = "1.1.24";
+    hash = "sha256-MzU1DSXQUBeORuI3Og5cbL/QPhxE5R6rs3xxUwM5Bms=";
   };
   seetheforest-atlas = {
     owner = "seetforest";
@@ -48716,8 +49352,8 @@
   shoujidiannao-absyw = {
     owner = "absyw";
     repo = "shoujidiannao";
-    version = "2.9.7";
-    hash = "sha256-WDd2DuJWGb4E4z6lYKDDffGiS7vpeG4YhXsUZJekkDo=";
+    version = "2.9.8";
+    hash = "sha256-d6ggftersmkXFlOH9KtWpKS6tHTbry68hXdzybvLyXU=";
   };
   show-all-hidden-files = {
     owner = "anatoliykmetyuk";
@@ -49084,6 +49720,12 @@
     repo = "simple-anki-sync";
     version = "1.7.1";
     hash = "sha256-uyqPedC11UiIR9Mq8uSJGUL62BVZOeK7sqfFKZIug6c=";
+  };
+  simple-archiver = {
+    owner = "mfarr";
+    repo = "obsidian-archive";
+    version = "0.6.2";
+    hash = "sha256-uPYfgh4dxnI8L7jQqTekuiO8XGvkXD6JQgv/L13tFlE=";
   };
   simple-autolink = {
     owner = "abgmgp";
@@ -49664,8 +50306,8 @@
   six-dots = {
     owner = "saltcoffee";
     repo = "six-dots";
-    version = "0.1.6";
-    hash = "sha256-BfTHsFA266Ig7NzR7BajyEg//Gko6K5XPYAEw08T6jM=";
+    version = "0.1.7";
+    hash = "sha256-elmmk2lVW1CoJ6fCDmwjdU+fG5QfaqVc/XJhFySbags=";
   };
   sixtyfourpadgrid = {
     owner = "supezou";
@@ -49910,8 +50552,8 @@
   slipstream = {
     owner = "saltcoffee";
     repo = "slip-stream";
-    version = "0.1.4";
-    hash = "sha256-sZZv+26aWLNbVKJEAYvZMnVeefVvl9K6fLB6fl+DLYE=";
+    version = "0.1.5";
+    hash = "sha256-X9JvsZdQ6/R49h/be50Jk7Jdf1hI2K+aRRitLe6KHLs=";
   };
   slogs-sync = {
     owner = "dimohy";
@@ -49948,6 +50590,12 @@
     repo = "obsidian-smart-autocorrect";
     version = "1.0.16";
     hash = "sha256-cTA/IAjUvuT1bic3eXzd5VriZMqDddZHSFCIRersc7o=";
+  };
+  smart-chatgpt = {
+    owner = "brianpetro";
+    repo = "smart-chatgpt-obsidian";
+    version = "1.5.1";
+    hash = "sha256-XNCMhWnBtkqiWlH5fXefejR4z9+4hkMSpg0OH8UjsI8=";
   };
   smart-cluster-graph = {
     owner = "comedianhhh";
@@ -50168,8 +50816,8 @@
   smart-second-brain = {
     owner = "s2b-dev";
     repo = "smart-second-brain";
-    version = "2.4.0";
-    hash = "sha256-meF3Ylwho+9jx9LJdK+gx58g3XP5Tb5XLGquMU+FrB4=";
+    version = "2.4.3";
+    hash = "sha256-iyaa+MYAYlrjHrhm5Vl0aGMxJlTuM6Ye2i12Dj5IS8U=";
   };
   smart-sync-global = {
     owner = "adventurer2008";
@@ -50242,6 +50890,18 @@
     repo = "smiles-structure-preview";
     version = "0.1.3";
     hash = "sha256-xny5qyqaFntgLBfOH4FbGFSgnm6x4uShoEdcYQzNoBI=";
+  };
+  smooth-cursor = {
+    owner = "busyogg";
+    repo = "SmoothCursor";
+    version = "2.0.8";
+    hash = "sha256-d4VrBGhu3MZPa/mEsRj7wn3kZBoqosSGk759o14pbRs=";
+  };
+  smooth-navigator = {
+    owner = "gasparschott";
+    repo = "smooth-navigator";
+    version = "1.0.8";
+    hash = "sha256-aaUCqJIoc6kjYxInrHZSYuaQwWrg39UNhrPGvtONrK4=";
   };
   smooth-window-resize = {
     owner = "binaricat";
@@ -50336,8 +50996,8 @@
   snipsidian = {
     owner = "dimagious";
     repo = "snipsidian";
-    version = "1.7.3";
-    hash = "sha256-YF+++nOuBE3oXvGofwSlb77l7IOi6XPQO6/BVpcEXL4=";
+    version = "1.8.0";
+    hash = "sha256-TCJN/He8PougLJjtY4VkYUyaBlev0NmDJ7T2ORlqrnQ=";
   };
   snowdian = {
     owner = "avdeyaman";
@@ -51005,6 +51665,12 @@
     version = "0.1.3";
     hash = "sha256-AVhXdObsxUZ9vlmcZUc4DniLIvR8s56XaiuOHX2oOMs=";
   };
+  srt-vtt-cleaner-iramuteq-fr = {
+    owner = "zoulouzaza76";
+    repo = "obsidian-srt-iramuteq-fr";
+    version = "1.0.1";
+    hash = "sha256-OkQ70NfA49F1JV+n6PjgzfCyAFCBiU3T2NvQML/cEQc=";
+  };
   ssh-terminal = {
     owner = "justinzzc";
     repo = "obsidian-ssh-terminal";
@@ -51323,6 +51989,12 @@
     version = "1.3.1";
     hash = "sha256-6DJxflfynzVuPDgx8HtTztyxq5APLB9iB+uqHdGduVA=";
   };
+  sticky-notes = {
+    owner = "abdo-reda";
+    repo = "obsidian-sticky-notes-plugin";
+    version = "1.0.0";
+    hash = "sha256-343d9iLGLUPsZfXU0BkVBkTlzTOFbBbXnYv11FIIh6w=";
+  };
   sticky-properties = {
     owner = "yaye-work";
     repo = "obsidian-sticky-properties";
@@ -51334,6 +52006,12 @@
     repo = "sticky-table-headers";
     version = "1.0.0";
     hash = "sha256-7mvVSiSGAKrArpUl6TAzSZrW6y4mO1hXflb//cz+WiU=";
+  };
+  stickyflow = {
+    owner = "stickyflow";
+    repo = "obsidian-sfl";
+    version = "1.4.0";
+    hash = "sha256-BE+nfmiMrJ/mrdZVbdHyivwrH8F+JQnbGUEKlnoZv70=";
   };
   still = {
     owner = "suka233";
@@ -51434,8 +52112,8 @@
   storyteller-comic-drafter = {
     owner = "s-urchin";
     repo = "obsidian-storyteller";
-    version = "0.6.3";
-    hash = "sha256-+g466ftEVmM6H+4p0aHDtCNeEtMypSCD/+/N+i97b0k=";
+    version = "0.7.1";
+    hash = "sha256-TyT7ZMuIxS50Tx6DYJNzE8jorH0lr4L8tjBT7HxFYA0=";
   };
   storyteller-suite = {
     owner = "maws7140";
@@ -51452,8 +52130,8 @@
   strakes-ttrpg = {
     owner = "strakes99";
     repo = "Strakes-ttrpg";
-    version = "1.1.1";
-    hash = "sha256-EfhYnPL7QZfMd308MFrKgA3Yqv547ccT9H8bxw15ZM8=";
+    version = "1.2.0";
+    hash = "sha256-9kf5B019m1X5XHjEtqEUokPBcE2g916ScndqpQGfumg=";
   };
   strategist-toolkit = {
     owner = "psovit";
@@ -51580,6 +52258,12 @@
     repo = "STS-indentation";
     version = "1.2.15";
     hash = "sha256-DE6Jo32BTsolisH6I4WKGcp+BUiQNFKItMcbdkyPE+Y=";
+  };
+  stu-repo-helper = {
+    owner = "yingflower";
+    repo = "obsidian-stu-repo-helper";
+    version = "0.1.1";
+    hash = "sha256-u7VQS+rSspj4DE8D/3cLX4AabHwIg/z7lODqRJ6zPmE=";
   };
   studio-kanban = {
     owner = "jacknnnbauer";
@@ -51932,8 +52616,8 @@
   supercharged-properties = {
     owner = "ajay126z";
     repo = "supercharged-properties";
-    version = "1.3.0";
-    hash = "sha256-8F0X+Y9kFAtxDolUv8HR6T9W7vvKjTShgN+vmZ/Q0uw=";
+    version = "1.4.1";
+    hash = "sha256-06wTft9di5E4LX6OayNqCV6E7Lj45m+YNo3a3Bg85iA=";
   };
   supercharged-workspaces = {
     owner = "kieranmansfield";
@@ -52220,8 +52904,8 @@
   synapse = {
     owner = "dustinkeeton";
     repo = "obsidian-synapse";
-    version = "1.5.0";
-    hash = "sha256-Ln4t+AtKTt1LWkZAtJH672c62Johxe1cj3xE1V2yHYM=";
+    version = "1.6.0";
+    hash = "sha256-CISkwH1awq9b78dzBUdMUzaA9my2hcSwnYiB+60htZE=";
   };
   synapse-ai = {
     owner = "fredrix1";
@@ -52246,12 +52930,6 @@
     repo = "obsidian-synaptic-view";
     version = "0.1.5";
     hash = "sha256-7J4AWQ2x7O7XYmaQQDpgNoiyz0gDvPgLOHOSHPybNTU=";
-  };
-  sync-and-mcp = {
-    owner = "nejroseld";
-    repo = "sync-and-mcp";
-    version = "0.1.1";
-    hash = "sha256-rhNjlMPnyqcrP/wSzcJ2bemx0swTw+HzOMH7B0eEdbQ=";
   };
   sync-assets = {
     owner = "hasanyilmaz";
@@ -52391,6 +53069,12 @@
     version = "1.4.0";
     hash = "sha256-DmrET6N9qWhzBTmPiKzIFJIjQ6Wveh3v1nR8y6Qt0RA=";
   };
+  sync-vault-ce = {
+    owner = "abcamus";
+    repo = "obsidian-sync-vault-ce";
+    version = "2.10.3";
+    hash = "sha256-/j4k2gq2IPZf8u/P4dHSD75+jwLm9rzSVeTCiVbRZnE=";
+  };
   sync-wechat-data = {
     owner = "r3215407";
     repo = "obsidian-plugin";
@@ -52430,8 +53114,8 @@
   synch = {
     owner = "hjinco";
     repo = "synch";
-    version = "0.5.6";
-    hash = "sha256-dSwIpHOUFz7fT6zFgVwQ9tcIBdSF1HGtlOSweeS7FWA=";
+    version = "0.5.7";
+    hash = "sha256-vtHlbS/aWyTVmmVsWI4o5pafDhmRGwD1FwGGXYmodAI=";
   };
   syncher = {
     owner = "tequrity";
@@ -52607,6 +53291,12 @@
     version = "6.19.11";
     hash = "sha256-Ea74cZj+p/udcEH68XW+gfIDckPMH9u9l83jfkmRmEU=";
   };
+  t-three-code = {
+    owner = "7bgsbm749g-boop";
+    repo = "t3-obsidian";
+    version = "0.0.455";
+    hash = "sha256-NdgD3Tpq1m7HWSV/7F9bVDpHxaExOTOf78RlTFGPRcE=";
+  };
   t-wiki = {
     owner = "operationt00";
     repo = "T-wiki";
@@ -52642,6 +53332,12 @@
     repo = "Obsidian-Tab-Flow";
     version = "0.5.7";
     hash = "sha256-y4TDjQ+Y8kzPc6Rm3mfWr3Z8d/cqr1EqQHtxfp7TTC8=";
+  };
+  tab-group-arrangement = {
+    owner = "situ2001";
+    repo = "obsidian-tab-group-arrangement";
+    version = "1.0.1";
+    hash = "sha256-gBydo/9SiV31Nxe9DOeS+IrQEgVNxm69jjflRtlItYU=";
   };
   tab-groups = {
     owner = "imsang27";
@@ -52984,12 +53680,6 @@
     repo = "tabletop-clocks";
     version = "0.2.1";
     hash = "sha256-Za7WBjwbtvRBTfjDz96VT8ZYf/jvsamMpd/5wyDzeA0=";
-  };
-  tabletop-for-atlas = {
-    owner = "evoljoaobento";
-    repo = "atlas-vtt-tabletop";
-    version = "1.3.0";
-    hash = "sha256-WE82eJCLSWTsMzFh+EW69mgvBuxcTy48EPNmSGJW4/Y=";
   };
   tabletop-kit-generators = {
     owner = "therealbernas";
@@ -53363,12 +54053,6 @@
     version = "1.1.3";
     hash = "sha256-rJaYoqgmwnKCHurvViNuYy4ZUYpoI/q2VAD05hd7uOs=";
   };
-  tahoe-ocr = {
-    owner = "krishnanefx";
-    repo = "obsidian-tahoe-ocr";
-    version = "1.1.2";
-    hash = "sha256-CfZ/mj6nXlvrTJG1eVRLpwfv84Xc+MHLODvlbH/bf+k=";
-  };
   tahoe-organize = {
     owner = "krishnanefx";
     repo = "obsidian-tahoe-organize";
@@ -53699,6 +54383,12 @@
     version = "0.2.0";
     hash = "sha256-JIYTVVm/VSa3H8I4xJ+F0/u0Rz3WmOYFCGxpBXtM/g0=";
   };
+  task-priority-matrix = {
+    owner = "dipendave";
+    repo = "priority-matrix-obsidian";
+    version = "2.1.1";
+    hash = "sha256-x8GgFTJTD2RkkmrmDjoZ1LIph5EuuUWthk6kxq4ywYw=";
+  };
   task-progress = {
     owner = "14790897";
     repo = "task-progress";
@@ -53828,14 +54518,20 @@
   taskchute-plus = {
     owner = "hiroyaiizuka";
     repo = "taskchute-for-obsidian";
-    version = "3.0.5";
-    hash = "sha256-rQjoiuc/m70L6V18XjowFSSg96qSpxRQ8V0xS9GmJZQ=";
+    version = "3.0.6";
+    hash = "sha256-6HRSbXnb78SU4UwdShRKL2etoQcUOVX/FKSVS49dhb8=";
   };
   taskdn = {
     owner = "dannysmith";
     repo = "obsidian-taskdn";
     version = "0.3.0";
     hash = "sha256-MJKomQvrYBgT3fRGBXgCFGP9aA4hxf7o8FofkJECosI=";
+  };
+  taskfinder = {
+    owner = "raphaelquast";
+    repo = "obsidian-task-finder";
+    version = "0.1.0";
+    hash = "sha256-eX6zdqpkG3zVE8QZVgXSn0oeHWpgD+iwsedg/6qL7o4=";
   };
   taskflow = {
     owner = "ichris007";
@@ -53846,8 +54542,8 @@
   taskgift = {
     owner = "kfirgumay2005-hash";
     repo = "Task-Gift";
-    version = "1.21.0";
-    hash = "sha256-ihFvfV9TeczlF1uKVRlq25PiPlCHRg+Q4V6xaKTQWbI=";
+    version = "1.22.0";
+    hash = "sha256-s74A1Iey8ozs9/SSRV5vgF0Kd+oGANHFrgxZjkucKCU=";
   };
   taskgregator = {
     owner = "philpalmieri";
@@ -53888,8 +54584,8 @@
   tasknotes = {
     owner = "callumalpass";
     repo = "tasknotes";
-    version = "4.18.4";
-    hash = "sha256-bCc0/MHkwHgaCZym7jKL442iRqznYi5Hiy4o887HFcQ=";
+    version = "5.0.0";
+    hash = "sha256-mLCpHVGIH0gSkQSB4apV3tICGrdDxotYQjjT5IBF7vU=";
   };
   tasknotes-agenda-wrapper = {
     owner = "toya-co";
@@ -53962,6 +54658,12 @@
     repo = "tasknotes";
     version = "5.4.1";
     hash = "sha256-w7zlrxPrFuRwmYgLQAGfvp3+WnScVYaf0u8A0GfK3Jo=";
+  };
+  taskrobin = {
+    owner = "taskrobin";
+    repo = "Obsidian-Plugin";
+    version = "1.2.5";
+    hash = "sha256-wPffI3fgEABic1aRzSMHMBnQTXApEBinMOYL4LjwZ10=";
   };
   tasks-backlink-shortener = {
     owner = "vishae";
@@ -54080,8 +54782,8 @@
   taskscape = {
     owner = "belaladeldev";
     repo = "taskscape";
-    version = "1.0.0";
-    hash = "sha256-TdyxfWaMb4e4M+wB+yGKo+whlZRCK2JT7EC32yGjmxM=";
+    version = "1.1.0";
+    hash = "sha256-Mnl6GI+hmSGP7MpWgk4WyoSfkPzpzK+KoxHNo8kiPcc=";
   };
   taskslite = {
     owner = "sunnyyylin";
@@ -54201,8 +54903,8 @@
   team-relay-sync = {
     owner = "entire-vc";
     repo = "evc-team-relay-obsidian";
-    version = "0.1.34";
-    hash = "sha256-IzHilynTQ/PlMJq8Svh5w9JExf2Wws6pUQ+F5V+EnZA=";
+    version = "0.1.35";
+    hash = "sha256-dMUBi2Iy0HbNVoM2NhFUYZFJ1j0z4tDRlat0MxKHd60=";
   };
   teaser-card = {
     owner = "britz";
@@ -54696,6 +55398,12 @@
     version = "2.0.0";
     hash = "sha256-B6wtwXzd52GJIiiAtrBAS/u17XqRbifoDiyhbFs0Qh4=";
   };
+  tg-emoji-search = {
+    owner = "marsbatya";
+    repo = "tg-emoji-search";
+    version = "1.2.2";
+    hash = "sha256-W197FKrCNkXn0YHG1YZVLL0pd3RbAEvw20qW1Ycagx4=";
+  };
   thai-bracket-remap = {
     owner = "khunpoom";
     repo = "Thai-bracket-remap";
@@ -55017,8 +55725,14 @@
   tidelog = {
     owner = "enhen3";
     repo = "Tidelog";
-    version = "1.2.0";
-    hash = "sha256-SdgxBvDjbzbz/fVQnEYZbBds2iJTvDCpYKwBgcHcQhQ=";
+    version = "1.2.1";
+    hash = "sha256-vdI+SkRLJFi1EnHaVfQXtIZI4TSHixEeaI4L4BpYbU0=";
+  };
+  tidit = {
+    owner = "codingthings-com";
+    repo = "tidit-obsidian";
+    version = "1.0.5";
+    hash = "sha256-rcfPml8ncfkfnmarpPE867WjPr8zhoTUztp6WWOTrQI=";
   };
   tidy-notes = {
     owner = "amitgiri0001";
@@ -55104,6 +55818,12 @@
     version = "1.0.3";
     hash = "sha256-xRhLCQXfb++eRQqXt7+3OCL8VA0s2KVxQr672Dl1N9o=";
   };
+  time-bullet = {
+    owner = "pedrogdn";
+    repo = "obsidian-time-bullet-plugin";
+    version = "1.3.0";
+    hash = "sha256-fpwqgE+6KWIAMDq+NYsgULd4UzD6at7Zqb5qFSgsnoA=";
+  };
   time-canvas = {
     owner = "setix-a";
     repo = "obsidian-time-canvas";
@@ -55185,8 +55905,8 @@
   timebox = {
     owner = "diyar4772";
     repo = "obsidian-timebox";
-    version = "1.0.1";
-    hash = "sha256-NB9sZE0W98rKTdUqejNb00kNVt8SfbZ3FmdD6w2PN+k=";
+    version = "1.1.0";
+    hash = "sha256-9vJWZqOy1IK/6YWYu34jRqhfNfzUa2hliYnCpa2BMIk=";
   };
   timebox-daily = {
     owner = "rvzenteno";
@@ -55509,8 +56229,8 @@
   to-substack = {
     owner = "tcrouzet";
     repo = "obsidian-to-substack";
-    version = "0.0.21";
-    hash = "sha256-MJ/Wm9zRQLPkOYAlvRZL37sCgcjg+jcT6ssBJO/sKBM=";
+    version = "0.0.23";
+    hash = "sha256-SzSCGVwtRgOGd/cDFdggIqzlXiX0Ox2dtZU9z3k8Tfo=";
   };
   to-word = {
     owner = "pixerojan";
@@ -55695,8 +56415,8 @@
   todoist-pomodoro-heatmap = {
     owner = "keptan";
     repo = "obsidian-todoist-pomodoro";
-    version = "0.3.25";
-    hash = "sha256-lynOsTX6K0LJzzqk+t/69U2kcjDYcoGJJrupToOEhTQ=";
+    version = "0.3.26";
+    hash = "sha256-G6WFfhIfBrEwCchFNdhnR85bv+xVwzWSuBxl3BqYoQE=";
   };
   todoist-review = {
     owner = "imcauley";
@@ -55935,8 +56655,8 @@
   topmind-stream = {
     owner = "topmindspace";
     repo = "topmind-obsidian";
-    version = "4.23.2";
-    hash = "sha256-UbtkD92gq4eznyG7l20jPRJJKRIIlbVh+3f6LIKRd0E=";
+    version = "4.23.4";
+    hash = "sha256-tbBTBvPAzD4nII08GT+sVOemIYWOr8tOs5xrycc7P40=";
   };
   topology-keeper = {
     owner = "fizzfizzgit";
@@ -56031,8 +56751,8 @@
   tracing-paper = {
     owner = "onchito-walks";
     repo = "tracing-paper";
-    version = "1.4.0";
-    hash = "sha256-Rbn/G7tKEOfBkjmgSo9O1Zxvu5OxWo78CqfSTPo+Uok=";
+    version = "1.4.1";
+    hash = "sha256-hyflfiymd9UDxlzGJ53k0ND/xTV0OEDV/v+5Rfgy+Mo=";
   };
   track-a-lot = {
     owner = "revolter";
@@ -56487,8 +57207,8 @@
   trustdiagram = {
     owner = "blooo-io";
     repo = "trustdiagram";
-    version = "0.9.2";
-    hash = "sha256-H+d77U1cr2mokz0dMg9AOkq5sPwF8O2G1ua0EH7Ejr8=";
+    version = "0.10.2";
+    hash = "sha256-Z+dV6nq+bpHeaHN2q/jq1kU1RJpHFCAUTf/HhoG7EcU=";
   };
   truth-table-gen = {
     owner = "max-schulten";
@@ -56667,8 +57387,8 @@
   twenty-eight-notes-mindmap = {
     owner = "ollwow";
     repo = "28-Notes-MindMap";
-    version = "1.13.2";
-    hash = "sha256-UsB064Gn1FSb6MvMSl72yi/Yp6yqWWpNF9DDG7gujT0=";
+    version = "1.13.3";
+    hash = "sha256-8KRd+dLaT1bTDDhmUWmrFaBKPV5Te7hTxFdurb66hgg=";
   };
   twin-calendar = {
     owner = "newcodejin";
@@ -57156,12 +57876,6 @@
     version = "3.2.8";
     hash = "sha256-158MRfKk76kocpni59Li1cmt82prwgBmOVuKFbtepkE=";
   };
-  unitedshare = {
-    owner = "united-share";
-    repo = "obsidian-unitedshare";
-    version = "1.2.17";
-    hash = "sha256-lrS/PZZkB+Cb/OSa4Lxd+HYgq6j5yum0fndovjI7Qm0=";
-  };
   univer = {
     owner = "dream-num";
     repo = "obsidian-univer";
@@ -57327,8 +58041,8 @@
   update-radar = {
     owner = "perezamadorluisenrique-gif";
     repo = "community-update-checker";
-    version = "0.5.1";
-    hash = "sha256-ZMPRkj+dMr9Q27MT6RIZ1LNfF/zPoTNTK9QkrETVTOY=";
+    version = "0.6.0";
+    hash = "sha256-KEW/qoWADdpzXr3+RP/7xMwS3jFSCEvZ2+oa5CZG9e0=";
   };
   update-relative-links = {
     owner = "val3344";
@@ -57371,6 +58085,12 @@
     repo = "uri-commands-obsidian";
     version = "1.0.1";
     hash = "sha256-fHDFFk0rs7oGp5hQ5h7YN11Ih8BY0ZFm355fzAPrHLQ=";
+  };
+  uri-converter = {
+    owner = "wenlzhang";
+    repo = "obsidian-uri-converter";
+    version = "0.5.0";
+    hash = "sha256-6lwBs9EkCgfdJU8lvEqq8deVJORGtAqoM9XZXN8eNFo=";
   };
   url-cards = {
     owner = "perezamadorluisenrique-gif";
@@ -57801,8 +58521,8 @@
   vault-doctor = {
     owner = "ll905518294";
     repo = "obsidian-vault-doctor";
-    version = "1.9.4";
-    hash = "sha256-cPOQbzCKGidk5gE+gHxj2pFu9rYhes8RD8UtXarKJ5s=";
+    version = "1.13.0";
+    hash = "sha256-zGwsE+YBboHaEFHsZyzHh72P4Z32KRr0KkYcu0tCmQM=";
   };
   vault-encrypt = {
     owner = "Pluppen";
@@ -57846,6 +58566,12 @@
     version = "1.2.0";
     hash = "sha256-ksUet9POSO6okfUd/uHAtxjcxntJSmf20yqDFjrPC8Q=";
   };
+  vault-file-renamer = {
+    owner = "louanfontenele";
+    repo = "obsidian-vault-file-renamer";
+    version = "1.2.2";
+    hash = "sha256-aS0dQKTjX2AJ1/zuWDltntr7hLYwNMGN/D2gmmqtiBs=";
+  };
   vault-finance = {
     owner = "a-k-6";
     repo = "obsidian-finance";
@@ -57885,8 +58611,8 @@
   vault-gallery = {
     owner = "sahandps";
     repo = "obsidian-vault-gallery";
-    version = "0.5.0";
-    hash = "sha256-GM6SlHu2J7dibK94HAdfEYfihQginbhzlAgtH6/wWSc=";
+    version = "0.6.2";
+    hash = "sha256-MGfMxLTJXin5j5vtQmmHhc5/xmI3paITZX8edbkCbYQ=";
   };
   vault-garden = {
     owner = "enoai";
@@ -57963,8 +58689,8 @@
   vault-linker-auto = {
     owner = "goldenxingxing";
     repo = "obsidian-vault-linker";
-    version = "0.4.8";
-    hash = "sha256-WfBNuETg3vW54V3P5HwucsQkaMlHJqLAbHcLXTiNIXA=";
+    version = "0.4.9";
+    hash = "sha256-7QHUbk+4RVmpeH7GOZ5RPS8zEWLUED1tdTZUtzJvc7k=";
   };
   vault-llm-assistant = {
     owner = "brianstm";
@@ -58215,8 +58941,8 @@
   vault-sidekick = {
     owner = "flyxhub";
     repo = "obsidian-vault-sidekick";
-    version = "1.1.4";
-    hash = "sha256-PEhSnD2PmfYe4WO661DuMjXK71dMh6zYsxKNWQ1uPug=";
+    version = "1.1.5";
+    hash = "sha256-oM23hHZTivXPUGKvEFkyE+VWuieEsTmjvUEj6JEK3DU=";
   };
   vault-size-history = {
     owner = "technerium";
@@ -58299,8 +59025,8 @@
   vault-syncryption = {
     owner = "ibehren1";
     repo = "obsidian-vault-syncryption";
-    version = "0.1.41";
-    hash = "sha256-x3eLr88YMURYX/cJQb2n2k/ZfonHB0CRcE86w0HwJmg=";
+    version = "0.1.42";
+    hash = "sha256-5FLBo7Qxn0stOxeZCkaKwVdU+HOkm1rnFGGBDQL6COs=";
   };
   vault-talk = {
     owner = "prgrmmrjns";
@@ -58425,8 +59151,8 @@
   vaultbranch = {
     owner = "li-cr";
     repo = "VaultBranch";
-    version = "1.0.7";
-    hash = "sha256-22HJnukiLKU250/0b6pa7/BdPlFDtW8O6s1vICtPIQY=";
+    version = "1.0.9";
+    hash = "sha256-QsTarlJXG6ApYRxDBjvMToFf+xdAh70qwGd0MsOy9hs=";
   };
   vaultbridge = {
     owner = "donnervs";
@@ -58476,12 +59202,6 @@
     version = "1.0.4";
     hash = "sha256-Wewcwomjh0cnwKrxx7CBWQt6QSK4qdOD2eMeqaOWG4g=";
   };
-  vaultflow = {
-    owner = "rbm3267";
-    repo = "obsidian-flow";
-    version = "1.0.2";
-    hash = "sha256-pfxKm+AEdzIwwkmyMJvfBClMZ+nSftAH2nbrgEkOAEk=";
-  };
   vaultforge = {
     owner = "walsplitter";
     repo = "vaultforge-obsidian";
@@ -58530,12 +59250,6 @@
     version = "0.3.0";
     hash = "sha256-dDs1iVOVsHlkrK160CCGVZUA/DHzanc5WlooUCxJ5Vg=";
   };
-  vaultos = {
-    owner = "rbm3267";
-    repo = "obsidian-vaultos";
-    version = "1.0.4";
-    hash = "sha256-6NUf8RKBjBzoBG+8b+/URQoMfZqohTaEuFWNdGih6m0=";
-  };
   vaultpack = {
     owner = "akisantin";
     repo = "VaultPack";
@@ -58577,6 +59291,12 @@
     repo = "vaultwheel";
     version = "1.0.2";
     hash = "sha256-u5mf7zyax7xfQco1vNVEzUTaTslDk5dpIulnmLUJCV8=";
+  };
+  vcf-contacts = {
+    owner = "broekema41";
+    repo = "obsidian-vcf-contacts";
+    version = "2.4.2";
+    hash = "sha256-JUWvarvj7VmoZdUP85r8v5KWVQYnrolCEyHyJY//d7g=";
   };
   vcf-contacts-viewer = {
     owner = "viggomeesters";
@@ -58635,8 +59355,8 @@
   verbex = {
     owner = "everydaymind";
     repo = "obsidian-verbex";
-    version = "0.1.2";
-    hash = "sha256-lEmdfLhJotL4+J8FoCEBI5xIRX8FNIiKGKzmv8WBVJ4=";
+    version = "0.1.4";
+    hash = "sha256-9HEPPQBNTBKcXQ1XXVbfzhvPjLkLnj9wLWt/0lpVzms=";
   };
   verovio-music-renderer = {
     owner = "kpaede";
@@ -58649,12 +59369,6 @@
     repo = "obsidian-verse-markers";
     version = "1.5.1";
     hash = "sha256-BA0zbZtAbQmIGG4LYmQyttDBcSjKk4VMXVmAoekzF/4=";
-  };
-  verse-match = {
-    owner = "kilrkrow";
-    repo = "obsidian-verse-match";
-    version = "0.1.1";
-    hash = "sha256-LrcCSd5ybLJ3669YeKGZzG+SFFe1kAKV64n2e0pk5a8=";
   };
   verse-of-the-day = {
     owner = "janisringli";
@@ -58803,8 +59517,8 @@
   video-summary = {
     owner = "rexxall";
     repo = "obsidian-video-summary";
-    version = "2.14.0";
-    hash = "sha256-Xh1cs0c/aeVNQyI3a2KwxV49xkhLfrQlCgHqZtuHXLM=";
+    version = "2.14.1";
+    hash = "sha256-/Auvgqgdf02KgccbnT66Ymz39WFhIcMQphlVMAKaZRU=";
   };
   video-transcript-fetch = {
     owner = "larryxu001";
@@ -58841,6 +59555,12 @@
     repo = "obsidian-view-tabs-for-bases";
     version = "0.4.0";
     hash = "sha256-1hmVKXHKVJuqannVCGi3aLkDA2cCHF+Su9cYAaOfUuo=";
+  };
+  viewer-ftags = {
+    owner = "d7sd6u";
+    repo = "obsidian-viewer-ftags";
+    version = "1.1.0";
+    hash = "sha256-9OoXKEK8BWZTDh/3LP3ylLin09dpAzh3fwQxVt4k3Z0=";
   };
   viewgram = {
     owner = "devguyrash";
@@ -59115,8 +59835,8 @@
   visit-history = {
     owner = "nickolay-kondratyev";
     repo = "obsidian-visit-history-plugin";
-    version = "1.0.27";
-    hash = "sha256-1dk0OQNa+Oy2vQMu1OSpp1iaH/B0e69pQp+YSu5+FsI=";
+    version = "1.0.28";
+    hash = "sha256-j7rhja2RNjaOdf2wveubSueBLphHtbi6uY3jgtdBrXI=";
   };
   visited-countries = {
     owner = "IvanPeshykov";
@@ -59207,12 +59927,6 @@
     repo = "obsidian-vitepress";
     version = "1.3.1";
     hash = "sha256-Ngv41t8+RvaeazCrGR5CPn2igprrpiMrIKr9XdOYC9M=";
-  };
-  vitepress-theme = {
-    owner = "weizwz";
-    repo = "obsidian-vitepress";
-    version = "1.0.1";
-    hash = "sha256-7X5YfvS+pHoP2WG6IaVyC0RDOV/ZJElaDfFxXdeLQ+w=";
   };
   vithanco = {
     owner = "vithanco";
@@ -59307,8 +60021,8 @@
   voice = {
     owner = "chrisurf";
     repo = "obsidian-voice";
-    version = "1.21.0";
-    hash = "sha256-egjGJfp83EsWlOPSj5wIvejajd2rAAoNzsADNj1tzaI=";
+    version = "1.22.1";
+    hash = "sha256-BvMGP2cdVXEUBG5RupLOue4l5KoDkiJxrgjI9e6bWRg=";
   };
   voice-aloud = {
     owner = "aloneatwar";
@@ -59634,6 +60348,12 @@
     version = "1.0.10";
     hash = "sha256-sM73SnSEsqiKXZ5Li555iiDW4TOiA9SuIdQLjpRs/+I=";
   };
+  waveform-player = {
+    owner = "zhouhua";
+    repo = "obsidian-waveform-player";
+    version = "0.0.7";
+    hash = "sha256-Td7VI6IornzrDVxhgx/wGL+FV6uyR3FV3HRAcIBtbSc=";
+  };
   wavesign = {
     owner = "roloport";
     repo = "wavesign-obsidian";
@@ -59709,8 +60429,8 @@
   weave = {
     owner = "zhuzhige123";
     repo = "obsidian---Weave";
-    version = "1.1.13";
-    hash = "sha256-r8KuLZWp0Dg9AfMItXtya17rPVsI2lZI/LzG4YU114M=";
+    version = "1.1.14";
+    hash = "sha256-m0UVpB7q7hZ2JFEc3UQdsWaM5H8YiQEI7SjHtDjKsbk=";
   };
   weave-epub-ai-reader = {
     owner = "harrysuen626";
@@ -59721,14 +60441,14 @@
   weave-epub-reader = {
     owner = "zhuzhige123";
     repo = "obsidian-weave-reader";
-    version = "0.9.3";
-    hash = "sha256-3s6nU7wAJ0C2PQzN7ion3HG3XTB46i44fLGKvu+ESTQ=";
+    version = "0.9.4";
+    hash = "sha256-WtOeT2feSwRkF4eb6Dgh2H2XQiwRlyGjKWlKbtm9G3E=";
   };
   weave-incremental-reading = {
     owner = "zhuzhige123";
     repo = "Obsidian-Weave-incremental-reading";
-    version = "0.6.1";
-    hash = "sha256-/XdH3QO/IYpCTf0TiJ7UUWLhlhA5ecpwv5FDSIjdMzU=";
+    version = "0.6.2";
+    hash = "sha256-PA5gKZz+RajWrZbWafk9GOCECUvPTdpZ47NAPaKLbLE=";
   };
   web-bookmark = {
     owner = "paipa03";
@@ -59883,8 +60603,8 @@
   wechat-converter = {
     owner = "davidlam-oss";
     repo = "obsidian-wechat-converter";
-    version = "2.12.8";
-    hash = "sha256-j2IOS63soLd1hcBBGgz6C3wJLzBSbL/CoyKP1FWE1R0=";
+    version = "2.12.9";
+    hash = "sha256-k/lyyrTImi5VffM59fAOaL0PfaIUrnFqQmrlay1f9J8=";
   };
   wechat-designer = {
     owner = "moyansuyu";
@@ -60075,8 +60795,8 @@
   weekly-schedule = {
     owner = "xwtaidev";
     repo = "obsidian-weekly-schedule-plugin";
-    version = "1.1.0";
-    hash = "sha256-C5tqhMnXt3JaVIoJxMeL3kHoknDdaLkAG9DZOqrxXf4=";
+    version = "1.2.0";
+    hash = "sha256-m7Zpmod0Ls3MmdoKLaRoaCAxkVv4nHYRrFf7E/2C17c=";
   };
   weekly-task-calendar = {
     owner = "davso20k";
@@ -60192,6 +60912,18 @@
     version = "1.1.2";
     hash = "sha256-fB2jG2JKsWH6mwovNPp9iypaCNBXK3h2aGEXMkcrW2w=";
   };
+  wheel-tab-switcher = {
+    owner = "22-2";
+    repo = "wheel-tab-switcher";
+    version = "0.3.2";
+    hash = "sha256-niX2TOPkw9Vr3HK2o6BOJSfyOnZE8LvjQyNfgeauJMA=";
+  };
+  wheelhouse-task-view = {
+    owner = "methun-mohan";
+    repo = "wheelhouse-task-view";
+    version = "0.1.4";
+    hash = "sha256-rPrVsjbDksrjpsgsKRGhWNsAwZVYyjqwp2RhD7gyRnA=";
+  };
   whenreset = {
     owner = "zackzhangkai";
     repo = "obsidian-whenreset";
@@ -60227,6 +60959,12 @@
     repo = "whisperer-obsidian";
     version = "1.0.1";
     hash = "sha256-AL4GBdtIMmYckmwpC/4LrglfeZGP4P4nSnv32BTguoQ=";
+  };
+  white-noise = {
+    owner = "zhouhua";
+    repo = "obsidian-white-noise";
+    version = "0.0.4";
+    hash = "sha256-sLcpfcUVIebDYXq7lXGKfYDg+DcKFlrp0wWS6STUULg=";
   };
   whiteboat = {
     owner = "circleyan";
@@ -60347,12 +61085,6 @@
     repo = "obsidian-wikilink-helper";
     version = "1.2.0";
     hash = "sha256-5rzEFGAY5Yt7Z5V/KtKd6ktzbHLZWgFEL38PJyegDX0=";
-  };
-  wikilink-peek = {
-    owner = "jj21112";
-    repo = "Wikilink-Peek";
-    version = "1.0.0";
-    hash = "sha256-mSvHekLI89MopO1zEsepjX5XQlwZRahb76k5IogPKYk=";
   };
   wikilink-types = {
     owner = "penfieldlabs";
@@ -60579,8 +61311,8 @@
   word-count-activity-heatmap = {
     owner = "kray404";
     repo = "word-count-activity-heatmap";
-    version = "1.0.1";
-    hash = "sha256-tJEXj+IwS8/+5v/6SVs52CH7dWxclh0XqL3I6zou+rI=";
+    version = "2.0.1";
+    hash = "sha256-qG90f35rOFt/VVpmYmIkxpl67TvYYv6O393uqfrBlLo=";
   };
   word-count-calendar = {
     owner = "xiwei945";
@@ -60605,6 +61337,12 @@
     repo = "obsidian-word-exporter";
     version = "0.1.7";
     hash = "sha256-s6NasaQtQOVT38xOs1r8ic9BW7l2NDSzgFjNUm+/Nag=";
+  };
+  word-frequency = {
+    owner = "mts7";
+    repo = "obsidian-word-frequency";
+    version = "1.4.0";
+    hash = "sha256-DlJ2PUk8rt8JFCcj3gosWz6/7fDIzu5LrSCp6/KerX8=";
   };
   word-goal-webhook = {
     owner = "viszkit";
@@ -60672,6 +61410,18 @@
     version = "1.0.0";
     hash = "sha256-IQckxHQQGLyi7VMwyIXfKr5O1QFVc4+53xbf9gOU93E=";
   };
+  wordcraft = {
+    owner = "danferns";
+    repo = "obsidian-wordcraft";
+    version = "1.1.4";
+    hash = "sha256-zTvFLhn4p2kaPGGPuRJ0cvSBM2VdSH1znyH49Tybvow=";
+  };
+  wordflow-tracker = {
+    owner = "lecheenax";
+    repo = "WordFlow-Tracker";
+    version = "2.3.2";
+    hash = "sha256-D77avMeYynA3Im585vBLysYT2aRK7ZJDvaFa7uk6zo4=";
+  };
   wordfolio = {
     owner = "fire-university";
     repo = "wordfolio-obsidian";
@@ -60723,8 +61473,8 @@
   workbench-dashboard = {
     owner = "miyoungliu";
     repo = "obsidian-workbench-dashboard";
-    version = "1.0.8";
-    hash = "sha256-ZKj9k7d1V6yRhs9cVeLqq3R33yOD/2Lx3wT97fhACOI=";
+    version = "1.0.9";
+    hash = "sha256-e4ngW8p5JmA8aoF84qkZLyKML+9p91FBn5U6Ws7Vfss=";
   };
   workbench-drag-path = {
     owner = "ivyyang1999";
@@ -60947,6 +61697,12 @@
     repo = "obsidian-wrapped";
     version = "0.4.1";
     hash = "sha256-uof8Qj9D7i23z5YfVySz+EkCtedbk1p5yA75iV7fSvI=";
+  };
+  write-good = {
+    owner = "markahesketh";
+    repo = "write-good-obsidian";
+    version = "1.2.1";
+    hash = "sha256-aYf2+ioSIu6lfKdJeN/GNiRVRnuvMxm+y22p9InhYHI=";
   };
   write-tweet-thread = {
     owner = "thehumaneclub";
@@ -61211,6 +61967,12 @@
     repo = "obsidian-xiangqi";
     version = "4.21.0";
     hash = "sha256-Fz8ky49bIqZweh5YUBh4vysS7IOqpfSeimQoH5/3oqo=";
+  };
+  xiaohongshu-importer = {
+    owner = "bonchiang96";
+    repo = "xiaohongshu-importer";
+    version = "1.1.3";
+    hash = "sha256-lKEufDCJjcBHkdM0ia4Lyk/1Jd/CFUepS6JWJyvm2ag=";
   };
   xiaoji = {
     owner = "cimuyang";
@@ -61584,6 +62346,12 @@
     version = "1.2.0";
     hash = "sha256-0xxqEj7BrEyZRLrThK/IfdVd49zZZTyw6QUMtkmGQds=";
   };
+  yinyue-moye = {
+    owner = "onecat-77";
+    repo = "moye-notes-free";
+    version = "0.1.1";
+    hash = "sha256-Uy/9/TN7wraYoSkFSRky+blAA36yYQNUVXUYBzDotKw=";
+  };
   yishi = {
     owner = "talismanh";
     repo = "yishi-obsidian";
@@ -61617,8 +62385,8 @@
   yoofloe = {
     owner = "yoofloe";
     repo = "yoofloe-obsidian";
-    version = "0.9.0";
-    hash = "sha256-xPBeoj1tfOEHYUbTpLlaQZjmiuiWT5/TEHSVAlQM6DU=";
+    version = "0.9.6";
+    hash = "sha256-l6FWCckg/SNuCr/I5VqTF1Ocdam+SbdBuaq8g6QEidA=";
   };
   yori-dashboard = {
     owner = "yorigo77";
@@ -61647,8 +62415,8 @@
   youhavebeenstaring-plugin = {
     owner = "fxal";
     repo = "obsidian-youhavebeenstaring-plugin";
-    version = "1.2.2";
-    hash = "sha256-oZ7oZpR+YBJeSHyhERXTWiajxekITQ0TrL8kvcWnKs0=";
+    version = "1.2.3";
+    hash = "sha256-f58yhkf2offq3hXsUGMnDrG3V3tjUw4VJfUPOQ9i+vU=";
   };
   young-look = {
     owner = "young-look";
@@ -61701,8 +62469,8 @@
   youtube-llm-summarizer = {
     owner = "teinam";
     repo = "obsidian-youtube-llm-summarizer";
-    version = "1.0.0";
-    hash = "sha256-9R4e0CDbJlxQhMeD+FwBr5uBGX8OoeN1PNfvQMxHF0s=";
+    version = "1.2.0";
+    hash = "sha256-B+v4NSUIANIOB25OpXhexs3LMgmeiD3Q7eWC4JmDQrQ=";
   };
   youtube-native = {
     owner = "encomjp";
@@ -61755,8 +62523,8 @@
   youtube-transcript-fetcher = {
     owner = "ljantzen";
     repo = "obsidian-youtube-transcript";
-    version = "2.2.0";
-    hash = "sha256-7uIXS/n+PVF4136x2b7tWrChi9oO/AHlRnIJrGtrhH8=";
+    version = "2.2.1";
+    hash = "sha256-/UsOfKFxAQS9TI5AbVe7yGDG7zqfaGAwufB+//Js2ms=";
   };
   youtube-transcript-notes = {
     owner = "blossomz37";
@@ -61781,6 +62549,12 @@
     repo = "obsidian-yt-links";
     version = "1.0.1";
     hash = "sha256-MNO7koU6NWUObrIXOVRi6iq+nOF6Ow1q03xWkUBlFGI=";
+  };
+  yt-summarizer = {
+    owner = "ardakalayci";
+    repo = "ytsummarizer";
+    version = "0.2.6";
+    hash = "sha256-GhraI8ZcRZxQ6QEObqzj/PTobGAcHuqxWcp6QusFvu8=";
   };
   yt-video-summarizer = {
     owner = "mbramani";
@@ -61893,8 +62667,8 @@
   zen-ui = {
     owner = "merlinkraemer";
     repo = "obsidian-zen";
-    version = "1.1.7";
-    hash = "sha256-+bXryfkgvG5tSaaGRnpCKU4q+7Xwj8GeRWxMxbZgJyQ=";
+    version = "1.1.9";
+    hash = "sha256-ybuv/Yrx2OgKhaIyRbfK8lSijO/nlg/N3VfXW03Vtms=";
   };
   zen-zone = {
     owner = "chacha260";
@@ -61995,8 +62769,8 @@
   zhaohua-xishi = {
     owner = "tangerine-cat888";
     repo = "zhaohua-xishi";
-    version = "0.6.4";
-    hash = "sha256-4xUbw1PGqWP0qOxCbWrNzBsStyxz5cpbam26D2SFGcA=";
+    version = "0.6.6";
+    hash = "sha256-68PGCS+228PKeZMiqFAXSQiTGrteGJQ53GUoDa5lQFs=";
   };
   zheng-tally = {
     owner = "yunmin311";
@@ -62297,5 +63071,11 @@
     repo = "obsidian-zvec-hybrid-search";
     version = "1.2.1";
     hash = "sha256-nKFtwA+q4d1zXXttORD7TvK3SGnwjvdwkkgY/azMvEU=";
+  };
+  zync = {
+    owner = "arman-hadi";
+    repo = "zync";
+    version = "1.1.3";
+    hash = "sha256-LkXjr6OhnHjYxicTXLko3YfyZA5N6irEesB0UjTqk7A=";
   };
 }
